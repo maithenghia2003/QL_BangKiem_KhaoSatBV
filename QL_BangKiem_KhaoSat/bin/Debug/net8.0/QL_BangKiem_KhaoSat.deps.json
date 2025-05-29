@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "QL_BangKiem_KhaoSat/1.0.0": {
+        "runtime": {
+          "QL_BangKiem_KhaoSat.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QL_BangKiem_KhaoSat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
