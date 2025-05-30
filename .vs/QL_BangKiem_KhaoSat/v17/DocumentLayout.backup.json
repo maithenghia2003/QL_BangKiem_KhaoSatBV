@@ -1,12 +1,79 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project_QLBangKiem_Nhom2\\QL_BangKiem_KhaoSat\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-30T08:40:00.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChuController.cs",
+              "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:35:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Program.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Program.cs",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Program.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:23:53.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
