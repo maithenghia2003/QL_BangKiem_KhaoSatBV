@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<QL_BangKiem_KhaoSat.Models.BuocTienHanh>
 
-<h1>BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM DƯỚI DA</h1>
+<h1>BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM DƯỚI BẮP</h1>
 
 <table class="table">
     <thead>
@@ -47,7 +47,7 @@
 
                 // Gửi dữ liệu kết quả lên server bằng AJAX
                 $.ajax({
-                    url: '/TiemDuoiDa/LuuKetQua',
+                    url: '/TiemDuoiBap/LuuKetQua',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(ketQua),
@@ -67,6 +67,4 @@
         });
     </script>
 }
-
-
 
