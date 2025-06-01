@@ -90,7 +90,7 @@
                 <div class="dropdown-content">
                     <a href="/BangKiemToanNguoiBenh">Bảng kiểm an toàn người bệnh</a>
                     <a href="/BangKiemAnToanPhauThuat">Bảng kiểm an toàn phẫu thuật</a>
-                    <a href="/BangKiemTiemTruyenAnToan">Bảng kiểm tiêm/truyền an toàn</a>
+                    <a href="#" id="chonLoaiTiemTruyen">Bảng kiểm tiêm/truyền an toàn</a>
                     <a href="/BangKiemVeSinhBuongBenh">Bảng kiểm vệ sinh buồng bệnh</a>
                     <a href="/BangKiemSuDungTrangThietBi">Bảng kiểm sử dụng trang thiết bị</a>
                     <a href="/BangKiemHoSoBenhAn">Bảng kiểm hồ sơ bệnh án</a>
@@ -102,6 +102,14 @@
                     <a href="/DieuDuongHanhChinhYT">Điều dưỡng, hành chính y tế</a>
                 </div>
             </div>
+            <div id="modalChonLoaiTiemTruyen" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3>Chọn loại bảng kiểm</h3>
+                <button onclick="window.location.href='/BangKiemTiemTruyenLoai1'">Loại 1</button><br><br>
+                <button onclick="window.location.href='/BangKiemTiemTruyenLoai2'">Loại 2</button><br><br>
+                <button onclick="window.location.href='/BangKiemTiemTruyenLoai3'">Loại 3</button><br><br>
+                <button onclick="window.location.href='/TiemDuoiDa'">Tiêm Dưới Da</button><br><br>
+                <button onclick="$('#modalChonLoaiTiemTruyen').hide();">Hủy</button>
+            </div>
         </div>
     </div>
 
@@ -109,5 +117,17 @@
         <h1>Chào mừng bạn đến với ứng dụng tạo bảng kiểm của Bệnh viện Ung Bướu.</h1>
     </div>
 </body>
+
+@section scripts {
+    <script>
+        $(document).ready(function() {
+            $('#chonLoaiTiemTruyen').on('click', function(e) {
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
+                $('#modalChonLoaiTiemTruyen').show();
+            });
+        });
+    </script>
+}
+
 </html>
 
