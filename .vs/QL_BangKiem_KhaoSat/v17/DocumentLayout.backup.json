@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\views\\tiemduoibap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\tiemduoibap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\controllers\\truyendichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\truyendichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\trangchu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\views\\tiemduoibap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\tiemduoibap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|d:\\it\\visualstudio\\ql_bangkiem_khaosatbv\\ql_bangkiem_khaosat\\controllers\\tiemduoibapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,19 +83,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TruyenDichController.cs",
+              "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TruyenDichController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TruyenDichController.cs",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TruyenDichController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\TruyenDichController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:20:20.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml",
-              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml*",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\TiemDuoiBap\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-01T11:34:15.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TiemDuoiBapController.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TiemDuoiBapController.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TiemDuoiBapController.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Home\\Privacy.cshtml",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TiemTinhMach\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\TiemTinhMach\\Index.cshtml",
@@ -130,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TiemTinhMachController.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TiemTinhMachController.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TiemTinhMachController.cs",
@@ -143,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TiemDuoiDa\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\TiemDuoiDa\\Index.cshtml",
@@ -175,14 +192,18 @@
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml",
               "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml*",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml*",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAQwGsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAQwGoAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-30T08:47:30.42Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TiemDuoiDaController.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TiemDuoiDaController.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TiemDuoiDaController.cs",
@@ -194,12 +215,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "KetQuaBuocTienHanh.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Models\\KetQuaBuocTienHanh.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\KetQuaBuocTienHanh.cs",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BuocTienHanh.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Models\\BuocTienHanh.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BuocTienHanh.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TrangChuController.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\TrangChuController.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "main.js",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\wwwroot\\js\\main.js",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\wwwroot\\js\\main.js",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "style.css",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\wwwroot\\css\\style.css",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Program.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Program.cs",

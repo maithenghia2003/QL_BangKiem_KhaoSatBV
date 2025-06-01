@@ -74,11 +74,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -190,16 +194,12 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml",
-              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml*",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml*",
+              "ToolTip": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\TrangChu\\Index.cshtml",
               "ViewState": "AgIAAFcAAAAAAAAAAAAQwGoAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-30T08:47:30.42Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
