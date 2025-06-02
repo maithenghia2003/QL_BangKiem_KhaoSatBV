@@ -1,0 +1,71 @@
+﻿@model IEnumerable<QL_BangKiem_KhaoSat.Models.BuocTienHanh>
+
+<h1> BẢNG KIỂM THỰC HIỆN QUY TRÌNH KỸ THUẬT TRUYỀN MÁU </h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>CÁC BƯỚC TIẾN HÀNH</th>
+            <th>Đạt (1đ)</th>
+            <th>Chưa đạt (0.5đ)</th>
+            <th>Không đạt (0đ)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.STT</td>
+                <td>@Html.Raw(item.MoTa.Replace("\n", "<br />"))</td>
+                <td><input type="radio" name="trangThai_@item.STT" value="Dat" data-stt="@item.STT" /></td>
+                <td><input type="radio" name="trangThai_@item.STT" value="ChuaDat" data-stt="@item.STT" /></td>
+                <td><input type="radio" name="trangThai_@item.STT" value="KhongDat" data-stt="@item.STT" /></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<button id="btnLuuKetQua" class="btn btn-primary">Lưu Kết Quả</button>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('input[type="radio"]').on('change', function () {
+                var stt = $(this).data('stt');
+                $('input[name="trangThai_' + stt + '"]').not(this).prop('checked', false);
+            });
+
+            $('#btnLuuKetQua').on('click', function () {
+                var ketQua = [];
+                $('input[type="radio"]:checked').each(function () {
+                    ketQua.push({
+                        STT: $(this).data('stt'),
+                        TrangThai: $(this).val()
+                    });
+                });
+
+                // Gửi dữ liệu kết quả lên server bằng AJAX
+                $.ajax({
+                    url: '/TruyenMau/LuuKetQua',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(ketQua),
+                    success: function (response) {
+                        if (response.success) {
+                            alert('Kết quả đã được lưu!');
+                            // Có thể thực hiện các hành động khác sau khi lưu thành công
+                        } else {
+                            alert('Lỗi khi lưu kết quả.');
+                        }
+                    },
+                    error: function () {
+                        alert('Đã xảy ra lỗi khi gửi yêu cầu.');
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+

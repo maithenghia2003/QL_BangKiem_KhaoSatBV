@@ -97,7 +97,8 @@
                     <a href="/ToanVien">Toàn viện</a>
                     <a href="/PhongMoNgoaiKhoa">Phòng mổ, ngoại khoa</a>
                     <a href="/NoiTruHoiSucNhiKhoa">Nội trú, Hồi sức, Nhi khoa</a>
-                    <a href="/NoiTruKiemSoatNhiemKhuan">Nội trú, Kiểm soát nhiễm khuẩn</a>
+                    <a href="#" id="chonLoaiNhiemKhuan">Nội trú, Kiểm soát nhiễm khuẩn</a>
+                    <a href="/NoiTruKiemSoatNhiemKhuan"></a>
                     <a href="/GayMeXetNghiemChanDoanHinhAnh">Gây mê, xét nghiệm, chẩn đoán hình ảnh</a>
                     <a href="/DieuDuongHanhChinhYT">Điều dưỡng, hành chính y tế</a>
                 </div>
@@ -105,7 +106,18 @@
             <div id="modalChonLoaiTiemTruyen" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                 <h3>Chọn loại bảng kiểm</h3>
                 <button onclick="window.location.href='/TruyenDich'">Truyền Dịch</button><br><br>
+                <button onclick="window.location.href='/TruyenMau'">Kỹ Thuật Truyền Máu</button><br><br>
+                <button onclick="window.location.href='/TruyenTinhMachNgoaiVi'">Truyền Tĩnh Mạch Ngoại Vi</button><br><br>
                 <button onclick="window.location.href='/TiemDuoiBap'">Tiêm Dưới Bắp</button><br><br>
+                <button onclick="window.location.href='/TiemTinhMach'">Tiêm Tĩnh Mạch</button><br><br>
+                <button onclick="window.location.href='/TiemDuoiDa'">Tiêm Dưới Da</button><br><br>
+                <button onclick="$('#modalChonLoaiTiemTruyen').hide();">Hủy</button>
+            </div>
+
+            <div id="modalChonLoaiNhiemKhuan" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3>Chọn loại bảng kiểm</h3>
+                <button onclick="window.location.href='/ThayBangVetThuongNhiem'">Thay Băng Vết Thương Nhiễm</button><br><br>
+                <button onclick="window.location.href='/TruyenMau'">Kỹ Thuật Truyền Máu</button><br><br>
                 <button onclick="window.location.href='/TiemTinhMach'">Tiêm Tĩnh Mạch</button><br><br>
                 <button onclick="window.location.href='/TiemDuoiDa'">Tiêm Dưới Da</button><br><br>
                 <button onclick="$('#modalChonLoaiTiemTruyen').hide();">Hủy</button>
@@ -124,6 +136,15 @@
             $('#chonLoaiTiemTruyen').on('click', function(e) {
                 e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
                 $('#modalChonLoaiTiemTruyen').show();
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#chonLoaiNhiemKhuan').on('click', function(e) {
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
+                $('#modalChonLoaiNhiemKhuan').show();
             });
         });
     </script>

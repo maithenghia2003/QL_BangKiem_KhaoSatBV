@@ -495,3 +495,9 @@
 }
 /*** Footer End ***/
 
+.bang-kiem-tieu-de {
+    text-align: center; /* C?n gi?a tiêu ?? */
+    white-space: pre-line; /* Gi? nguyên các dòng m?i trong v?n b?n */
+    /* B?n có th? thêm các thu?c tính CSS khác ?? làm ??p thêm */
+}
+
