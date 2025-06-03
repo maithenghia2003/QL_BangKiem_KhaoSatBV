@@ -1,23 +1,19 @@
-﻿@model IEnumerable<QL_BangKiem_KhaoSat.Models.BuocTienHanh>
+﻿@model QL_BangKiem_KhaoSat.Models.GiamSat
 
-<h1 class="bang-kiem-tieu-de">
-    BẢNG KIỂM THỰC HIỆN QUY TRÌNH KỸ THUẬT<br>
-    TIÊM TRUYỀN HÓA CHẤT TĨNH MẠCH NGOẠI VI<br>
-    (Sử dụng kim luồn cho người bệnh chưa có đường truyền sẵn)
-</h1>
+<h1>BẢNG GIÁM SÁT NGƯỜI BỆNH</h1>
 
 <table class="table">
     <thead>
         <tr>
             <th>STT</th>
-            <th>CÁC BƯỚC TIẾN HÀNH</th>
+            <th>NỘI DUNG</th>
             <th>Đạt (1đ)</th>
             <th>Chưa đạt (0.5đ)</th>
             <th>Không đạt (0đ)</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.CacBuocTienHanh)
         {
             <tr>
                 <td>@item.STT</td>
@@ -29,6 +25,11 @@
         }
     </tbody>
 </table>
+
+<div>
+    <label for="ghiChu">Ghi chú:</label><br />
+    <textarea id="ghiChu" name="ghiChu" rows="5" cols="80">@Model.GhiChu</textarea>
+</div>
 
 <button id="btnLuuKetQua" class="btn btn-primary">Lưu Kết Quả</button>
 
@@ -49,15 +50,17 @@
                     });
                 });
 
-                // Gửi dữ liệu kết quả lên server bằng AJAX
+                var ghiChu = $('#ghiChu').val(); // Lấy giá trị từ textarea
+
+                // Gửi dữ liệu kết quả và ghi chú lên server bằng AJAX
                 $.ajax({
-                    url: '/TruyenTinhMachNgoaiVi/LuuKetQua',
+                    url: '/GiamSat/LuuKetQua',
                     type: 'POST',
                     contentType: 'application/json',
-                    data: JSON.stringify(ketQua),
+                    data: JSON.stringify({ ketQua: ketQua, ghiChu: ghiChu }), // Gửi cả ketQua và ghiChu
                     success: function (response) {
                         if (response.success) {
-                            alert('Kết quả đã được lưu!');
+                            alert('Kết quả và ghi chú đã được lưu!');
                             // Có thể thực hiện các hành động khác sau khi lưu thành công
                         } else {
                             alert('Lỗi khi lưu kết quả.');
@@ -71,3 +74,4 @@
         });
     </script>
 }
+

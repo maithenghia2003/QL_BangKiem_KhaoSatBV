@@ -96,11 +96,12 @@
                     <a href="/BangKiemHoSoBenhAn">Bảng kiểm hồ sơ bệnh án</a>
                     <a href="/ToanVien">Toàn viện</a>
                     <a href="/PhongMoNgoaiKhoa">Phòng mổ, ngoại khoa</a>
-                    <a href="/NoiTruHoiSucNhiKhoa">Nội trú, Hồi sức, Nhi khoa</a>
+                    <a href="#" id="chonLoaiHoiSuc">Nội trú, Hồi sức, Nhi khoa</a>
                     <a href="#" id="chonLoaiNhiemKhuan">Nội trú, Kiểm soát nhiễm khuẩn</a>
                     <a href="/NoiTruKiemSoatNhiemKhuan"></a>
                     <a href="/GayMeXetNghiemChanDoanHinhAnh">Gây mê, xét nghiệm, chẩn đoán hình ảnh</a>
-                    <a href="/DieuDuongHanhChinhYT">Điều dưỡng, hành chính y tế</a>
+                    <a href="#" id="chonLoaiDieuDuong">Điều dưỡng, hành chính y tế</a>
+
                 </div>
             </div>
             <div id="modalChonLoaiTiemTruyen" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
@@ -118,9 +119,23 @@
                 <h3>Chọn loại bảng kiểm</h3>
                 <button onclick="window.location.href='/ThayBangVetThuongNhiem'">Thay Băng Vết Thương Nhiễm</button><br><br>
                 <button onclick="window.location.href='/ThayBangVetThuongVoKhuan'">Thay Băng Vết Thương Vô Khuẩn</button><br><br>
-                <button onclick="window.location.href='/TiemTinhMach'">Tiêm Tĩnh Mạch</button><br><br>
-                <button onclick="window.location.href='/TiemDuoiDa'">Tiêm Dưới Da</button><br><br>
-                <button onclick="$('#modalChonLoaiTiemTruyen').hide();">Hủy</button>
+                <button onclick="window.location.href='/ThayBangOngDan'">Thay Băng Vết Thương Có Ống Dẫn</button><br><br>
+                <button onclick="window.location.href='/ThayBangOngDanRutOng'">Thay Băng Vết Thương Có Ống Dẫn( Rút Ống)</button><br><br>
+                <button onclick="$('#modalChonLoaiNhiemKhuan').hide();">Hủy</button>
+            </div>
+
+            <div id="modalChonLoaiHoiSuc" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3>Chọn loại bảng kiểm</h3>
+                <button onclick="window.location.href='/GiamSat'">Giám Sát Người Bệnh</button><br><br>
+                <button onclick="$('#modalChonLoaiHoiSuc').hide();">Hủy</button>
+            </div>
+
+            <div id="modalChonLoaiDieuDuong" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3>Chọn loại bảng kiểm</h3>
+                <button onclick="window.location.href='/XacDinhNguoiBenh'">Xác Định Bệnh Nhân</button><br><br>
+                <button onclick="window.location.href='/BangKiemThuoc'">Kiểm Tra Cấp Thuốc</button><br><br>
+                <button onclick="window.location.href='/ThuThuatPhauThuat'">Thủ Thuật Phẩu Thuật</button><br><br>
+                <button onclick="$('#modalChonLoaiDieuDuong').hide();">Hủy</button>
             </div>
         </div>
     </div>
@@ -145,6 +160,24 @@
             $('#chonLoaiNhiemKhuan').on('click', function(e) {
                 e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
                 $('#modalChonLoaiNhiemKhuan').show();
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#chonLoaiHoiSuc').on('click', function(e) {
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
+                $('#modalChonLoaiHoiSuc').show();
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#chonLoaiDieuDuong').on('click', function(e) {
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của thẻ <a>
+                $('#modalChonLoaiDieuDuong').show();
             });
         });
     </script>

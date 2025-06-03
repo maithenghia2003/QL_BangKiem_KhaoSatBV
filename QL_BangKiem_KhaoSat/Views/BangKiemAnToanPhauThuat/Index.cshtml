@@ -1,0 +1,87 @@
+﻿@model QL_BangKiem_KhaoSat.Models.BangKiemAnToanPhauThuat
+
+<h1>BẢNG KIỂM AN TOÀN PHẪU THUẬT</h1>
+
+@using (Html.BeginForm("LuuKetQua", "BangKiemAnToanPhauThuat", FormMethod.Post))
+{
+    <h2>Thông tin chung</h2>
+    <div>
+        <label asp-for="HoTenNguoiBenh">Họ tên người bệnh:</label>
+        <input asp-for="HoTenNguoiBenh" class="form-control" />
+        <span asp-validation-for="HoTenNguoiBenh" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Tuoi">Tuổi:</label>
+        <input asp-for="Tuoi" class="form-control" type="number" />
+        <span asp-validation-for="Tuoi" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="GioiTinh">Giới tính:</label>
+        <input type="radio" asp-for="GioiTinh" value="Nam" /> Nam
+        <input type="radio" asp-for="GioiTinh" value="Nu" /> Nữ
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="MaNguoiBenh">Mã người bệnh:</label>
+        <input asp-for="MaNguoiBenh" class="form-control" />
+        <span asp-validation-for="MaNguoiBenh" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ChuanDoanTruocMo">Chuẩn đoán trước mổ:</label>
+        <input asp-for="ChuanDoanTruocMo" class="form-control" />
+        <span asp-validation-for="ChuanDoanTruocMo" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="PhongMo">Phòng mổ:</label>
+        <input asp-for="PhongMo" class="form-control" />
+        <span asp-validation-for="PhongMo" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="NgayPhauThuat">Ngày phẫu thuật:</label>
+        <input asp-for="NgayPhauThuat" class="form-control" type="date" />
+        <span asp-validation-for="NgayPhauThuat" class="text-danger"></span>
+    </div>
+    <br />
+
+    <h2>TRƯỚC KHI GÂY MÊ, GÂY TÊ</h2>
+    @for (var i = 0; i < Model.TruocGayMeGayTe.Count; i++)
+    {
+        <div>
+            @Html.DisplayFor(m => m.TruocGayMeGayTe[i].MoTa)
+            @Html.HiddenFor(m => m.TruocGayMeGayTe[i].MoTa)
+            <input type="radio" asp-for="TruocGayMeGayTe[i].TrangThai" value="Có" /> Có
+            <input type="radio" asp-for="TruocGayMeGayTe[i].TrangThai" value="Không" /> Không
+            <input type="radio" asp-for="TruocGayMeGayTe[i].TrangThai" value="Không áp dụng" /> Không áp dụng
+        </div>
+    }
+    <br />
+
+    <h2>TRƯỚC KHI RẠCH DA</h2>
+    @for (var i = 0; i < Model.TruocKhiRachDa.Count; i++)
+    {
+        <div>
+            @Html.DisplayFor(m => m.TruocKhiRachDa[i].MoTa)
+            @Html.HiddenFor(m => m.TruocKhiRachDa[i].MoTa)
+            <input type="radio" asp-for="TruocKhiRachDa[i].TrangThai" value="Có" /> Có
+            <input type="radio" asp-for="TruocKhiRachDa[i].TrangThai" value="Không" /> Không
+            <input type="radio" asp-for="TruocKhiRachDa[i].TrangThai" value="Không áp dụng" /> Không áp dụng
+        </div>
+    }
+    <br />
+
+    <h2>TRƯỚC KHI KẾT THÚC MỔ</h2>
+    @for (var i = 0; i < Model.TruocKhiKetThucMo.Count; i++)
+    {
+        <div>
+            @Html.DisplayFor(m => m.TruocKhiKetThucMo[i].MoTa)
+            @Html.HiddenFor(m => m.TruocKhiKetThucMo[i].MoTa)
+            <input type="radio" asp-for="TruocKhiKetThucMo[i].TrangThai" value="Có" /> Có
+            <input type="radio" asp-for="TruocKhiKetThucMo[i].TrangThai" value="Không" /> Không
+            <input type="radio" asp-for="TruocKhiKetThucMo[i].TrangThai" value="Không áp dụng" /> Không áp dụng
+        </div>
+    }
+    <br />
+
+    <button type="submit" class="btn btn-primary">Lưu Bảng Kiểm</button>
+}
+

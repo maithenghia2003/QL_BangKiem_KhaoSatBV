@@ -28,6 +28,18 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/BangKiemAnToanPhauThuat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1BblRvYW5QaGF1VGh1YXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/BangKiemThuoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1UaHVvY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/GiamSat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lhbVNhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +56,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/ThayBangOngDanRutOng/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhheUJhbmdPbmdEYW5SdXRPbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/ThayBangOngDan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhheUJhbmdPbmdEYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/ThayBangVetThuongNhiem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhheUJhbmdWZXRUaHVvbmdOaGllbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/ThayBangVetThuongVoKhuan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhheUJhbmdWZXRUaHVvbmdWb0todWFuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/ThuThuatPhauThuat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1VGh1YXRQaGF1VGh1YXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/TiemDuoiBap/Index.cshtml]
@@ -74,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/TruyenTinhMachNgoaiVi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1eWVuVGluaE1hY2hOZ29haVZpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/XacDinhNguoiBenh/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWGFjRGluaE5ndW9pQmVuaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/IT/VisualStudio/QL_BangKiem_KhaoSatBV/QL_BangKiem_KhaoSat/Views/_ViewImports.cshtml]

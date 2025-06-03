@@ -1,9 +1,8 @@
 ﻿@model IEnumerable<QL_BangKiem_KhaoSat.Models.BuocTienHanh>
 
 <h1 class="bang-kiem-tieu-de">
-    BẢNG KIỂM THỰC HIỆN QUY TRÌNH KỸ THUẬT<br>
-    TIÊM TRUYỀN HÓA CHẤT TĨNH MẠCH NGOẠI VI<br>
-    (Sử dụng kim luồn cho người bệnh chưa có đường truyền sẵn)
+    BẢNG KIỂM KỸ THUẬT THAY BĂNG<br>
+    VẾT THƯƠNG CÓ ỐNG DẪN LƯU (RÚT ỐNG)<br>
 </h1>
 
 <table class="table">
@@ -51,7 +50,7 @@
 
                 // Gửi dữ liệu kết quả lên server bằng AJAX
                 $.ajax({
-                    url: '/TruyenTinhMachNgoaiVi/LuuKetQua',
+                    url: '/ThayBangOngDanRutOng/LuuKetQua',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify(ketQua),
@@ -71,3 +70,4 @@
         });
     </script>
 }
+
