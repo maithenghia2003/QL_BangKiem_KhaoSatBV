@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bảng Kiểm Thực Hiện Kỹ Thuật - Trang dài</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            margin: 0;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Container chính căn giữa trang web, width chuẩn A4 210mm = 794px */
+        .a4-container {
+            background: white;
+            width: 794px;
+            /* Bỏ giới hạn chiều cao để trang kéo dài theo nội dung */
+            min-height: 1123px; /* có thể để min-height để khi ít nội dung vẫn đủ cao */
+            padding: 20px 15px;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            position: relative;
+        }
+
+        /* Phần trên giữ tỉ lệ như bạn muốn */
+        .logo {
+            position: relative;
+            width: 308px;
+            height: 52px;
+            background: #ccc;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 52px;
+            text-align: center;
+            margin-bottom: 15px;
+            float: left;
+        }
+
+        .date {
+            position: relative;
+            width: 341px;
+            height: 24px;
+            float: right;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            .date input[type="date"] {
+                margin-left: 8px;
+                flex: 1;
+                padding: 4px 6px;
+                font-size: 14px;
+            }
+
+        .department {
+            position: relative;
+            width: 219px;
+            height: 29px;
+            float: left;
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+            .department input[type="text"] {
+                margin-left: 8px;
+                flex: 1;
+                padding: 4px 6px;
+                font-size: 14px;
+            }
+
+        .nurse {
+            position: relative;
+            width: 338px;
+            height: 29px;
+            float: right;
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+            .nurse input[type="text"] {
+                margin-left: 8px;
+                flex: 1;
+                padding: 4px 6px;
+                font-size: 14px;
+            }
+
+        /* Xóa float để title xuống dòng */
+        .clear-fix {
+            clear: both;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Bảng rộng 100% container */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 6px 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        th {
+            background: #eee;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody td:nth-child(2) {
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        input[type="radio"] {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            display: block;
+            cursor: pointer;
+        }
+
+        .ddtk-label {
+            margin-top: 30px;
+            text-align: right;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .a4-container {
+            box-shadow: none;
+            width: auto;
+            min-height: auto;
+            padding: 0;
+            margin: 0 auto;
+            page-break-after: auto;
+        }
+
+        table, tr, td, th {
+            page-break-inside: avoid !important;
+        }
+
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        tfoot {
+            display: table-footer-group;
+        }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a4-container">
+        <div class="logo">LOGO</div>
+        <div class="date">Ngày giám sát: <input type="date" /></div>
+        <div class="clear-fix"></div>
+
+        <div class="department">Khoa: <input type="text" /></div>
+        <div class="nurse">Điều dưỡng thực hiện: <input type="text" /></div>
+        <div class="clear-fix"></div>
+
+        <div class="title">BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM DƯỚI DA</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:5%;">STT</th>
+                    <th style="width:60%;">Các bước tiến hành</th>
+                    <th style="width:11%;">Đạt (1đ)</th>
+                    <th style="width:12%;">Chưa đạt (0.5đ)</th>
+                    <th style="width:12%;">Không đạt (0đ)</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+
+        <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
+    </div>
+
+    <script>
+        const steps = [
+            "Mang mâm đến giường",
+            "Xác định chính xác người bệnh lần thứ 2",
+            "Đặt người bệnh ở tư thế thích hợp",
+            "Phơi bày vị trí tiêm, chọn vị trí tiêm",
+            "Sát khuẩn tay bằng dung dịch rửa tay nhanh",
+            "Sát khuẩn vị trí tiêm",
+            "Đuổi khí trong ông tiêm",
+            "Véo da chỗ tiêm, mặt vát kim hướng lên trên",
+            "Đưa kim góc 30 - 45 so với mặt da",
+            "Kéo nhẹ nòng kiểm tra",
+            "Bơm thuốc từ từ và quan sát nét mặt người bệnh",
+            "Hết thuốc rút kim ra",
+            "Giúp người bệnh lại tiện nghi ",
+            "Dọn dẹp dụng cụ"
+        ];
+
+        const tbody = document.getElementById("table-body");
+
+        steps.forEach((step, i) => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+                <td>${i + 1}</td>
+                <td>${step}</td>
+                <td><input type="radio" name="step_${i + 1}" value="1" /></td>
+                <td><input type="radio" name="step_${i + 1}" value="0.5" /></td>
+                <td><input type="radio" name="step_${i + 1}" value="0" /></td>
+              `;
+            tbody.appendChild(tr);
+        });
+    </script>
+
+</body>
+</html>
