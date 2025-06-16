@@ -1,0 +1,229 @@
+@{
+    ViewData["Title"] = "Form 1 - Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .a4-container {
+        background: white;
+        width: 794px;
+        min-height: 1123px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+    }
+
+    .logo {
+        background: #e0e0e0;
+        width: 308px;
+        height: 52px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 52px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .date, .department, .nurse {
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .date {
+        float: right;
+        width: 341px;
+    }
+
+    .department {
+        float: left;
+        width: 219px;
+    }
+
+    .nurse {
+        float: right;
+        width: 338px;
+        margin-bottom: 15px;
+    }
+
+        .date input[type="date"],
+        .department input[type="text"],
+        .nurse input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .clear-fix {
+        clear: both;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 6px 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        background: #eee;
+    }
+
+    tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    tbody td:nth-child(2) {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    input[type="radio"] {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+    .ddtk-label {
+        margin-top: 30px;
+        text-align: right;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .note-section {
+        margin-top: 20px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 6px;
+        resize: vertical;
+    }
+
+    table, tr, td, th {
+        page-break-inside: avoid !important;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+</style>
+
+<!-- ==== TẤT CẢ nội dung nằm trong a4-container ==== -->
+<div class="a4-container" id="capture">
+    <div class="logo">
+        <a href="https://benhvienungbuou.vn/" target="_blank">
+            <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
+        </a>
+    </div>
+
+    <div class="date">Ngày giám sát: <input type="date" /></div>
+    <div class="clear-fix"></div>
+
+    <div class="department">Khoa: <input type="text" /></div>
+    <div class="nurse">Điều dưỡng thực hiện: <input type="text" /></div>
+    <div class="clear-fix"></div>
+
+    <div class="title">
+        BẢNG GIÁM SÁT NGƯỜI BỆNH ĐƯỢC ĐIỀU DƯỠNG THỰC HIỆN Y LỆNH THUỐC THEO ĐÚNG CHỈ ĐỊNH, BẢO ĐẢM AN TOÀN VÀ HIỆU QUẢ.
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width:8%;">STT</th>
+                <th style="width:60%;">Các bước tiến hành</th>
+                <th style="width:11%;">Đạt (1đ)</th>
+                <th style="width:12%;">Chưa đạt (0.5đ)</th>
+                <th style="width:12%;">Không đạt (0đ)</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <div class="note-section">
+        <label for="note">Ghi chú:</label><br />
+        <textarea id="note" name="note" rows="4"></textarea>
+    </div>
+
+    <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
+</div>
+
+<!-- Nút lưu ảnh -->
+<div style="text-align:center; margin-top: 20px;">
+    <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+        Lưu kết quả dưới dạng ảnh
+    </button>
+</div>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script>
+    const steps = [
+        "Điều dưỡng trình bày được quy định về chỉ định và thực hiện y lệnh miệng ",
+        "Điều dưỡng hỏi tiền sử dị ứng ngay trước khi dùng thuốc kháng sinh lần đầu cho NB và ghi vào HSBA",
+        "Trên xe tiêm của điều dưỡng luôn có sẵn hộp thuốc chống sốc",
+        "Điều dưỡng chuẩn bị đủ các túi đựng thuốc uống theo giờ cho người bệnh. (có ghi rõ ngày giờ và định danh người bệnh theo ba yếu tố).",
+        "Người bệnh dùng đúng thuốc theo chỉ định của bác sĩ",
+        "Người bệnh được dùng thuốc đúng liều theo chỉ định của bác sĩ",
+        "Người bệnh chăm sóc cấp II, III được dùng thuốc đúng thời gian theo chỉ định của bác sĩ.",
+        "Người bệnh được uống thuốc trước sự chứng kiến của điều dưỡng",
+        "Điều dưỡng có công khai thuốc cho người bệnh ký tên khi dùng thuốc "
+    ];
+
+    const tbody = document.getElementById("table-body");
+
+    steps.forEach((step, i) => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+                <td>${i + 1}</td>
+                <td>${step}</td>
+                <td><input type="radio" name="step_${i + 1}" value="1" /></td>
+                <td><input type="radio" name="step_${i + 1}" value="0.5" /></td>
+                <td><input type="radio" name="step_${i + 1}" value="0" /></td>
+            `;
+        tbody.appendChild(tr);
+    });
+
+    function saveAsImage() {
+        const element = document.getElementById("capture");
+        html2canvas(element, {
+            scale: 2,
+            useCORS: true
+        }).then(canvas => {
+            const link = document.createElement("a");
+            link.download = 'bang_kiem_thuc_hien_y_lenh.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        });
+    }
+</script>

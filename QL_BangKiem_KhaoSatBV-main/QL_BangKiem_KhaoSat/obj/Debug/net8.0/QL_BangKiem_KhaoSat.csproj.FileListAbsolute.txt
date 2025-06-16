@@ -1,0 +1,65 @@
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.Development.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.staticwebassets.runtime.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.staticwebassets.endpoints.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.exe
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.deps.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.runtimeconfig.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfoInputs.cache
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfo.cs
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.csproj.CoreCompileInputs.cache
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.MvcApplicationPartsAssemblyInfo.cache
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cache
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cs
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\bundle\QL_BangKiem_KhaoSat.styles.css
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\projectbundle\QL_BangKiem_KhaoSat.bundle.scp.css
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.build.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.development.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.QL_BangKiem_KhaoSat.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.QL_BangKiem_KhaoSat.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.build.QL_BangKiem_KhaoSat.props
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QL_BangKiem_KhaoSat.props
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QL_BangKiem_KhaoSat.props
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\refint\QL_BangKiem_KhaoSat.dll
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.genruntimeconfig.cache
+D:\Project_QLBangKiem_Nhom2\QL_BangKiem_KhaoSat\QL_BangKiem_KhaoSat\obj\Debug\net8.0\ref\QL_BangKiem_KhaoSat.dll
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.staticwebassets.runtime.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.exe
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.deps.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.runtimeconfig.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfoInputs.cache
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfo.cs
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.csproj.CoreCompileInputs.cache
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cache
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cs
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.sourcelink.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.QL_BangKiem_KhaoSat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.build.QL_BangKiem_KhaoSat.props
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QL_BangKiem_KhaoSat.props
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QL_BangKiem_KhaoSat.props
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\bundle\QL_BangKiem_KhaoSat.styles.css
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\projectbundle\QL_BangKiem_KhaoSat.bundle.scp.css
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\refint\QL_BangKiem_KhaoSat.dll
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.genruntimeconfig.cache
+C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\ref\QL_BangKiem_KhaoSat.dll

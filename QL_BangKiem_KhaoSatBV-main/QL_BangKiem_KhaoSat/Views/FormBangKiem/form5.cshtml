@@ -1,0 +1,241 @@
+@{
+    ViewData["Title"] = "Form 1 - Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .a4-container {
+        background: white;
+        width: 794px;
+        min-height: 1123px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+    }
+
+    .logo {
+        width: 308px;
+        height: 52px;
+        background: #e0e0e0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 52px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .date {
+        position: relative;
+        width: 341px;
+        height: 24px;
+        float: right;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .date input[type="date"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .department {
+        position: relative;
+        width: 219px;
+        height: 29px;
+        float: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+        .department input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .nurse {
+        position: relative;
+        width: 338px;
+        height: 29px;
+        float: right;
+        font-size: 14px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+        .nurse input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .clear-fix {
+        clear: both;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 6px 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        background: #eee;
+    }
+
+    tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    tbody td:nth-child(2) {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    input[type="radio"] {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+    .ddtk-label {
+        margin-top: 30px;
+        text-align: right;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    table, tr, td, th {
+        page-break-inside: avoid !important;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+</style>
+
+  <div class="a4-container">
+        <div class="logo">
+            <a href="https://benhvienungbuou.vn/" target="_blank">
+                <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
+            </a>
+        </div>
+
+    <div class="date">Ngày giám sát: <input type="date" /></div>
+    <div class="clear-fix"></div>
+
+    <div class="department">Khoa: <input type="text" /></div>
+    <div class="nurse">Điều dưỡng thực hiện: <input type="text" /></div>
+    <div class="clear-fix"></div>
+
+    <div class="title">BẢNG KIỂM KỸ THUẬT THAY BĂNG VẾT THƯƠNG NHIỄM</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="width:8%;">STT</th>
+          <th style="width:60%;">Các bước tiến hành</th>
+          <th style="width:11%;">Đạt (1đ)</th>
+          <th style="width:12%;">Chưa đạt (0.5đ)</th>
+          <th style="width:12%;">Không đạt (0đ)</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+
+    <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
+  </div>
+    <div style="text-align:center; margin-top: 20px;">
+        <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+            Lưu kết quả dưới dạng ảnh
+        </button>
+    </div>
+
+    <!-- Thêm thư viện html2canvas -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+  <script>
+    const steps = [
+            "Xác định chính xác người bệnh lần thứ 2 (Chú ý 5 đúng) ",
+            "Chuẩn bị tư thế bệnh nhân thích hợp",
+            "Để mâm nơi thuận tiện, gần vết thương",
+            "Phơi bày vết thương",
+            "Gỡ băng keo",
+            "Sát khuẩn tay nhanh",
+            "Gỡ khăn vô khuẩn đậy mâm ra",
+            "Mang găng tay",
+            "Tháo băng dơ (kềm, găng,...) ",
+            "Dùng kềm gắp gòn viên thấm dung dịch sát khuẩn vừa đi rửa từ trong ra ngoài",
+            "Rửa bờ vết thương ",
+            "Rửa vùng da xung quanh vết thương 5cm ( chú ý tiếp liệu theo nguyên tắc vô khuẩn )",
+            "Dùng gạc chậm khô mặt trong vết thương ",
+            "Dùng gòn viên khô lau vùng da xung quanh vết thương (nếu da rôm lỡ thì dùng gạc)",
+            "Sát khuẩn vùng da xung quanh vết thương bằng iode (nếu da không bị rơm lỡ)/bôi trơn khi vết thương rơm lỡ.",
+            "Đặt gạc miếng, gòn bao che kín vết thương (chú ý phải che kín vết thương và ra xung quanh khoảng 3cm) ",
+            "Tháo găng tay",
+            "Dán băng keo lên vết thương(chú ý dán kín mép gạc, tránh để hở)",
+            "Báo cáo và giải thích cho người bệnh việc đã xong, giúp người bệnh tiện nghi.",
+            "Phân loại chất thải y tế theo quy định",
+            "Thu dọn dụng cụ mang về phòng"
+    ];
+
+    const tbody = document.getElementById("table-body");
+
+    steps.forEach((step, i) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${i + 1}</td>
+        <td>${step}</td>
+        <td><input type="radio" name="step_${i + 1}" value="1" /></td>
+        <td><input type="radio" name="step_${i + 1}" value="0.5" /></td>
+        <td><input type="radio" name="step_${i + 1}" value="0" /></td>
+      `;
+      tbody.appendChild(tr);
+    });
+        function saveAsImage() {
+            const element = document.getElementById("capture");
+            html2canvas(element, {
+                scale: 2,
+                useCORS: true
+            }).then(canvas => {
+                const link = document.createElement("a");
+                link.download = 'bang_kiem_tiem_tinh_mach.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            });
+        }
+  </script>

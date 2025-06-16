@@ -1,0 +1,327 @@
+﻿@{
+    ViewData["Title"] = "Form 1 - Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .a4-container {
+        background: white;
+        width: 794px;
+        min-height: 1123px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+    }
+
+    .logo {
+        width: 308px;
+        height: 52px;
+        background: #e0e0e0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 52px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .date {
+        position: relative;
+        width: 341px;
+        height: 24px;
+        float: right;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .date input[type="date"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .department {
+        position: relative;
+        width: 219px;
+        height: 29px;
+        float: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+        .department input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .nurse {
+        position: relative;
+        width: 338px;
+        height: 29px;
+        float: right;
+        font-size: 14px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+        .nurse input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .clear-fix {
+        clear: both;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 6px 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        background: #eee;
+    }
+
+    tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    tbody td:nth-child(2) {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    input[type="radio"] {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+    .ddtk-label {
+        margin-top: 30px;
+        text-align: right;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    table, tr, td, th {
+        page-break-inside: avoid !important;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+
+    .radio-column {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+        .radio-column label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .radio-column input[type="radio"] {
+            width: 16px;
+            height: 16px;
+            margin: 0;
+        }
+
+</style>
+    <div class="a4-container">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="https://benhvienungbuou.vn/" target="_blank">
+                <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
+            </a>
+        </div>
+
+
+        <!-- Khoa và Ngày giám sát -->
+        <div class="info-row">
+            <div class="department">Khoa: <input type="text" /></div>
+            <div class="date">Ngày giám sát: <input type="date" /></div>
+        </div>
+    <div style="height: 40px;"></div>
+
+        <div class="title">
+            BẢNG GIÁM SÁT NGƯỜI BỆNH ĐƯỢC ĐIỀU DƯỠNG THỰC HIỆN Y LỆNH THUỐC THEO ĐÚNG CHỈ ĐỊNH, BẢO ĐẢM AN TOÀN VÀ HIỆU QUẢ.
+        </div>
+
+        <!-- Bảng kiểm -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th rowspan="2" style="width:6%;">STT</th>
+                    <th rowspan="2" style="width:35%;">Các bước tiến hành</th>
+                    <th colspan="3" style="width:29%; text-align:center;">
+                        NVYT Thực hiện
+                        <br>
+                        <input type="text" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                    </th>
+                    <th colspan="3" style="width:29%; text-align:center;">
+                        NVYT Thực hiện
+                        <br>
+                        <input type="text" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                    </th>
+                </tr>
+                <tr style="text-align:center;">
+                    <th>Thực hiện đầy đủ (1đ)</th>
+                    <th>Thực hiện chưa đạt (0.5đ)</th>
+                    <th>Không thực hiện (0đ)</th>
+                    <th>Thực hiện đầy đủ (1đ)</th>
+                    <th>Thực hiện chưa đạt (0.5đ)</th>
+                    <th>Không thực hiện (0đ)</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+
+        <div class="ddtk-label">Giám sát viên</div>
+        <div style="margin-top: 80px; font-size: 13px; line-height: 1.5;">
+            <strong>Lưu ý:</strong><br>
+            Một số ghi chú:<br>
+            + NVYT sử dụng câu hỏi mở (với thông tin: họ tên, năm sinh/ tuổi, địa chỉ) và kiểm tra lại sau khi NB/ thân nhân trả lời;<br>
+            + Yếu tố giới tính không áp dụng tại: Phòng khám tuyến vú, phụ khoa;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Khoa Ngoại tuyến vú, Ngoại phụ khoa, Xạ trị phụ khoa;<br>
+            + Yếu tố địa chỉ: Phải đầy đủ 3 cấp thông tin cư trú (xã/phường/thị trấn, quận/huyện/thành phố/tỉnh);<br>
+            Sau khi đánh giá chi tiết từng yếu tố đính kèm của mục 1 (đúng người bệnh) → tiến hành kết luận nội dung “đúng người bệnh” như sau:<br>
+            “Đạt”: khi ít nhất 3 yếu tố được đánh giá ở cột “thực hiện đầy đủ - 1đ”;<br>
+            “Chưa đạt”: khi đánh giá ít hơn 3 yếu tố; hoặc khi đánh giá từ 3 yếu tố trở lên nhưng chỉ có 2 yếu tố ở cột “thực hiện đầy đủ - 1đ”;<br>
+            “Không đạt”: khi tiếp xúc người bệnh mà không xác nhận lại thông tin của người bệnh;<br>
+            Các nội dung còn lại đánh giá theo thang điểm có sẵn.
+        </div>
+        <div style="text-align:center; margin-top: 20px;">
+            <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+                Lưu kết quả dưới dạng ảnh
+            </button>
+        </div>
+
+        <!-- Thêm thư viện html2canvas -->
+        <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+        <script>
+            const steps = [
+                "Đúng người bệnh",
+                "Đúng thuốc",
+                "Đúng liều dùng",
+                "Đúng đường dùng",
+                "Đúng thời gian"
+            ];
+
+            const tableBody = document.getElementById('table-body');
+            tableBody.innerHTML = '';
+
+            steps.forEach((step, index) => {
+                if (index === 0) {
+                    const mainRow = document.createElement('tr');
+                    mainRow.innerHTML = `
+                                <td style="text-align:center;">${index + 1}</td>
+                                <td>${step}</td>
+                                <td colspan="3" style="padding-left: 10px; vertical-align: top;">
+                                    <div class="radio-column">
+                                        <label><input type="radio" name="step${index}-nvyt1" value="dat"> Đạt</label>
+                                        <label><input type="radio" name="step${index}-nvyt1" value="khongdat"> Không đạt</label>
+                                        <label><input type="radio" name="step${index}-nvyt1" value="chuadat"> Chưa đạt</label>
+                                    </div>
+                                </td>
+                                <td colspan="3" style="padding-left: 10px; vertical-align: top;">
+                                    <div class="radio-column">
+                                        <label><input type="radio" name="step${index}-nvyt2" value="dat"> Đạt</label>
+                                        <label><input type="radio" name="step${index}-nvyt2" value="khongdat"> Không đạt</label>
+                                        <label><input type="radio" name="step${index}-nvyt2" value="chuadat"> Chưa đạt</label>
+                                    </div>
+                                </td>
+                            `;
+                    tableBody.appendChild(mainRow);
+
+                    const subSteps = [
+                        "a. Họ tên người bệnh",
+                        "b. Năm sinh / tuổi",
+                        "c. Địa chỉ",
+                        "d. Giới tính",
+                        "e. Mã số người bệnh"
+                    ];
+                    subSteps.forEach((sub, subIndex) => {
+                        const subRow = document.createElement('tr');
+                        subRow.innerHTML = `
+                                      <td></td>
+                                      <td>${sub}</td>
+                                      <td><input type="radio" name="step${index}-nvyt1-sub${subIndex}" value="1"></td>
+                                      <td><input type="radio" name="step${index}-nvyt1-sub${subIndex}" value="0.5"></td>
+                                      <td><input type="radio" name="step${index}-nvyt1-sub${subIndex}" value="0"></td>
+                                      <td><input type="radio" name="step${index}-nvyt2-sub${subIndex}" value="1"></td>
+                                      <td><input type="radio" name="step${index}-nvyt2-sub${subIndex}" value="0.5"></td>
+                                      <td><input type="radio" name="step${index}-nvyt2-sub${subIndex}" value="0"></td>
+                                    `;
+                        tableBody.appendChild(subRow);
+                    });
+                } else {
+                    const mainRow = document.createElement('tr');
+                    mainRow.innerHTML = `
+                                    <td style="text-align:center;">${index + 1}</td>
+                                    <td>${step}</td>
+                                    <td><input type="radio" name="step${index}-nvyt1" value="1"></td>
+                                    <td><input type="radio" name="step${index}-nvyt1" value="0.5"></td>
+                                    <td><input type="radio" name="step${index}-nvyt1" value="0"></td>
+                                    <td><input type="radio" name="step${index}-nvyt2" value="1"></td>
+                                    <td><input type="radio" name="step${index}-nvyt2" value="0.5"></td>
+                                    <td><input type="radio" name="step${index}-nvyt2" value="0"></td>
+                                `;
+                    tableBody.appendChild(mainRow);
+                }
+            });
+            function saveAsImage() {
+                const element = document.getElementById("capture");
+                html2canvas(element, {
+                    scale: 2,
+                    useCORS: true
+                }).then(canvas => {
+                    const link = document.createElement("a");
+                    link.download = 'bang_kiem_tiem_tinh_mach.png';
+                    link.href = canvas.toDataURL('image/png');
+                    link.click();
+                });
+            }
+        </script>
+    </div>
+

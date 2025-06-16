@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QL_BangKiem_KhaoSat</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/QL_BangKiem_KhaoSat.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="topbar bg-primary text-white py-2">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                <div class="d-flex align-items-center">
+                    <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" style="height: 50px;" />
+                </div>
+                <div class="d-flex align-items-center flex-wrap gap-4 text-white">
+                    <div class="d-flex align-items-center">
+                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/phone.png" alt="" style="height: 24px;" class="me-2" />
+                        <div>
+                            <strong>Hotline BV</strong><br />
+                            (028) 3841 2637
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/calendar.png" alt="" style="height: 24px;" class="me-2" />
+                        <div>
+                            <strong>Đặt hẹn khám</strong><br />
+                            1900 636 223
+                        </div>
+                    </div>
+                    <div>
+                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://benhvienungbuou.vn/tai-ung-dung">Đặt khám qua app bệnh viện</a>
+                    </div>
+                    <div>
+                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://datkham.youmed.vn/benh-vien/bv-ub-tphcm" target="_blank">Đặt khám qua app YouMed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Trang chủ</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">Giới thiệu</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Lịch sử hình thành</a></li>
+                                <li><a class="dropdown-item" href="#">Cơ cấu tổ chức</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Tin tức</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle fw-bold" href="#">Dành cho Bệnh nhân</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle fw-bold" href="#">Dành cho NVYT</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Đội ngũ chuyên gia</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" asp-controller="BangKiem" asp-action="BangKiem">Tạo Bảng Kiểm</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
