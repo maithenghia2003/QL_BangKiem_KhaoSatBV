@@ -1,0 +1,77 @@
+﻿@page
+@model QL_BangKiem_KhaoSat.Pages.Account.LoginRegisterModel
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2>Đăng nhập hoặc Đăng ký</h2>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div id="loginForm" style="display: block;">
+                <form method="post" asp-page-handler="Login">
+                    <div class="mb-3">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" class="form-control" id="username" name="Username" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" class="form-control" id="password" name="Password" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                    <button type="button" class="btn btn-link" onclick="toggleForm()">Đăng ký</button>
+
+                    <!-- ✅ Nút quên mật khẩu -->
+                    <div class="mt-2">
+                        <a asp-controller="Account" asp-action="ForgotPassword" class="text-decoration-none">Quên mật khẩu?</a>
+                    </div>
+                </form>
+            </div>
+
+            <div id="registerForm" style="display: none;">
+                <form method="post" asp-page-handler="Register">
+                    <div class="mb-3">
+                        <label for="regUsername">Tên đăng nhập</label>
+                        <input type="text" class="form-control" id="regUsername" name="Username" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="regPassword">Mật khẩu</label>
+                        <input type="password" class="form-control" id="regPassword" name="Password" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword">Xác nhận mật khẩu</label>
+                        <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email">Gmail</label>
+                        <input type="email" class="form-control" id="email" name="Email" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone">Số điện thoại</label>
+                        <input type="tel" class="form-control" id="phone" name="PhoneNumber" required />
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Đăng ký</button>
+                    <button type="button" class="btn btn-link" onclick="toggleForm()">Quay lại đăng nhập</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleForm() {
+            const login = document.getElementById("loginForm");
+            const register = document.getElementById("registerForm");
+
+            if (login.style.display === "none") {
+                login.style.display = "block";
+                register.style.display = "none";
+            } else {
+                login.style.display = "none";
+                register.style.display = "block";
+            }
+        }
+    </script>
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj": {}
+    "C:\\ub\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj": {}
   },
   "projects": {
-    "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj": {
+    "C:\\ub\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+        "projectUniqueName": "C:\\ub\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
         "projectName": "QL_BangKiem_KhaoSat",
-        "projectPath": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\IT\\VisualStudio\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\obj\\",
+        "projectPath": "C:\\ub\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+        "packagesPath": "C:\\Users\\Anh Quan\\.nuget\\packages\\",
+        "outputPath": "C:\\ub\\QL_BangKiem_KhaoSatBV\\QL_BangKiem_KhaoSat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anh Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
