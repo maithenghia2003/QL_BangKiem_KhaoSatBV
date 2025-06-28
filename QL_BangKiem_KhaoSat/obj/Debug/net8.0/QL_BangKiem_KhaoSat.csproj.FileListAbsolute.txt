@@ -563,3 +563,7 @@ D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\re
 D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
 D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.genruntimeconfig.cache
 D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\ref\QL_BangKiem_KhaoSat.dll
+D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\IT\VisualStudio\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSat\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
