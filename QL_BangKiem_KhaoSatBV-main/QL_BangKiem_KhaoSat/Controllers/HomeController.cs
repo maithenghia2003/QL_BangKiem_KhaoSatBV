@@ -22,6 +22,10 @@ namespace QL_BangKiem_KhaoSat.Controllers
         {
             return View();
         }
+        public IActionResult ds()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

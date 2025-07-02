@@ -13,8 +13,11 @@
         <div class="topbar bg-primary text-white py-2">
             <div class="container d-flex justify-content-between align-items-center flex-wrap">
                 <div class="d-flex align-items-center">
-                    <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" style="height: 50px;" />
+                    <a asp-controller="Home" asp-action="Index">
+                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" style="height: 50px;" />
+                    </a>
                 </div>
+
                 <div class="d-flex align-items-center flex-wrap gap-4 text-white">
                     <div class="d-flex align-items-center">
                         <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/phone.png" alt="" style="height: 24px;" class="me-2" />
@@ -31,41 +34,22 @@
                         </div>
                     </div>
                     <div>
-                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://benhvienungbuou.vn/tai-ung-dung">Đặt khám qua app bệnh viện</a>
+                        <a class="btn btn-warning rounded-pill px-3 py-1 text-white" href="/Home/Index">
+                            Danh sách tạo bảng kiểm
+                        </a>
                     </div>
                     <div>
-                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://datkham.youmed.vn/benh-vien/bv-ub-tphcm" target="_blank">Đặt khám qua app YouMed</a>
+                        <a class="btn btn-success rounded-pill px-3 py-1 text-white" href="/FormBangKiem/ds">
+                            Danh sách các bảng kiểm đã tạo
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Trang chủ</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">Giới thiệu</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Lịch sử hình thành</a></li>
-                                <li><a class="dropdown-item" href="#">Cơ cấu tổ chức</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Tin tức</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle fw-bold" href="#">Dành cho Bệnh nhân</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle fw-bold" href="#">Dành cho NVYT</a></li>
-                        <li class="nav-item"><a class="nav-link fw-bold" href="#">Đội ngũ chuyên gia</a></li>
-                        <li class="nav-item"><a class="nav-link fw-bold" asp-controller="BangKiem" asp-action="BangKiem">Tạo Bảng Kiểm</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+        <!-- Đã loại bỏ phần navbar -->
 
+    </header>
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -74,7 +58,6 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -82,3 +65,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+    

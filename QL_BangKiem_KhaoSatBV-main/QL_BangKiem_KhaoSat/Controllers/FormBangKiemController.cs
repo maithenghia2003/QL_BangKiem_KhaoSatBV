@@ -15,5 +15,6 @@ public class FormBangKiemController : Controller
     public IActionResult Form12() => View();
     public IActionResult Form13() => View();
     public IActionResult Form14() => View();
+    public IActionResult ds() => View();
 
 }

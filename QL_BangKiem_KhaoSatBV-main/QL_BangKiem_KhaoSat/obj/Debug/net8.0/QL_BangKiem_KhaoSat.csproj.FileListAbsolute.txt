@@ -63,3 +63,34 @@ C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoS
 C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
 C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.genruntimeconfig.cache
 C:\Users\DANG QUYNH GIANG\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\ref\QL_BangKiem_KhaoSat.dll
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.Development.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\appsettings.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.staticwebassets.runtime.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.exe
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.deps.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.runtimeconfig.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\bin\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.GeneratedMSBuildEditorConfig.editorconfig
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfoInputs.cache
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.AssemblyInfo.cs
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.csproj.CoreCompileInputs.cache
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.MvcApplicationPartsAssemblyInfo.cache
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cache
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.RazorAssemblyInfo.cs
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.sourcelink.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.build.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.development.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.QL_BangKiem_KhaoSat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.build.QL_BangKiem_KhaoSat.props
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QL_BangKiem_KhaoSat.props
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QL_BangKiem_KhaoSat.props
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\staticwebassets.pack.json
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\bundle\QL_BangKiem_KhaoSat.styles.css
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\scopedcss\projectbundle\QL_BangKiem_KhaoSat.bundle.scp.css
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.dll
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\refint\QL_BangKiem_KhaoSat.dll
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.pdb
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\QL_BangKiem_KhaoSat.genruntimeconfig.cache
+C:\ThucTap\QL_BangKiem_KhaoSatBV\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\obj\Debug\net8.0\ref\QL_BangKiem_KhaoSat.dll

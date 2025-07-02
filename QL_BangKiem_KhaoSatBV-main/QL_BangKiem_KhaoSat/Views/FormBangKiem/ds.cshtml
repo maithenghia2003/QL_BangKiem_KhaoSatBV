@@ -1,0 +1,101 @@
+@{
+    ViewData["Title"] = "Danh sách bảng kiểm đã tạo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .board-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .board-item {
+        display: block;
+        padding: 10px 15px;
+        background-color: #f8f9fa;
+        font-size: 15px;
+        color: #333;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+    }
+
+        .board-item:hover {
+            background-color: #e2e6ea;
+        }
+
+    .form-select {
+        padding: 6px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+</style>
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Danh sách bảng kiểm đã tạo</h2>
+
+    <!-- Dropdown lọc -->
+    <div class="row mb-3 justify-content-center">
+        <div class="col-md-4">
+            <select class="form-select" id="filterKhoa">
+                <option value="">Lọc theo khoa</option>
+                <option value="Khoa Nội">Khoa Nội</option>
+                <option value="Khoa Ngoại">Khoa Ngoại</option>
+                <option value="Khoa Nhi">Khoa Nhi</option>
+                <option value="Khoa Sản">Khoa Sản</option>
+                <option value="Khoa Cấp cứu">Khoa Cấp cứu</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select class="form-select" id="filterDate">
+                <option value="">Lọc theo ngày</option>
+                <option value="20/06/2025">20/06/2025</option>
+                <option value="21/06/2025">21/06/2025</option>
+                <option value="22/06/2025">22/06/2025</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Danh sách bảng kiểm -->
+    <div class="board-list">
+        <a href="/FormBangKiem/Form1?maBangKiem=BK001" class="board-item">
+            BK001 | Khoa Nội | 20/06/2025 10:30 | 85 / 100
+        </a>
+        <a href="/FormBangKiem/Form1?maBangKiem=BK002" class="board-item">
+            BK002 | Khoa Ngoại | 20/06/2025 11:45 | 90 / 100
+        </a>
+        <a href="/FormBangKiem/Form1?maBangKiem=BK003" class="board-item">
+            BK003 | Khoa Nhi | 21/06/2025 08:15 | 78 / 100
+        </a>
+        <a href="/FormBangKiem/Form1?maBangKiem=BK004" class="board-item">
+            BK004 | Khoa Sản | 21/06/2025 14:20 | 92 / 100
+        </a>
+        <a href="/FormBangKiem/Form1?maBangKiem=BK005" class="board-item">
+            BK005 | Khoa Cấp cứu | 22/06/2025 09:00 | 88 / 100
+        </a>
+    </div>
+</div>
+
+<!-- Script lọc -->
+<script>
+    const khoaSelect = document.getElementById("filterKhoa");
+    const dateSelect = document.getElementById("filterDate");
+    const items = document.querySelectorAll(".board-item");
+
+    function filterList() {
+        const khoaValue = khoaSelect.value.toLowerCase();
+        const dateValue = dateSelect.value;
+
+        items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            const matchesKhoa = !khoaValue || text.includes(khoaValue);
+            const matchesDate = !dateValue || text.includes(dateValue);
+
+            item.style.display = (matchesKhoa && matchesDate) ? "block" : "none";
+        });
+    }
+
+    khoaSelect.addEventListener("change", filterList);
+    dateSelect.addEventListener("change", filterList);
+</script>
