@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QL_BangKiem_KhaoSat
+build_property.RootNamespace = QL_BangKiem_KhaoSat
+build_property.ProjectDir = C:\Users\MaiTheNghia\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MaiTheNghia\Downloads\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSatBV-main\QL_BangKiem_KhaoSat
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Account/DangKy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYW5nS3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Account/DangNhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYW5nTmhhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Admin/ChoDuyet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hvRHV5ZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Admin/LichSu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGljaFN1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form1Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTFEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form1Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTFFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form2Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form2Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form3Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTNEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form3Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTNFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/ThongKe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cVGhvbmdLZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Khoa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Khoa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hvYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Step/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RlcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Step/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RlcFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Step/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RlcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Step/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RlcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4eis0euxow

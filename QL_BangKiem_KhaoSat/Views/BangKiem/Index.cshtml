@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: #f4f6f8;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto 40px auto;
+        padding: 0 15px;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        min-height: 120px;
+        text-align: center;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+            background-color: #f0f0f0;
+        }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+<h1>Danh sách Bảng Kiểm</h1>
+
+<div class="grid-container" id="boardList">
+    <!-- Các card bảng kiểm sẽ được tạo động ở đây -->
+</div>
+
+@section Scripts {
+    <script>
+             const boards = [
+            { id: 1, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT ", url: "/BangKiem/Form1" },
+            { id: 2, title: "BẢNG KIỂM GIÁM SÁT NGƯỜI BỆNH ĐƯỢC THỰC HIỆN Y LỆNH THUỐC", url: "/BangKiem/Form2" },
+            { id: 3, title: "BẢNG KIỂM XÁC ĐỊNH ĐÚNG NGƯỜI BỆNH CUNG CẤP DỊCH VỤ", url: "/BangKiem/Form3" },
+            { id: 4, title: "BẢNG KIỂM ĐẢM BẢO AN TOÀN THỰC HIỆN", url: "/BangKiem/Form4" }
+        ];
+
+
+                const boardListEl = document.getElementById('boardList');
+        boards.forEach(board => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `<div class="card-title">${board.title}</div>`;
+            card.addEventListener('click', () => {
+                location.href = board.url;
+            });
+            boardListEl.appendChild(card);
+        });
+
+    </script>
+}

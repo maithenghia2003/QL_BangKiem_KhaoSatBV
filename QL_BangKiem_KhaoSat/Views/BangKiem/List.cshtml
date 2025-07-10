@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Danh sách Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Danh sách Bảng Kiểm Đã Tạo</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Loại Form</th>
+            <th>Tên Bảng</th>
+            <th>Ngày giám sát</th>
+            <th>Khoa</th>
+            <th>Người giám sát</th>
+            <th>Ngày tạo</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.TenForm</td>
+                <td>@item.Title</td>
+                <td>@item.NgayGiamSat.ToString("dd/MM/yyyy")</td>
+                <td>@item.Khoa</td>
+                <td>@item.NguoiGiamSat</td>
+                <td>@item.NgayTao.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-sm btn-info">Xem</a>
+                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post"
+                          style="display:inline"
+                          onsubmit="return confirm('Xác nhận xoá?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

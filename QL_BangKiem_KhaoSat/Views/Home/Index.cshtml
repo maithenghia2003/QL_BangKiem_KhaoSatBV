@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: #f4f6f8;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto 40px auto;
+        padding: 0 15px;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        min-height: 120px;
+        text-align: center;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+            background-color: #f0f0f0;
+        }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+<h1>Chào mừng đã đến với website quản lí bảng kiểm</h1>
+
