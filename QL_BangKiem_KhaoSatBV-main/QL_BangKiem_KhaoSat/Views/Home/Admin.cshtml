@@ -1,0 +1,477 @@
+@{
+    ViewData["Title"] = "Admin Fullscreen";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Fullscreen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f1f4f9;
+        }
+
+        .admin-wrapper {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            width: 350px;
+            background-color: #343a40;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+
+            .sidebar a {
+                padding: 12px 20px;
+                color: #ced4da;
+                text-decoration: none;
+                display: block;
+            }
+
+                .sidebar a:hover,
+                .sidebar a.active {
+                    background-color: #495057;
+                    color: white;
+                }
+
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .card-info {
+            border-left: 5px solid #007bff;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .sidebar-logo img {
+            width: 90%;
+            max-width: 200px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+
+        .action-btn {
+            margin-right: 5px;
+        }
+
+        .section-content {
+            display: none;
+        }
+
+            .section-content.active {
+                display: block;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="admin-wrapper">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="/Home/Index">
+                <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" />
+            </a>
+            <a href="#" class="menu-link" data-section="user">User</a>
+            <a href="#" class="menu-link" data-section="khoa">Khoa</a>
+            <a href="#" class="menu-link" data-section="dot">Đợt</a>
+            <a href="#" class="menu-link" data-section="checklist">Danh sách bảng kiểm</a>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Chào mừng -->
+            <div id="section-welcome" class="section-content active">
+                <h3 class="text-dark">Chào mừng đến với trang quản lý</h3>
+            </div>
+
+            <!-- User -->
+            <div id="section-user" class="section-content">
+                <div class="card-info">
+                    <div class="section-title">Quản lý User</div>
+                    <table class="table table-bordered table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>#</th>
+                                <th>Tên</th>
+                                <th>Email</th>
+                                <th>Vai trò</th>
+                                <th>Mật khẩu</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Nguyễn Văn A</td>
+                                <td>a@example.com</td>
+                                <td>
+                                    <span class="role-text">User</span>
+                                    <select class="form-select form-select-sm role-select d-none">
+                                        <option>User</option>
+                                        <option>Admin</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <span class="password-text">••••••••</span>
+                                    <input type="password" class="form-control form-control-sm password-input d-none" placeholder="Nhập mật khẩu mới" />
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning btn-edit">Sửa</button>
+                                    <button class="btn btn-sm btn-success btn-save d-none">Lưu</button>
+                                    <button class="btn btn-sm btn-secondary btn-cancel d-none">Hủy</button>
+                                    <button class="btn btn-sm btn-danger">Xóa</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Khoa -->
+            <div id="section-khoa" class="section-content">
+                <div class="card-info">
+                    <div class="section-title">Quản lý Khoa</div>
+
+                    <div id="add-khoa-form" class="d-flex mb-3 d-none gap-2">
+                        <input id="new-khoa-name" type="text" class="form-control form-control-sm" placeholder="Nhập tên khoa" />
+                        <button class="btn btn-sm btn-primary" id="btn-save-khoa">Lưu</button>
+                        <button class="btn btn-sm btn-secondary" id="btn-cancel-khoa">Hủy</button>
+                    </div>
+
+                    <button class="btn btn-sm btn-success mb-2" id="btn-show-add-khoa">Thêm khoa</button>
+
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Tên khoa</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody id="khoa-table-body">
+                            <tr>
+                                <td>Khoa Nội</td>
+                                <td>
+                                    <button class="btn btn-sm btn-warning">Sửa</button>
+                                    <button class="btn btn-sm btn-danger btn-delete-khoa">Xóa</button>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+
+            <!-- Đợt -->
+            <div id="section-dot" class="section-content">
+                <div class="card-info">
+                    <div class="section-title">Quản lý Đợt</div>
+
+                    <div id="add-dot-form" class="row g-2 mb-3 d-none">
+                        <div class="col-md-4">
+                            <input type="date" id="start-date" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-md-4">
+                            <input type="date" id="end-date" class="form-control form-control-sm" />
+                        </div>
+                        <div class="col-md-4 d-flex gap-2">
+                            <button class="btn btn-sm btn-primary" id="btn-save-dot">Lưu</button>
+                            <button class="btn btn-sm btn-secondary" id="btn-cancel-dot">Hủy</button>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-sm btn-success mb-3" id="btn-show-add-dot">Thêm đợt kiểm tra</button>
+
+                    <ul id="dot-list" class="list-group">
+                        <!-- Các đợt sẽ được hiển thị tại đây -->
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Danh sách bảng kiểm -->
+            <div id="section-danhsach" class="section-content">
+                <div class="card-info">
+                    <div class="section-title">Danh sách bảng kiểm</div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Mã bảng kiểm</th>
+                                <th>Tên khoa</th>
+                                <th>Thời gian tạo</th>
+                                <th>Thời gian chỉnh sửa</th>
+                                <th>Xem</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BK001</td>
+                                <td>Khoa Nội</td>
+                                <td>20/06/2025 10:30</td>
+                                <td>10/07/2025 15:45</td>
+                                <td>
+                                    <a class="btn btn-sm btn-primary" href="/FormBangKiem/Form1?maBangKiem=BK001">Xem</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BK002</td>
+                                <td>Khoa Ngoại</td>
+                                <td>20/06/2025 11:45</td>
+                                <td>Chưa chỉnh sửa</td>
+                                <td>
+                                    <a class="btn btn-sm btn-primary" href="/FormBangKiem/Form1?maBangKiem=BK002">Xem</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BK003</td>
+                                <td>Khoa Nhi</td>
+                                <td>21/06/2025 08:15</td>
+                                <td>05/07/2025 14:10</td>
+                                <td>
+                                    <a class="btn btn-sm btn-primary" href="/FormBangKiem/Form1?maBangKiem=BK003">Xem</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+    <script>
+        // Xử lý menu sidebar
+        document.querySelectorAll('.menu-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelectorAll('.menu-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                document.querySelectorAll('.section-content').forEach(sec => sec.classList.remove('active'));
+                const sectionId = 'section-' + this.getAttribute('data-section');
+                document.getElementById(sectionId).classList.add('active');
+            });
+        });
+
+        // Xử lý nút Sửa
+        document.querySelectorAll('.btn-edit').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const row = btn.closest('tr');
+                row.querySelector('.role-text').classList.add('d-none');
+                row.querySelector('.role-select').classList.remove('d-none');
+
+                row.querySelector('.password-text').classList.add('d-none');
+                row.querySelector('.password-input').classList.remove('d-none');
+
+                btn.classList.add('d-none');
+                row.querySelector('.btn-save').classList.remove('d-none');
+                row.querySelector('.btn-cancel').classList.remove('d-none');
+            });
+        });
+
+        // Hủy chỉnh sửa
+        document.querySelectorAll('.btn-cancel').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const row = btn.closest('tr');
+                row.querySelector('.role-select').classList.add('d-none');
+                row.querySelector('.role-text').classList.remove('d-none');
+
+                row.querySelector('.password-input').classList.add('d-none');
+                row.querySelector('.password-input').value = '';
+                row.querySelector('.password-text').classList.remove('d-none');
+
+                row.querySelector('.btn-edit').classList.remove('d-none');
+                row.querySelector('.btn-save').classList.add('d-none');
+                row.querySelector('.btn-cancel').classList.add('d-none');
+            });
+        });
+
+        // Lưu chỉnh sửa
+        document.querySelectorAll('.btn-save').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const row = btn.closest('tr');
+                const newRole = row.querySelector('.role-select').value;
+                const newPassword = row.querySelector('.password-input').value;
+
+                // Cập nhật UI
+                row.querySelector('.role-text').textContent = newRole;
+                row.querySelector('.role-text').classList.remove('d-none');
+                row.querySelector('.role-select').classList.add('d-none');
+
+                row.querySelector('.password-input').classList.add('d-none');
+                row.querySelector('.password-text').textContent = newPassword ? '••••••••' : row.querySelector('.password-text').textContent;
+                row.querySelector('.password-text').classList.remove('d-none');
+
+                row.querySelector('.btn-edit').classList.remove('d-none');
+                row.querySelector('.btn-save').classList.add('d-none');
+                row.querySelector('.btn-cancel').classList.add('d-none');
+
+                // TODO: Gửi dữ liệu về server qua AJAX nếu cần
+                // fetch('/User/Update', { method: 'POST', body: JSON.stringify(...) })
+            });
+        });
+    </script>
+    <script>
+        // Hiện form thêm khoa
+        document.getElementById('btn-show-add-khoa').addEventListener('click', function () {
+            document.getElementById('add-khoa-form').classList.remove('d-none');
+            this.classList.add('d-none');
+        });
+
+        // Hủy form thêm
+        document.getElementById('btn-cancel-khoa').addEventListener('click', function () {
+            document.getElementById('new-khoa-name').value = '';
+            document.getElementById('add-khoa-form').classList.add('d-none');
+            document.getElementById('btn-show-add-khoa').classList.remove('d-none');
+        });
+
+        // Lưu khoa mới
+        document.getElementById('btn-save-khoa').addEventListener('click', function () {
+            const newKhoa = document.getElementById('new-khoa-name').value.trim();
+            if (!newKhoa) {
+                alert('Vui lòng nhập tên khoa!');
+                return;
+            }
+
+            const tbody = document.getElementById('khoa-table-body');
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                    <td>${newKhoa}</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning">Sửa</button>
+                        <button class="btn btn-sm btn-danger btn-delete-khoa">Xóa</button>
+                    </td>
+                `;
+            tbody.appendChild(tr);
+
+            document.getElementById('new-khoa-name').value = '';
+            document.getElementById('add-khoa-form').classList.add('d-none');
+            document.getElementById('btn-show-add-khoa').classList.remove('d-none');
+
+            attachDeleteEvent(); // Gắn lại sự kiện xóa
+        });
+
+        // Gắn sự kiện xóa cho các nút xóa hiện có
+        function attachDeleteEvent() {
+            document.querySelectorAll('.btn-delete-khoa').forEach(btn => {
+                btn.removeEventListener('click', handleDelete); // tránh gắn trùng
+                btn.addEventListener('click', handleDelete);
+            });
+        }
+
+        function handleDelete(event) {
+            if (confirm('Bạn có chắc chắn muốn xóa khoa này?')) {
+                const row = event.target.closest('tr');
+                row.remove();
+            }
+        }
+
+        // Gắn sự kiện xóa khi load trang
+        attachDeleteEvent();
+    </script>
+    <script>
+        const dotList = document.getElementById('dot-list');
+        const yearDotCount = {}; // Theo dõi số đợt theo từng năm
+
+        // Hiện form thêm đợt
+        document.getElementById('btn-show-add-dot').addEventListener('click', () => {
+            document.getElementById('add-dot-form').classList.remove('d-none');
+            document.getElementById('btn-show-add-dot').classList.add('d-none');
+        });
+
+        // Hủy thêm đợt
+        document.getElementById('btn-cancel-dot').addEventListener('click', () => {
+            document.getElementById('add-dot-form').classList.add('d-none');
+            document.getElementById('btn-show-add-dot').classList.remove('d-none');
+            document.getElementById('start-date').value = '';
+            document.getElementById('end-date').value = '';
+        });
+
+        // Lưu đợt mới
+        document.getElementById('btn-save-dot').addEventListener('click', () => {
+            const start = document.getElementById('start-date').value;
+            const end = document.getElementById('end-date').value;
+
+            if (!start || !end) {
+                alert('Vui lòng chọn đầy đủ ngày bắt đầu và kết thúc!');
+                return;
+            }
+
+            const startDate = new Date(start);
+            const endDate = new Date(end);
+
+            if (endDate < startDate) {
+                alert('Ngày kết thúc phải sau ngày bắt đầu!');
+                return;
+            }
+
+            const year = startDate.getFullYear();
+
+            // Đếm số đợt của năm đó
+            yearDotCount[year] = (yearDotCount[year] || 0) + 1;
+            const dotNumber = yearDotCount[year];
+
+            const li = document.createElement('li');
+            li.classList.add('list-group-item');
+            li.textContent = `Đợt ${dotNumber} - từ ${formatDate(startDate)} đến ${formatDate(endDate)}`;
+
+            dotList.appendChild(li);
+
+            // Reset form
+            document.getElementById('start-date').value = '';
+            document.getElementById('end-date').value = '';
+            document.getElementById('add-dot-form').classList.add('d-none');
+            document.getElementById('btn-show-add-dot').classList.remove('d-none');
+        });
+
+        // Hàm format ngày: dd/mm/yyyy
+        function formatDate(date) {
+            const d = new Date(date);
+            return d.toLocaleDateString('vi-VN');
+        }
+    </script>
+
+
+    <script>
+        // JavaScript để ẩn/hiện nội dung tương ứng
+        document.querySelectorAll('.menu-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Xóa active khỏi tất cả liên kết
+                document.querySelectorAll('.menu-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+
+                // Ẩn tất cả section
+                document.querySelectorAll('.section-content').forEach(sec => sec.classList.remove('active'));
+
+                // Hiện section tương ứng
+                const sectionId = 'section-' + this.getAttribute('data-section');
+                document.getElementById(sectionId).classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>

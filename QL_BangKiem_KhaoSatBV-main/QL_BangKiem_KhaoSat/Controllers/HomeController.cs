@@ -17,14 +17,18 @@ namespace QL_BangKiem_KhaoSat.Controllers
         {
             return View();
         }
-    
+
         public IActionResult Privacy()
         {
             return View();
         }
         public IActionResult ds()
         {
-            return View();
+        return View();
+        }
+         public IActionResult Admin()
+        {   
+        return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -32,5 +36,6 @@ namespace QL_BangKiem_KhaoSat.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
     }
 }

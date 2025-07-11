@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QL_BangKiem_KhaoSat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400478e8bed127953562dbdb6c17bdcd2f149edd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be73ce9b2269e65224b1e30c6e4334ea797ccad")]
 [assembly: System.Reflection.AssemblyProductAttribute("QL_BangKiem_KhaoSat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QL_BangKiem_KhaoSat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
