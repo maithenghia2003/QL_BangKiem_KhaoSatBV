@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Danh sách Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background: #f4f6f8;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto 40px auto;
+        padding: 0 15px;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        min-height: 120px;
+        text-align: center;
+    }
+
+        .card:hover {
+            transform: scale(1.03);
+            background-color: #f0f0f0;
+        }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+<h1>Danh sách Bảng Kiểm</h1>
+
+<div class="grid-container" id="boardList">
+    <!-- Các card bảng kiểm sẽ được tạo động ở đây -->
+</div>
+
+@section Scripts {
+    <script>
+        const boards = [
+            { id: 1, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM TĨNH MẠCH" },
+            { id: 2, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM DƯỚI DA" },
+            { id: 3, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT TIÊM DƯỚI BẮP" },
+            { id: 4, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT TRUYỀN DỊCH" },
+            { id: 5, title: "BẢNG KIỂM KỸ THUẬT BĂNG THAY VẾT THƯƠNG NHIỄM" },
+            { id: 6, title: "BẢNG KIỂM THỰC HIỆN QUY TRÌNH KỸ THUẬT TRUYỀN MÁU" },
+            { id: 7, title: "BẢNG KIỂM THỰC HIỆN QUY TRÌNH KỸ THUẬT TIÊM TRUYỀN HÓA CHẤT TĨNH MẠCH NGOẠI VI" },
+            { id: 8, title: "BẢNG KIỂM KỸ THUẬT THAY BĂNG VẾT THƯƠNG VÔ KHUẨN" },
+            { id: 9, title: "BẢNG KIỂM KỸ THUẬT THAY BĂNG VẾT THƯƠNG CÓ ỐNG DẪN LƯU THƯỜNG" },
+            { id: 10, title: "BẢNG KIỂM KỸ THUẬT THAY BĂNG VẾT THƯƠNG CÓ ỐNG DẪN LƯU (RÚT ỐNG)" },
+            { id: 11, title: "BẢNG GIÁM SÁT NGƯỜI BỆNH ĐƯỢC ĐIỀU DƯỠNG THỰC HIỆN Y LỆNH THUỐC..." },
+            { id: 12, title: "Bảng Kiểm Thuốc Và Vật Tư" },
+            { id: 13, title: "Bảng Kiểm Kiểm Tra Nội Bộ" },
+            { id: 14, title: "Bảng Kiểm Bảo Trì Thiết Bị" },
+        ];
+
+        const boardListEl = document.getElementById('boardList');
+
+        boards.forEach(board => {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `<div class="card-title">${board.title}</div>`;
+            card.addEventListener('click', () => {
+                location.href = '/FormBangKiem/form' + board.id;
+            });
+            boardListEl.appendChild(card);
+        });
+    </script>
+}
