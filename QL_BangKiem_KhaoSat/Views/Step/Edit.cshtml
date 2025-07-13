@@ -1,0 +1,28 @@
+﻿@model QL_BangKiem_KhaoSat.Models.StepEntity
+@{
+    ViewData["Title"] = "Sửa Bước";
+    var formKey = ViewBag.FormKey as string ?? "Form1";
+}
+
+<h2>Sửa bước - @formKey</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <input type="hidden" name="FormKey" value="@Model.FormKey" />
+    <div class="form-group">
+        <label>Thứ tự bước</label>
+        <input type="number" class="form-control" name="StepIndex" value="@Model.StepIndex" required />
+    </div>
+    <div class="form-group">
+        <label>Nội dung bước</label>
+        <input type="text" class="form-control" name="StepName" value="@Model.StepName" required />
+    </div>
+    <div class="form-group">
+        <label>Trạng thái</label>
+        <select name="IsActive" class="form-control">
+            <option value="true" selected="@(Model.IsActive ? "selected" : null)">Đang dùng</option>
+            <option value="false" selected="@(Model.IsActive ? null : "selected")">Ẩn</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Lưu</button>
+    <a href="@Url.Action("Index", new { formKey = Model.FormKey })" class="btn btn-secondary mt-2">Quay lại</a>
+</form>

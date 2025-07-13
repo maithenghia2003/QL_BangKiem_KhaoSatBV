@@ -1,0 +1,31 @@
+﻿@model List<QL_BangKiem_KhaoSat.Models.BangKiemDanhGia>
+@{
+    var danhGiaList = Model as IEnumerable<QL_BangKiem_KhaoSat.Models.BangKiemDanhGia> ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemDanhGia>();
+}
+@if (!danhGiaList.Any())
+{
+    <div class="danh-gia-empty">Chưa có nhận xét nào.</div>
+}
+else
+{
+    foreach (var dg in danhGiaList)
+{
+    <div class="danh-gia-item" style="display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid #e6e6e6;">
+        <img src="@(dg.Avatar ?? "/img/avatar/1.png")" style="width:40px;height:40px;border-radius:50%;object-fit:cover;border:1.5px solid #b8d0ff;">
+        <div style="flex:1;">
+            <div style="font-weight:bold;font-size:15px;">@dg.NguoiDanhGia <span style="color:#888;font-size:12px;font-weight:normal;">@dg.ThoiGian.ToString("HH:mm dd/MM/yyyy")</span></div>
+            <div style="font-size:15px;color:#222;margin-top:2px;white-space:pre-wrap;">@dg.NoiDung</div>
+        </div>
+    </div>
+}
+}
+<style>
+    .danh-gia-item:last-child {
+        border-bottom: none;
+    }
+
+    .danh-gia-empty {
+        color: #bbb;
+        padding: 10px 0;
+    }
+</style>

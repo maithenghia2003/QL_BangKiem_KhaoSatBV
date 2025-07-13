@@ -1,0 +1,267 @@
+﻿@model QL_BangKiem_KhaoSat.Models.BangKiemEntity
+@{
+    ViewData["Title"] = "Sửa Form 3 - Bảng Kiểm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var steps = Model.KetQua?.ToList() ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemStepResult>();
+    var khoaList = ViewBag.KhoaList as List<QL_BangKiem_KhaoSat.Models.KhoaEntity> ?? new List<QL_BangKiem_KhaoSat.Models.KhoaEntity>();
+    // NoteNVYT lấy từ step đầu (hoặc property khác nếu bạn tách riêng)
+    var ghiChu = Model.Note ?? Model.GhiChu ?? "";
+}
+<style>
+    .a4-container {
+        background: white;
+        width: 794px;
+        min-height: 1123px;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 20px 15px;
+        box-sizing: border-box;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+    }
+
+    .logo {
+        width: 308px;
+        height: 52px;
+        background: #e0e0e0;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 52px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .date {
+        position: relative;
+        width: 341px;
+        height: 24px;
+        float: right;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .date input[type="date"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .department {
+        position: relative;
+        width: 219px;
+        height: 29px;
+        float: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+        .department input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .nurse {
+        position: relative;
+        width: 338px;
+        height: 29px;
+        float: right;
+        font-size: 14px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+        .nurse input[type="text"] {
+            margin-left: 8px;
+            flex: 1;
+            padding: 4px 6px;
+            font-size: 14px;
+        }
+
+    .clear-fix {
+        clear: both;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        table-layout: fixed;
+        word-wrap: break-word;
+    }
+
+    th, td {
+        border: 1px solid #000;
+        padding: 6px 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        background: #eee;
+    }
+
+    tbody tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    tbody td:nth-child(2) {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    input[type="radio"] {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+    }
+
+    .ddtk-label {
+        margin-top: 30px;
+        text-align: right;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    table, tr, td, th {
+        page-break-inside: avoid !important;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tfoot {
+        display: table-footer-group;
+    }
+</style>
+<form asp-action="Edit" method="post">
+    @Html.HiddenFor(m => m.Id)
+    <div class="a4-container">
+        <div class="logo" style="margin-bottom: 10px;">
+            <a href="https://benhvienungbuou.vn/" target="_blank">
+                <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
+            </a>
+        </div>
+        <div class="form-row">
+            <label>Khoa:</label>
+            <select name="Khoa" id="selectKhoa" class="form-control" style="max-width:240px">
+                <option value="">-- Chọn khoa --</option>
+                @foreach (var khoa in khoaList)
+{
+    var selected = Model.Khoa == khoa.TenKhoa ? "selected=\"selected\"" : "";
+    @:<option value="@khoa.TenKhoa" @Html.Raw(selected)>@khoa.TenKhoa</option>
+}
+
+            </select>
+        </div>
+        <div class="form-row">
+            <label>Ngày giám sát:</label>
+            <input type="date" name="NgayGiamSat" class="form-control" value="@(Model.NgayGiamSat.ToString("yyyy-MM-dd"))" style="max-width:170px;" />
+        </div>
+        <div class="form-row">
+            <label>Điều dưỡng thực hiện:</label>
+            <input type="text" name="DieuDuongThucHien" class="form-control" style="min-width:250px" value="@Model.DieuDuongThucHien" />
+        </div>
+        <div class="title">
+            <input type="text" name="Title" value="@Model.Title" placeholder="Nhập tên bảng kiểm..." style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
+        </div>
+        <!-- Group thao tác (nếu có) -->
+        @{
+            var thaoTacList = new List<string>();
+            if (!string.IsNullOrEmpty(Model.NhomThaoTacJson))
+            {
+                thaoTacList = System.Text.Json.JsonSerializer.Deserialize<List<string>>(Model.NhomThaoTacJson);
+            }
+        }
+        <div>
+            <b>Thời điểm đánh giá:</b>
+            @foreach (var item in thaoTacList)
+            {
+                <label style="margin-right:10px">
+                    <input type="checkbox" name="NhomThaoTacJson" value="@item" checked disabled /> @item
+                </label>
+            }
+        </div>
+        <!-- Note NVYT -->
+        <div style="margin: 8px 0;">
+            <label>Ghi chú NVYT 1:</label>
+            <input type="text" name="NoteNvyt1" class="form-control" style="max-width:300px;display:inline-block;" value="@ghiChu" />
+            &nbsp;&nbsp;
+            <label>Ghi chú NVYT 2:</label>
+            <input type="text" name="NoteNvyt2" class="form-control" style="max-width:300px;display:inline-block;" value="@ghiChu" />
+        </div>
+        <table border="1" cellspacing="0" cellpadding="5" style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th rowspan="2" style="width:6%;">STT</th>
+                    <th rowspan="2" style="width:35%;">Các bước tiến hành</th>
+                    <th colspan="3" style="width:29%;">NVYT Thực hiện 1</th>
+                    <th colspan="3" style="width:29%;">NVYT Thực hiện 2</th>
+                </tr>
+                <tr>
+                    <th>Thực hiện đầy đủ (1đ)</th>
+                    <th>Thực hiện chưa đạt (0.5đ)</th>
+                    <th>Không thực hiện (0đ)</th>
+                    <th>Thực hiện đầy đủ (1đ)</th>
+                    <th>Thực hiện chưa đạt (0.5đ)</th>
+                    <th>Không thực hiện (0đ)</th>
+                </tr>
+            </thead>
+            <tbody>
+            @for (int i = 0; i < steps.Count; i++)
+            {
+                var step = steps[i];
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>
+                        @Html.Hidden($"KetQua[{i}].StepName", step.StepName)
+                        @step.StepName
+                    </td>
+                    <!-- NVYT 1 -->
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom1" value="1" @(step.KetQuaNhom1 == 1 ? "checked" : "") />
+                    </td>
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom1" value="0.5" @(step.KetQuaNhom1 == 0.5 ? "checked" : "") />
+                    </td>
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom1" value="0" @(step.KetQuaNhom1 == 0 ? "checked" : "") />
+                    </td>
+                    <!-- NVYT 2 -->
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom2" value="1" @(step.KetQuaNhom2 == 1 ? "checked" : "") />
+                    </td>
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom2" value="0.5" @(step.KetQuaNhom2 == 0.5 ? "checked" : "") />
+                    </td>
+                    <td>
+                        <input type="radio" name="KetQua[@i].KetQuaNhom2" value="0" @(step.KetQuaNhom2 == 0 ? "checked" : "") />
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+        <div class="ddtk-label" style="margin-top:30px;">Giám sát viên: <input type="text" name="NguoiGiamSat" value="@Model.NguoiGiamSat" style="border:none;outline:none;font-weight:bold;" /></div>
+        <div style="margin-top:24px;">
+            <button type="submit" class="btn btn-primary">Lưu chỉnh sửa</button>
+            <a href="@Url.Action("Details", "BangKiem", new { id = Model.Id })" class="btn btn-secondary">Huỷ</a>
+        </div>
+    </div>
+</form>

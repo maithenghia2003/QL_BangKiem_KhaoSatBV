@@ -1,0 +1,30 @@
+﻿@model List<LichSuDuyetEntity>
+@{
+    ViewData["Title"] = "Lịch sử duyệt / từ chối";
+}
+
+<h2>Lịch sử duyệt / từ chối tài khoản</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Hành động</th>
+            <th>Thời gian</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.User?.HoTen</td>
+                <td>@item.User?.Email</td>
+                <td>@item.HanhDong</td>
+                <td>@item.ThoiGian.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

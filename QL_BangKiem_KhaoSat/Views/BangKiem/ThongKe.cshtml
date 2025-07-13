@@ -1,0 +1,76 @@
+﻿@using QL_BangKiem_KhaoSat.ViewModels
+@model List<BangKiemThongKeViewModel>
+@{
+    ViewData["Title"] = "Thống kê bảng kiểm";
+}
+<style>
+    .thongke-container {
+        max-width: 980px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 18px 0 rgba(44,62,80,.10);
+    }
+    .thongke-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+    }
+    .thongke-table th, .thongke-table td {
+        border: 1px solid #dee2e6;
+        padding: 10px 14px;
+        text-align: center;
+    }
+    .thongke-table th {
+        background: #f4f6fb;
+        font-weight: 600;
+    }
+</style>
+
+<div class="thongke-container">
+    <h2 style="font-size:22px;font-weight:700;text-align:center;margin-bottom:28px;">Thống kê bảng kiểm</h2>
+    <form method="get" style="margin-bottom:22px;display:flex;gap:15px;align-items:center;flex-wrap:wrap;">
+        <input type="text" name="formKey" placeholder="Tên Form" class="form-control" style="width:180px;" />
+        <input type="text" name="khoa" placeholder="Khoa" class="form-control" style="width:140px;" />
+        <input type="date" name="tuNgay" class="form-control" />
+        <input type="date" name="denNgay" class="form-control" />
+        <button type="submit" class="btn btn-primary">Lọc</button>
+    </form>
+    <table class="thongke-table">
+        <thead>
+            <tr>
+                <th>Form</th>
+                <th>Khoa</th>
+                <th>Số phiếu</th>
+                <th>Điểm TB</th>
+                <th>Số Đạt</th>
+                <th>Số chưa đạt</th>
+                <th>Tỉ lệ Đạt (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.TenForm</td>
+                    <td>@item.Khoa</td>
+                    <td>@item.SoLuongPhieu</td>
+                    <td>@(item.DiemTrungBinh.ToString("0.##"))</td>
+                    <td>@item.SoLuongDat</td>
+                    <td>@item.SoLuongChuaDat</td>
+                    <td>@item.TiLeDat %</td>
+                </tr>
+            }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center">Không có dữ liệu</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
