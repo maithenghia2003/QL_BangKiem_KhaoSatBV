@@ -1,0 +1,102 @@
+﻿@model KhoaEntity
+
+<style>
+    .them-khoa-form {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 14px 0 rgba(44,62,80,.09);
+        padding: 28px 24px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+        .them-khoa-form h4 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-label {
+        font-weight: 600;
+        margin-bottom: 6px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    .form-actions {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .btn-cancel {
+        margin-right: 10px;
+    }
+</style>
+
+<div class="them-khoa-form">
+    <h4>Thêm Khoa Mới</h4>
+    <form id="form-them-khoa" action="/Khoa/Save" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="form-group">
+            <label class="form-label" for="TenKhoa">Tên khoa</label>
+            <input name="TenKhoa" id="TenKhoa" class="form-control" value="@Model.TenKhoa" required />
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <button type="button" class="btn btn-secondary btn-cancel">Hủy</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('form-them-khoa');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(form);
+
+            fetch('/Khoa/Save', {
+                method: 'POST',
+                body: formData
+            })
+                .then(res => {
+                    if (res.ok) {
+                        alert('Thêm khoa thành công!');
+                        fetch('/Admin/DanhSachKhoa') // <-- Trang danh sách
+                            .then(res => res.text())
+                            .then(html => {
+                                document.getElementById('khoa-container').innerHTML = html;
+                            });
+                    } else {
+                        alert('Lưu thất bại!');
+                    }
+                })
+                .catch(err => {
+                    console.error(err);
+                    alert('Có lỗi xảy ra khi lưu.');
+                });
+        });
+
+        // Nút Hủy
+        document.querySelector('.btn-cancel').addEventListener('click', function () {
+            fetch('/Admin/DanhSachKhoa')
+                .then(res => res.text())
+                .then(html => {
+                    document.getElementById('khoa-container').innerHTML = html;
+                });
+        });
+    });
+
+</script>

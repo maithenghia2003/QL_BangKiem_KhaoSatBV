@@ -1,0 +1,43 @@
+﻿@model QL_BangKiem_KhaoSat.Models.UserEntity
+@{
+    var vaiTros = ViewBag.VaiTros as List<QL_BangKiem_KhaoSat.Models.VaiTroEntity>;
+}
+
+<div class="card mt-4 p-3" id="sua-tai-khoan-form">
+    <h5 class="mb-3">Chỉnh sửa tài khoản</h5>
+    <form asp-action="CapNhatTaiKhoan" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="form-group mb-3">
+            <label>Họ tên</label>
+            <input class="form-control" name="HoTen" value="@Model.HoTen" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label>Email</label>
+            <input class="form-control" name="Email" value="@Model.Email" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label>Vai trò</label>
+            <select class="form-control" name="VaiTroId">
+                @foreach (var vt in vaiTros)
+                {
+                    var selected = vt.Id == Model.VaiTroId ? "selected" : "";
+                    <option value="@vt.Id" selected="@selected">@vt.TenVaiTro</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group text-end">
+            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            <button type="button" class="btn btn-secondary" onclick="hideForm()">Hủy</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function hideForm() {
+        document.getElementById("sua-tai-khoan-form").remove();
+    }
+</script>

@@ -1,0 +1,180 @@
+﻿@model Tuple<List<KhoaEntity>, KhoaEntity>
+
+@{
+    var dsKhoa = Model.Item1;
+    var khoaForm = Model.Item2 ?? new KhoaEntity();
+    bool isEditing = khoaForm.Id != 0;
+    ViewData["Title"] = "Danh sách khoa";
+}
+
+<style>
+    .a4-container {
+        background: #fff;
+        max-width: 750px;
+        margin: 40px auto;
+        border-radius: 12px;
+        box-shadow: 0 0 14px 0 rgba(44,62,80,.09);
+        padding: 30px 20px;
+        font-size: 16px;
+    }
+
+    .table-title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+    }
+
+        .custom-table th, .custom-table td {
+            border: 1px solid #dee2e6;
+            padding: 10px 12px;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background: #f4f6fb;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .custom-table tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+    .btn-action {
+        padding: 6px 14px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 4px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .btn-edit {
+        background: #3bc9db;
+    }
+
+    .btn-delete {
+        background: #fa5252;
+    }
+
+    .btn-add {
+        background: #228be6;
+        color: #fff;
+        border-radius: 5px;
+        padding: 8px 18px;
+        font-weight: 600;
+        text-decoration: none;
+        margin-bottom: 18px;
+        display: inline-block;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .form-label {
+        font-weight: 600;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 7px 12px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .form-actions {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        background: #228be6;
+        color: #fff;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 7px;
+        font-weight: 600;
+    }
+
+    .btn-secondary {
+        background: #adb5bd;
+        color: #fff;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 7px;
+        font-weight: 600;
+    }
+</style>
+
+<div class="a4-container">
+    <div class="table-title">Danh sách Khoa</div>
+    <a href="#" class="btn-add btn-them-khoa">+ Thêm Khoa</a>
+
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th style="width:50px">ID</th>
+                <th style="width:300px">Tên khoa</th>
+                <th style="width:160px">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in dsKhoa)
+            {
+                <tr>
+                    <td style="text-align:center">@item.Id</td>
+                    <td>@item.TenKhoa</td>
+                    <td style="text-align:center">
+                        <form method="post" action="/Khoa/Delete" style="display:inline;"
+                              onsubmit="return confirm('Bạn có chắc chắn muốn xóa khoa này không?');">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn-action btn-delete">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.addEventListener('click', function (e) {
+        if (e.target.classList.contains('btn-xoa-khoa')) {
+            e.preventDefault();
+            const id = e.target.dataset.id;
+
+            if (confirm('Bạn có chắc chắn muốn xóa khoa này không?')) {
+                fetch(`/Khoa/Delete?id=${id}`, {
+                    method: 'POST'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) {
+                            alert(data.message);
+                            window.location.href = data.redirectUrl;
+                        } else {
+                            alert(data.message || 'Xóa không thành công');
+                        }
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        alert('Đã xảy ra lỗi khi xóa.');
+                    });
+            }
+        }
+    });
+</script>
