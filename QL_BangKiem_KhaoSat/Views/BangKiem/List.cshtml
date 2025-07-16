@@ -1,43 +1,187 @@
-﻿
+﻿@using System.Linq
+@model IEnumerable<QL_BangKiem_KhaoSat.Models.BangKiemEntity>
 @{
     ViewData["Title"] = "Danh sách Bảng Kiểm";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var currentUserName = User.Identity?.Name;
+    var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value ?? "";
+    var selectedForm = Context.Request.Query["tenForm"].ToString();
+    var selectedTitle = Context.Request.Query["title"].ToString();
+    var selectedKhoa = Context.Request.Query["khoa"].ToString();
+    var selectedNguoiGiamSat = Context.Request.Query["nguoiGiamSat"].ToString();
+    var selectedDieuDuong = Context.Request.Query["dieuDuongThucHien"].ToString();
+    var selectedfromDate = Context.Request.Query["fromDate"].ToString();
+    var selectedtoDate = Context.Request.Query["toDate"].ToString();
 }
-<h1>Danh sách Bảng Kiểm Đã Tạo</h1>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Loại Form</th>
-            <th>Tên Bảng</th>
-            <th>Ngày giám sát</th>
-            <th>Khoa</th>
-            <th>Người giám sát</th>
-            <th>Ngày tạo</th>
-            <th>Thao tác</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.TenForm</td>
-                <td>@item.Title</td>
-                <td>@item.NgayGiamSat.ToString("dd/MM/yyyy")</td>
-                <td>@item.Khoa</td>
-                <td>@item.NguoiGiamSat</td>
-                <td>@item.NgayTao.ToString("dd/MM/yyyy HH:mm")</td>
-                <td>
-                    <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-sm btn-info">Xem</a>
-                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-warning">Sửa</a>
-                    <form asp-action="Delete" asp-route-id="@item.Id" method="post"
-                          style="display:inline"
-                          onsubmit="return confirm('Xác nhận xoá?');">
-                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
-                    </form>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<!-- Link Bootstrap 5 và DataTables -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+<style>
+    .ds-container {
+        width: 65vw;
+        max-width: 65vw;
+        padding: 34px 40px 28px 40px;
+        margin: 36px auto 40px auto;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 2px 20px rgba(80,120,180,.11);
+        overflow-x: auto;
+    }
+    .ds-title {
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 0.7px;
+        margin-bottom: 20px;
+        color: #2652aa;
+        text-align: center;
+    }
+    .ds-filter-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px 18px;
+        align-items: end;
+        margin-bottom: 24px;
+        background: #f5f8ff;
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: 0 0 8px #e2e9f8;
+    }
+    .ds-filter-row > div {
+        min-width: 165px;
+    }
+    .ds-btn-action {
+        margin-right: 5px;
+    }
+</style>
+
+<div class="ds-container">
+    <div class="ds-title">Danh sách Bảng Kiểm Đã Tạo</div>
+    <form asp-action="List" method="get" class="ds-filter-row">
+        <div>
+            <label class="form-label mb-1">Loại Form:</label>
+            <select name="tenForm" class="form-select form-select-sm">
+                <option value="">Tất cả</option>
+                @foreach (var item in ViewBag.FormList as List<string>)
+                {
+                    var selected = item == selectedForm ? "selected" : "";
+                    @Html.Raw($"<option value=\"{item}\" {selected}>{item}</option>")
+                }
+            </select>
+        </div>
+        <div>
+            <label class="form-label mb-1">Tên bảng kiểm:</label>
+            <input type="text" name="title" value="@selectedTitle" class="form-control form-control-sm" />
+        </div>
+        <div>
+            <label class="form-label mb-1">Khoa:</label>
+            <select name="khoa" class="form-select form-select-sm">
+                <option value="">Tất cả</option>
+                @foreach (var k in ViewBag.KhoaList as List<string>)
+                {
+                    var selected = k == selectedKhoa ? "selected" : "";
+                    @Html.Raw($"<option value=\"{k}\" {selected}>{k}</option>")
+                }
+            </select>
+        </div>
+        <div>
+            <label class="form-label mb-1">Người giám sát:</label>
+            <input type="text" name="nguoiGiamSat" value="@selectedNguoiGiamSat" class="form-control form-control-sm" />
+        </div>
+        <div>
+            <label class="form-label mb-1">Điều dưỡng:</label>
+            <input type="text" name="dieuDuongThucHien" value="@selectedDieuDuong" class="form-control form-control-sm" />
+        </div>
+        <div>
+            <label class="form-label mb-1">Ngày tạo từ:</label>
+            <input type="date" name="fromDate" value="@selectedfromDate" class="form-control form-control-sm" />
+        </div>
+        <div>
+            <label class="form-label mb-1">Đến ngày:</label>
+            <input type="date" name="toDate" value="@selectedtoDate" class="form-control form-control-sm" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary px-4" style="margin-top:8px;">Lọc</button>
+        </div>
+    </form>
+
+    <div class="table-responsive">
+        <table id="dsTable" class="table table-bordered align-middle mb-0 w-100">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Loại Form</th>
+                    <th>Tên Bảng</th>
+                    <th>Ngày giám sát</th>
+                    <th>Khoa</th>
+                    <th>Người giám sát</th>
+                    <th>Ngày tạo</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.TenForm</td>
+                            <td>@item.Title</td>
+                            <td>@item.NgayGiamSat.ToString("dd/MM/yyyy")</td>
+                            <td>@item.Khoa</td>
+                            <td>@item.NguoiGiamSat</td>
+                            <td>@item.NgayTao.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td>
+                                <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-sm btn-info ds-btn-action" title="Xem"><i class="fas fa-eye"></i></a>
+                                @if (userRole == "Admin" || userRole == "Giám sát viên" || (userRole == "Điều dưỡng" && item.NguoiTao == currentUserName))
+                                {
+                                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-warning ds-btn-action" title="Sửa"><i class="fas fa-edit"></i></a>
+                                }
+                                @if (userRole == "Admin")
+                                {
+                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline" onsubmit="return confirm('Xác nhận xoá?');">
+                                        <button type="submit" class="btn btn-sm btn-danger ds-btn-action" title="Xoá"><i class="fas fa-trash-alt"></i></button>
+                                    </form>
+                                }
+                                @if (userRole == "Admin" || userRole == "Giám sát viên" || userRole == "Điều dưỡng")
+                                {
+                                    <a href="@Url.Action("Edit", "BangKiem", new { id = item.Id, reuse = true })" class="btn btn-info btn-sm ds-btn-action" title="Tái sử dụng"><i class="fas fa-redo"></i></a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="8" class="text-center text-muted" style="font-style:italic;">Không có dữ liệu phù hợp</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dsTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/vi.json'
+                },
+                pageLength: 10,
+                lengthMenu: [5, 10, 20, 50],
+                columnDefs: [
+                    { orderable: false, targets: -1 } // Disable sort on action column
+                ]
+            });
+        });
+    </script>
+}

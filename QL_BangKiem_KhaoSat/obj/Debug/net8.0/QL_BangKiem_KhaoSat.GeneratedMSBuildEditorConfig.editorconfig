@@ -28,12 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYW5nTmhhcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Admin/ChoDuyet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hvRHV5ZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Admin/LichSu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGljaFN1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/DanhGiaList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cRGFuaEdpYUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form1.cshtml]
@@ -76,6 +84,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form4Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTREZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/form4Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cZm9ybTRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/BangKiem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFuZ0tpZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -106,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/MaiTheNghia/Downloads/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSatBV-main/QL_BangKiem_KhaoSat/Views/Shared/_ValidationScriptsPartial.cshtml]

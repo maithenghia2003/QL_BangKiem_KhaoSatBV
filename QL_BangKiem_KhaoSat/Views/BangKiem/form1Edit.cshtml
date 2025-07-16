@@ -4,6 +4,7 @@
     ViewBag.Title = "Sửa bảng kiểm";
     var steps = Model.KetQua?.ToList() ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemStepResult>();
     var khoaList = ViewBag.KhoaList as List<QL_BangKiem_KhaoSat.Models.KhoaEntity>;
+    bool isReuse = ViewBag.IsReuse == true;
 }
 
 <style>
@@ -151,9 +152,9 @@
     }
 </style>
 
-<form asp-action="Edit" method="post">
-    <input type="hidden" name="Id" value="@Model.Id" />
-
+<form asp-action="@(isReuse ? "Create" : "Edit")" method="post">
+    <input type="hidden" name="Id" value="@(isReuse ? 0 : Model.Id)" />
+    <input type="hidden" name="TenForm" value="@Model.TenForm" />
     <div class="a4-container">
         <div class="logo">
             <a href="https://benhvienungbuou.vn/" target="_blank">

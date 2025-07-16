@@ -1,15 +1,63 @@
 ﻿@model QL_BangKiem_KhaoSat.Models.StepEntity
 @{
     ViewData["Title"] = "Xóa Bước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Xóa bước này?</h2>
-<div>
-    <strong>Thứ tự:</strong> @Model.StepIndex<br />
-    <strong>Nội dung:</strong> @Model.StepName
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+    .ds-container {
+        width: 85vw;
+        max-width: 650px;
+        margin: 40px auto;
+        padding: 30px 34px;
+        background: #fff;
+        border-radius: 14px;
+        box-shadow: 0 2px 18px rgba(0,0,0,0.08);
+        text-align: center;
+    }
+
+    .ds-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #d9534f;
+        margin-bottom: 24px;
+    }
+
+    .ds-info {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+        .ds-info strong {
+            color: #264d99;
+        }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="ds-container">
+    <div class="ds-title"><i class="fas fa-trash-alt"></i> Xác nhận xóa bước</div>
+
+    <div class="ds-info">
+        <p><strong>Thứ tự:</strong> @Model.StepIndex</p>
+        <p><strong>Nội dung:</strong> @Model.StepName</p>
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="btn-group">
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-trash"></i> Xóa vĩnh viễn
+            </button>
+            <a href="@Url.Action("Index", new { formKey = Model.FormKey })" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Hủy
+            </a>
+        </div>
+    </form>
 </div>
-<form asp-action="Delete" method="post">
-    <input type="hidden" name="Id" value="@Model.Id" />
-    <button type="submit" class="btn btn-danger mt-2">Xác nhận xóa (ẩn)</button>
-    <a href="@Url.Action("Index", new { formKey = Model.FormKey })" class="btn btn-secondary mt-2">Hủy</a>
-</form>

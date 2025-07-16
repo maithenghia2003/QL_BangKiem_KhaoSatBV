@@ -16,6 +16,7 @@ namespace QL_BangKiem_KhaoSat.Data
         public DbSet<BangKiemSubStepResult> BangKiemSubStepResults { get; set; }
         public DbSet<StepEntity> StepEntities { get; set; }
         public DbSet<KhoaEntity> Khoas { get; set; }
+        public DbSet<BangKiemDanhGia> BangKiemDanhGias { get; set; }
 
     }
 }

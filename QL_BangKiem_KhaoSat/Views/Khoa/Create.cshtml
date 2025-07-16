@@ -1,76 +1,88 @@
 ﻿@model KhoaEntity
 @{
     ViewData["Title"] = Model.Id == 0 ? "Thêm khoa" : "Sửa khoa";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+
 <style>
-    .a4-container {
-        background: #fff;
-        max-width: 500px;
+    .khoa-form-container {
+        max-width: 600px;
         margin: 40px auto;
+        background: #fff;
         border-radius: 12px;
-        box-shadow: 0 0 14px 0 rgba(44,62,80,.09);
         padding: 32px 28px;
-        font-size: 16px;
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.05);
     }
 
-        .a4-container h2 {
-            font-size: 22px;
-            text-align: center;
-            margin-bottom: 22px;
-            font-weight: 700;
-        }
-
-    .form-group {
-        margin-bottom: 18px;
+    .khoa-form-header {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 28px;
+        color: #2c3e50;
     }
 
     .form-label {
         font-weight: 600;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
         display: block;
     }
 
     .form-control {
-        width: 100%;
-        padding: 7px 12px;
-        border-radius: 6px;
-        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px 14px;
+        border: 1px solid #ced4da;
         font-size: 16px;
     }
 
     .form-actions {
         display: flex;
-        gap: 10px;
         justify-content: flex-end;
-        margin-top: 20px;
+        gap: 12px;
+        margin-top: 26px;
     }
 
     .btn-primary {
-        background: #228be6;
-        color: #fff;
+        background-color: #228be6;
         border: none;
-        padding: 8px 20px;
-        border-radius: 7px;
+        padding: 10px 24px;
         font-weight: 600;
+        border-radius: 7px;
+        color: white;
+        transition: 0.2s;
     }
 
+        .btn-primary:hover {
+            background-color: #1c7ed6;
+        }
+
     .btn-secondary {
-        background: #adb5bd;
-        color: #fff;
+        background-color: #adb5bd;
         border: none;
-        padding: 8px 20px;
-        border-radius: 7px;
+        padding: 10px 22px;
         font-weight: 600;
+        border-radius: 7px;
+        color: white;
+        transition: 0.2s;
     }
+
+        .btn-secondary:hover {
+            background-color: #868e96;
+        }
 </style>
-<div class="a4-container">
-    <h2>@ViewData["Title"]</h2>
+
+<div class="khoa-form-container">
+    <div class="khoa-form-header">@ViewData["Title"]</div>
+
     <form method="post">
         <input type="hidden" asp-for="Id" />
-        <div class="form-group">
-            <label class="form-label" asp-for="TenKhoa"></label>
-            <input asp-for="TenKhoa" class="form-control" required />
+
+        <div class="mb-3">
+            <label asp-for="TenKhoa" class="form-label">Tên khoa</label>
+            <input asp-for="TenKhoa" class="form-control" required placeholder="Nhập tên khoa..." />
+            <span asp-validation-for="TenKhoa" class="text-danger"></span>
         </div>
+
         <div class="form-actions">
             <button type="submit" class="btn btn-primary">Lưu</button>
             <a href="/Khoa" class="btn btn-secondary">Quay lại</a>

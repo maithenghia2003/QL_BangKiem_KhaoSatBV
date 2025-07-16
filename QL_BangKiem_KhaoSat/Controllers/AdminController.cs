@@ -67,7 +67,10 @@ namespace QL_BangKiem_KhaoSat.Controllers
                             .ToList();
             return View(lichSu);
         }
-
+        public IActionResult Admin()
+        {
+            return View();
+        }
 
     }
 

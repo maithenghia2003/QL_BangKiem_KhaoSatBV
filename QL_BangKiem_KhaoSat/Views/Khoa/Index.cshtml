@@ -1,23 +1,42 @@
 ﻿@model List<KhoaEntity>
 @{
-    ViewData["Title"] = "Danh sách khoa";
+    ViewData["Title"] = "Quản lý khoa";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+
 <style>
-    .a4-container {
-        background: #fff;
-        max-width: 750px;
-        margin: 40px auto;
-        border-radius: 12px;
-        box-shadow: 0 0 14px 0 rgba(44,62,80,.09);
-        padding: 30px 20px;
-        font-size: 16px;
+    .khoa-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
-    .table-title {
-        font-size: 22px;
+    .khoa-title {
+        font-size: 26px;
         font-weight: 700;
-        margin-bottom: 20px;
-        text-align: center;
+        color: #2c3e50;
+    }
+
+    .btn-add {
+        background-color: #228be6;
+        color: #fff;
+        padding: 10px 18px;
+        font-weight: 600;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+        .btn-add:hover {
+            background-color: #1c7ed6;
+        }
+
+    .table-wrapper {
+        background: #fff;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 0 16px rgba(0,0,0,0.05);
     }
 
     .custom-table {
@@ -28,74 +47,85 @@
 
         .custom-table th, .custom-table td {
             border: 1px solid #dee2e6;
-            padding: 10px 12px;
-            text-align: left;
+            padding: 12px;
+            vertical-align: middle;
         }
 
         .custom-table th {
-            background: #f4f6fb;
+            background: #f1f5fb;
             font-weight: 600;
             text-align: center;
         }
 
-        .custom-table tr:nth-child(even) {
-            background: #f8fafc;
+        .custom-table td {
+            background: #fff;
         }
 
     .btn-action {
-        padding: 6px 14px;
+        padding: 6px 12px;
         border-radius: 5px;
-        font-size: 15px;
-        font-weight: 600;
-        margin-right: 4px;
+        font-weight: 500;
+        font-size: 14px;
         text-decoration: none;
         color: #fff;
+        margin-right: 5px;
+        transition: 0.2s;
     }
 
     .btn-edit {
-        background: #3bc9db;
+        background-color: #40c057;
     }
+
+        .btn-edit:hover {
+            background-color: #37b24d;
+        }
 
     .btn-delete {
-        background: #fa5252;
+        background-color: #fa5252;
     }
 
-    .btn-add {
-        background: #228be6;
-        color: #fff;
-        border-radius: 5px;
-        padding: 8px 18px;
-        font-weight: 600;
-        text-decoration: none;
-        margin-bottom: 18px;
-        display: inline-block;
-    }
+        .btn-delete:hover {
+            background-color: #f03e3e;
+        }
 </style>
-<div class="a4-container">
-    <div class="table-title">
-        Danh sách Khoa
+
+<div class="container-fluid px-4">
+    <div class="khoa-header">
+        <div class="khoa-title">Quản lý Khoa</div>
+        <a href="/Khoa/Create" class="btn-add">+ Thêm Khoa</a>
     </div>
-    <a href="/Khoa/Create" class="btn-add">+ Thêm Khoa</a>
-    <table class="custom-table">
-        <thead>
-            <tr>
-                <th style="width:50px">ID</th>
-                <th style="width:300px">Tên khoa</th>
-                <th style="width:160px">Thao tác</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+
+    <div class="table-wrapper">
+        <table class="custom-table">
+            <thead>
                 <tr>
-                    <td style="text-align:center">@item.Id</td>
-                    <td>@item.TenKhoa</td>
-                    <td style="text-align:center">
-                        <a href="/Khoa/Create?id=@item.Id" class="btn-action btn-edit">Sửa</a>
-                        <a href="/Khoa/Delete?id=@item.Id" class="btn-action btn-delete" onclick="return confirm('Xóa khoa này?');">Xóa</a>
-                    </td>
+                    <th style="width: 60px;">ID</th>
+                    <th>Tên khoa</th>
+                    <th style="width: 180px;">Thao tác</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-center">@item.Id</td>
+                            <td>@item.TenKhoa</td>
+                            <td class="text-center">
+                                <a href="/Khoa/Create?id=@item.Id" class="btn-action btn-edit">Sửa</a>
+                                <a href="/Khoa/Delete?id=@item.Id" class="btn-action btn-delete" onclick="return confirm('Bạn chắc chắn muốn xóa khoa này?');">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="3" class="text-center text-muted fst-italic">Không có khoa nào được tìm thấy.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>

@@ -3,6 +3,7 @@
     ViewData["Title"] = "Sửa bảng kiểm Form 2";
     var steps = Model.KetQua?.ToList() ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemStepResult>();
     var khoaList = ViewBag.KhoaList as List<QL_BangKiem_KhaoSat.Models.KhoaEntity>;
+    bool isReuse = ViewBag.IsReuse == true;
 }
 
 <style>
@@ -139,10 +140,10 @@
     }
 </style>
 
-<form asp-action="EditForm2" method="post">
-    <input type="hidden" asp-for="Id" />
-
-    <div class="a4-container" id="capture">
+<form asp-action="@(isReuse ? "Create" : "Edit")" method="post">
+    <input type="hidden" name="Id" value="@(isReuse ? 0 : Model.Id)" />
+    <input type="hidden" name="TenForm" value="@Model.TenForm" />
+    <div class="a4-container">
         <div class="logo">
             <a href="https://benhvienungbuou.vn/" target="_blank">
                 <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
@@ -217,19 +218,23 @@
                 }
             </tbody>
         </table>
-
         <div class="note-section">
             <label for="note">Ghi chú:</label><br />
             <textarea name="Note" id="note" rows="4">@(!string.IsNullOrWhiteSpace(Model.Note) ? Model.Note : Model.GhiChu)</textarea>
-
         </div>
-
-        <div class="ddtk-label">ĐDTK/ Giám sát viên: <input type="text" name="NguoiGiamSat" value="@Model.NguoiGiamSat" /></div>
+        <div class="ddtk-label">
+            ĐDTK/ Giám sát viên: <input type="text" name="NguoiGiamSat" value="@Model.NguoiGiamSat" style="border:none;border-bottom:1px dotted #888;outline:none;" />
+        </div>
     </div>
 
     <div style="text-align:center; margin-top: 20px;">
-        <button type="submit" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+        <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px;">
             Lưu thay đổi
         </button>
+        <a href="@Url.Action("Details", "BangKiem", new { id = Model.Id })" class="btn btn-secondary">Quay lại</a>
     </div>
 </form>
+
+        
+
+        

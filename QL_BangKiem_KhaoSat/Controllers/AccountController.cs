@@ -4,6 +4,8 @@ using QL_BangKiem_KhaoSat.Data;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace QL_BangKiem_KhaoSat.Controllers
 {
@@ -31,7 +33,13 @@ namespace QL_BangKiem_KhaoSat.Controllers
                 ViewBag.VaiTros = new SelectList(_db.VaiTros.ToList(), "Id", "TenVaiTro"); // PHẢI có lại khi return view
                 return View(model);
             }
-
+            var emailExists = _db.Users.Any(u => u.Email == model.Email);
+            if (emailExists)
+            {
+                ModelState.AddModelError("Email", "Email đã được sử dụng.");
+                ViewBag.VaiTros = new SelectList(_db.VaiTros.ToList(), "Id", "TenVaiTro");
+                return View(model);
+            }
             var hashedPassword = Convert.ToBase64String(SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes(model.MatKhau)));
 
             var user = new UserEntity
@@ -55,7 +63,7 @@ namespace QL_BangKiem_KhaoSat.Controllers
         public IActionResult DangNhap() => View();
 
         [HttpPost]
-        public IActionResult DangNhap(DangNhapModel model)
+        public async Task<IActionResult> DangNhap(DangNhapModel model)
         {
             if (!ModelState.IsValid) return View(model);
 
@@ -78,23 +86,37 @@ namespace QL_BangKiem_KhaoSat.Controllers
                 return View(model);
             }
 
-            // ✅ Ghi session
+            // --- Thêm code này ---
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Name, user.HoTen ?? user.Email),
+        new Claim(ClaimTypes.Email, user.Email),
+        new Claim(ClaimTypes.Role, user.VaiTro ?? "")
+    };
+            var claimsIdentity = new ClaimsIdentity(claims, "MyCookieAuth");
+            var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+            await HttpContext.SignInAsync("MyCookieAuth", claimsPrincipal);
+
+            // --- Nếu vẫn muốn lưu session cho các chỗ khác dùng, vẫn giữ như cũ ---
             HttpContext.Session.SetString("UserName", user.HoTen);
             HttpContext.Session.SetInt32("UserId", user.Id);
             HttpContext.Session.SetString("VaiTro", user.VaiTro);
+            HttpContext.Session.SetString("Email", user.Email);
+
 
             TempData["Message"] = "Đăng nhập thành công";
 
-            // ✅ Điều hướng theo vai trò
             if (user.VaiTro == "Admin")
                 return RedirectToAction("ChoDuyet", "Admin");
 
-            // Giám sát viên hoặc Điều dưỡng thì về trang tạo bảng kiểm
             return RedirectToAction("Form1", "BangKiem");
         }
         [HttpGet]
-        public IActionResult DangXuat()
+        public async Task<IActionResult> DangXuat()
         {
+            await HttpContext.SignOutAsync("MyCookieAuth");
             HttpContext.Session.Clear(); // Xóa toàn bộ session
             return RedirectToAction("Index", "Home"); // Về trang chủ
         }

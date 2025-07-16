@@ -1,76 +1,187 @@
 ﻿@using QL_BangKiem_KhaoSat.ViewModels
 @model List<BangKiemThongKeViewModel>
+
 @{
     ViewData["Title"] = "Thống kê bảng kiểm";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+
 <style>
-    .thongke-container {
-        max-width: 980px;
-        margin: 40px auto;
-        background: #fff;
-        padding: 30px 20px;
-        border-radius: 15px;
-        box-shadow: 0 0 18px 0 rgba(44,62,80,.10);
+    .admin-stat-container {
+        padding: 20px 30px;
+        background-color: #f8f9fa;
+        min-height: 100vh;
     }
-    .thongke-table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 15px;
+
+    .stat-header {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #1f3a8a;
     }
-    .thongke-table th, .thongke-table td {
-        border: 1px solid #dee2e6;
-        padding: 10px 14px;
+
+    .filter-card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        margin-bottom: 30px;
+    }
+
+        .filter-card .form-label {
+            font-weight: 500;
+        }
+
+    .stat-table-wrapper {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    .stat-table th {
+        background-color: #f1f5f9;
+        color: #1e40af;
+        font-weight: 600;
         text-align: center;
     }
-    .thongke-table th {
-        background: #f4f6fb;
-        font-weight: 600;
+
+    .stat-table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    media (max-width: 768px) {
+        .filter-grid
+
+    {
+        display: block !important;
+    }
+
     }
 </style>
 
-<div class="thongke-container">
-    <h2 style="font-size:22px;font-weight:700;text-align:center;margin-bottom:28px;">Thống kê bảng kiểm</h2>
-    <form method="get" style="margin-bottom:22px;display:flex;gap:15px;align-items:center;flex-wrap:wrap;">
-        <input type="text" name="formKey" placeholder="Tên Form" class="form-control" style="width:180px;" />
-        <input type="text" name="khoa" placeholder="Khoa" class="form-control" style="width:140px;" />
-        <input type="date" name="tuNgay" class="form-control" />
-        <input type="date" name="denNgay" class="form-control" />
-        <button type="submit" class="btn btn-primary">Lọc</button>
+<div class="admin-stat-container">
+    <div class="stat-header">📊 Thống kê bảng kiểm</div>
+
+    <!-- Bộ lọc -->
+    <form method="get" asp-action="ThongKe" class="filter-card">
+        <div class="row filter-grid g-3">
+            <div class="col-md-2">
+                <label class="form-label">Loại Form</label>
+                <select name="formKey" class="form-select form-select-sm">
+                    <option value="">Tất cả</option>
+                    <option value="Form1">Form1</option>
+                    <option value="Form2">Form2</option>
+                    <option value="Form3">Form3</option>
+                    <option value="Form4">Form4</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Khoa</label>
+                <select name="khoa" class="form-select form-select-sm">
+                    <option value="">Tất cả</option>
+                    @foreach (var khoa in (List<string>)ViewBag.KhoaList)
+                    {
+                        <option value="@khoa">@khoa</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-1">
+                <label class="form-label">Năm</label>
+                <select name="nam" class="form-select form-select-sm">
+                    <option value="">Tất cả</option>
+                    @foreach (var year in (List<int>)ViewBag.YearList)
+                    {
+                        <option value="@year">@year</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-1">
+                <label class="form-label">Quý</label>
+                <select name="quy" class="form-select form-select-sm">
+                    <option value="">Tất cả</option>
+                    <option value="1">Q1</option>
+                    <option value="2">Q2</option>
+                    <option value="3">Q3</option>
+                    <option value="4">Q4</option>
+                </select>
+            </div>
+
+            <div class="col-md-1">
+                <label class="form-label">Tháng</label>
+                <select name="thang" class="form-select form-select-sm">
+                    <option value="">Tất cả</option>
+                    @for (int i = 1; i <= 12; i++)
+                    {
+                        <option value="@i">Tháng @i</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Từ ngày</label>
+                <input type="date" name="tuNgay" class="form-control form-control-sm" />
+            </div>
+
+            <div class="col-md-2">
+                <label class="form-label">Đến ngày</label>
+                <input type="date" name="denNgay" class="form-control form-control-sm" />
+            </div>
+
+            <div class="col-md-1 d-grid">
+                <label class="form-label invisible">Lọc</label>
+                <button type="submit" class="btn btn-primary btn-sm">Lọc</button>
+            </div>
+        </div>
     </form>
-    <table class="thongke-table">
-        <thead>
-            <tr>
-                <th>Form</th>
-                <th>Khoa</th>
-                <th>Số phiếu</th>
-                <th>Điểm TB</th>
-                <th>Số Đạt</th>
-                <th>Số chưa đạt</th>
-                <th>Tỉ lệ Đạt (%)</th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (Model != null && Model.Any())
-            {
-            @foreach (var item in Model)
-            {
+
+    <!-- Bảng thống kê -->
+    <div class="stat-table-wrapper table-responsive">
+        <table class="table table-bordered table-hover stat-table mb-0">
+            <thead>
                 <tr>
-                    <td>@item.TenForm</td>
-                    <td>@item.Khoa</td>
-                    <td>@item.SoLuongPhieu</td>
-                    <td>@(item.DiemTrungBinh.ToString("0.##"))</td>
-                    <td>@item.SoLuongDat</td>
-                    <td>@item.SoLuongChuaDat</td>
-                    <td>@item.TiLeDat %</td>
+                    <th>Tên Form</th>
+                    <th>Khoa</th>
+                    <th>Năm</th>
+                    <th>Quý</th>
+                    <th>Tháng</th>
+                    <th>Số phiếu</th>
+                    <th>Điểm TB</th>
+                    <th>Số lượng đạt</th>
+                    <th>Số lượng chưa đạt</th>
+                    <th>Tỉ lệ đạt (%)</th>
                 </tr>
-            }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="7" class="text-center">Không có dữ liệu</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var row in Model)
+                    {
+                        <tr>
+                            <td>@row.TenForm</td>
+                            <td>@row.Khoa</td>
+                            <td>@row.Nam</td>
+                            <td>@row.Quy</td>
+                            <td>@row.Thang</td>
+                            <td>@row.SoLuongPhieu</td>
+                            <td>@Math.Round(row.DiemTrungBinh, 2)</td>
+                            <td>@row.SoLuongDat</td>
+                            <td>@row.SoLuongChuaDat</td>
+                            <td>@Math.Round(row.TiLeDat, 1)</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="10" class="text-center text-muted fst-italic">Không có dữ liệu phù hợp</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>

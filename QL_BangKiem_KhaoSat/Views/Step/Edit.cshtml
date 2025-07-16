@@ -1,28 +1,71 @@
 ﻿@model QL_BangKiem_KhaoSat.Models.StepEntity
 @{
     ViewData["Title"] = "Sửa Bước";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     var formKey = ViewBag.FormKey as string ?? "Form1";
 }
 
-<h2>Sửa bước - @formKey</h2>
-<form asp-action="Edit" method="post">
-    <input type="hidden" name="Id" value="@Model.Id" />
-    <input type="hidden" name="FormKey" value="@Model.FormKey" />
-    <div class="form-group">
-        <label>Thứ tự bước</label>
-        <input type="number" class="form-control" name="StepIndex" value="@Model.StepIndex" required />
-    </div>
-    <div class="form-group">
-        <label>Nội dung bước</label>
-        <input type="text" class="form-control" name="StepName" value="@Model.StepName" required />
-    </div>
-    <div class="form-group">
-        <label>Trạng thái</label>
-        <select name="IsActive" class="form-control">
-            <option value="true" selected="@(Model.IsActive ? "selected" : null)">Đang dùng</option>
-            <option value="false" selected="@(Model.IsActive ? null : "selected")">Ẩn</option>
-        </select>
-    </div>
-    <button type="submit" class="btn btn-primary mt-2">Lưu</button>
-    <a href="@Url.Action("Index", new { formKey = Model.FormKey })" class="btn btn-secondary mt-2">Quay lại</a>
-</form>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+    .ds-container {
+        width: 85vw;
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 30px 34px;
+        background: #fff;
+        border-radius: 14px;
+        box-shadow: 0 2px 18px rgba(0,0,0,0.08);
+    }
+
+    .ds-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #264d99;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+    .form-group label {
+        font-weight: 600;
+    }
+
+    .form-check {
+        margin-top: 12px;
+    }
+</style>
+
+<div class="ds-container">
+    <div class="ds-title">Sửa bước cho @formKey</div>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <input type="hidden" name="FormKey" value="@Model.FormKey" />
+
+        <div class="form-group mb-3">
+            <label for="StepIndex">Thứ tự bước</label>
+            <input type="number" class="form-control" name="StepIndex" id="StepIndex" value="@Model.StepIndex" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="StepName">Nội dung bước</label>
+            <input type="text" class="form-control" name="StepName" id="StepName" value="@Model.StepName" required />
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="IsActive">Trạng thái</label>
+            <select name="IsActive" class="form-control" id="IsActive">
+                <option value="true" selected="@(Model.IsActive ? "selected" : null)">Đang dùng</option>
+                <option value="false" selected="@(Model.IsActive ? null : "selected")">Ẩn</option>
+            </select>
+        </div>
+
+        <div class="d-flex gap-2 justify-content-end">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Lưu thay đổi
+            </button>
+            <a href="@Url.Action("Index", new { formKey = Model.FormKey })" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Quay lại
+            </a>
+        </div>
+    </form>
+</div>

@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\thongke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\admin\\choduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\admin\\choduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\bangkiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,62 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\stepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\stepcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\khoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\khoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\viewmodels\\bangkiemthongkeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\viewmodels\\bangkiemthongkeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\viewmodels\\bangkiemsaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\viewmodels\\bangkiemsaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\khoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\khoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\khoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\khoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\stepentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\stepentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiemstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiemstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\step\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\step\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\step\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,80 +51,24 @@
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\step\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\step\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\step\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\khoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\khoa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\khoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\khoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\khoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\khoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiemsubstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiemsubstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\dangnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\dangnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\khoaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\khoaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\vaitroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\vaitroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -171,20 +79,163 @@
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\admin\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\admin\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\lichsuduyetentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\lichsuduyetentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\account\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\account\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\account\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\account\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\danhgialist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\danhgialist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\admin\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\admin\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form4detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form4detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form4edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form4edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiemdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiemdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\viewmodels\\bangkiemthongkeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\viewmodels\\bangkiemthongkeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\viewmodels\\bangkiemsaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\viewmodels\\bangkiemsaveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form1edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form1edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiemstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiemstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\dangnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\dangnhapmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\bangkiem\\form3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\bangkiem\\form3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\ql_bangkiem_khaosat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\ql_bangkiem_khaosat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MaiTheNghia\\AppData\\Local\\Temp\\8596f317-ca18-4d49-ab37-fad6dc476646_QL_BangKiem_KhaoSat.zip.646\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\stepentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\stepentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\bangkiemsubstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\bangkiemsubstepresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\khoaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\khoaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\vaitroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\vaitroentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\models\\lichsuduyetentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\models\\lichsuduyetentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -197,14 +248,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\admin\\choduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\admin\\choduyet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\admin\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\admin\\lichsu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627065146_AddDynamicFormEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -227,16 +270,16 @@
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\middleware\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\account\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\account\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\views\\account\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\views\\account\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\migrations\\20250703205044_step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\migrations\\20250703205044_step.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\migrations\\20250710230635_danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\migrations\\20250710230635_danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|c:\\users\\maithenghia\\downloads\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosatbv-main\\ql_bangkiem_khaosat\\migrations\\20250710222100_ketluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FF8591-F16E-45D3-9CF0-3B72F2C4DD51}|QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj|solutionrelative:ql_bangkiem_khaosat\\migrations\\20250710222100_ketluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -246,504 +289,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Program.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Program.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Program.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:15:51.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:25:48.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KhoaController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:38:32.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StepController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:20:16.657Z"
+              "DocumentIndex": 20,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:17:44.833Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ThongKe.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T00:58:48.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:43:02.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T05:46:55.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BangKiemController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:18:37.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BangKiemThongKeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T00:57:09.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "20250703205044_Step.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T20:50:44.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T05:39:13.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BangKiemSaveViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:16:49.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:28:10.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T03:09:50.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StepEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T06:00:55.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\List.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\List.cshtml",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\List.cshtml",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\List.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-03T20:47:17.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BangKiemStepResult.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:13:29.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BangKiemEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:13:06.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T06:21:52.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T06:21:38.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T06:20:53.038Z"
+              "WhenOpened": "2025-07-01T03:09:50.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T06:21:23.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250703191404_StepGroup.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T19:14:05.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "form3Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAM8AAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T17:02:04.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "form3Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T16:57:35.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "form3.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T03:08:51.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "form1Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T09:05:29.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DangNhapModel.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:24:18.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BangKiemSubStepResult.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T05:13:56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "form1Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T08:50:49.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 3,
               "Title": "form1.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1.cshtml",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1.cshtml",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1.cshtml",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAAAAIBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-01T03:08:50.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "form4.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAAAFwBAAA+AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCsAAACmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T03:08:52.903Z"
+              "WhenOpened": "2025-07-01T06:21:23.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "form2Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T13:17:40.404Z"
+              "WhenOpened": "2025-07-15T16:34:43.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "form2Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABTAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-03T13:19:22.126Z"
+              "WhenOpened": "2025-06-16T18:43:02.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "form2.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAALUAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ThongKe.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\ThongKe.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T03:08:51.352Z"
+              "WhenOpened": "2025-07-04T00:58:48.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:23:56.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BangKiemController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\BangKiemController.cs",
+              "ViewState": "AgIAAMoBAAAAAAAAAAAQwNcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:57:51.885Z"
+              "WhenOpened": "2025-07-10T15:12:53.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "KhoaEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "form1Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T08:50:49.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChoDuyet.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:27:02.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StepController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\StepController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:37:47.546Z"
+              "WhenOpened": "2025-07-01T06:20:16.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAmwFkAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:21:38.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:21:52.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Step\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:20:53.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Create.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T05:46:55.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Khoa\\Index.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T05:39:13.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KhoaController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\KhoaController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:15:48.443Z"
+              "WhenOpened": "2025-07-03T05:38:32.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:29:50.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "VaiTroEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:08:25.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:08:00.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Home\\Privacy.cshtml",
@@ -755,67 +534,199 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-01T05:40:53.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:15:20.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LichSuDuyetEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:48:44.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\appsettings.json",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\appsettings.json",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\appsettings.json",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T17:22:27.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ChoDuyet.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Admin\\ChoDuyet.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "LichSu.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:27:02.926Z"
+              "WhenOpened": "2025-06-16T19:00:30.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 22,
+              "Title": "DanhGiaList.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\DanhGiaList.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\DanhGiaList.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\DanhGiaList.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\DanhGiaList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T23:07:50.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\Admin.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Admin\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\Admin.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Admin\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T16:25:35.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:15:48.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:25:48.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\UserEntity.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:08:00.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Program.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Program.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Program.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:15:51.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "form2Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Detail.cshtml",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAAPEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T13:17:40.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "form4Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Edit.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Edit.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Edit.cshtml",
+              "ViewState": "AgIAABsBAAAAAAAAAAAAACMBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T16:32:53.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "form4Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Detail.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Detail.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Detail.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4Detail.cshtml",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAAAB0BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T16:31:05.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "form3Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Detail.cshtml",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAAA8BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T16:57:35.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BangKiemEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemEntity.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:13:06.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:28:10.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BangKiemDanhGia.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemDanhGia.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemDanhGia.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemDanhGia.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemDanhGia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:05:23.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BangKiemThongKeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T00:57:09.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -827,7 +738,307 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BangKiemSaveViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\ViewModels\\BangKiemSaveViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:16:49.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "form1Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form1Edit.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T09:05:29.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "form2Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2Edit.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T13:19:22.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "form3Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3Edit.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAK4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T17:02:04.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "form4.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form4.cshtml",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:08:52.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "form2.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form2.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:08:51.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BangKiemStepResult.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemStepResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:13:29.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DangNhapModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\DangNhapModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:24:18.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:57:51.885Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "form3.cshtml",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\BangKiem\\form3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T03:08:51.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "QL_BangKiem_KhaoSat.csproj",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\QL_BangKiem_KhaoSat.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T05:38:03.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Services\\EmailService.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T02:07:49.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BangKiemThongKeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\AppData\\Local\\Temp\\8596f317-ca18-4d49-ab37-fad6dc476646_QL_BangKiem_KhaoSat.zip.646\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\8596f317-ca18-4d49-ab37-fad6dc476646_QL_BangKiem_KhaoSat.zip.646\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\AppData\\Local\\Temp\\8596f317-ca18-4d49-ab37-fad6dc476646_QL_BangKiem_KhaoSat.zip.646\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\8596f317-ca18-4d49-ab37-fad6dc476646_QL_BangKiem_KhaoSat.zip.646\\QL_BangKiem_KhaoSat\\ViewModels\\BangKiemThongKeViewModel.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:02:26.89Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\appsettings.json",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\appsettings.json",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\appsettings.json",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T17:22:27.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20250710230635_DanhGia.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250710230635_DanhGia.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250710230635_DanhGia.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250710230635_DanhGia.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250710230635_DanhGia.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:06:36.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20250710222100_ketluan.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250710222100_ketluan.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250710222100_ketluan.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250710222100_ketluan.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250710222100_ketluan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T22:21:00.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250703205044_Step.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250703205044_Step.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T20:50:44.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StepEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\StepEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:00:55.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250703191404_StepGroup.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250703191404_StepGroup.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:14:05.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "BangKiemSubStepResult.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\BangKiemSubStepResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:13:56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "KhoaEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\KhoaEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T05:37:47.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:29:50.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "VaiTroEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\VaiTroEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:08:25.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:15:20.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LichSuDuyetEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
+              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
+              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
+              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Models\\LichSuDuyetEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:48:44.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Shared\\Error.cshtml",
@@ -839,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 60,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\_ViewImports.cshtml",
@@ -851,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\_ViewStart.cshtml",
@@ -863,67 +1074,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "LichSu.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Admin\\LichSu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T19:00:30.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "20250627065146_AddDynamicFormEntity.cs",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627065146_AddDynamicFormEntity.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250627065146_AddDynamicFormEntity.cs",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627065146_AddDynamicFormEntity.cs",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250627065146_AddDynamicFormEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T06:51:47.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "20250627055820_Create.cs",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627055820_Create.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250627055820_Create.cs",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627055820_Create.cs",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250627055820_Create.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T05:58:20.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
               "Title": "20250627054905_TenKhoa.cs",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627054905_TenKhoa.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250627054905_TenKhoa.cs",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250627054905_TenKhoa.cs",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250627054905_TenKhoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T05:49:05.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 65,
               "Title": "20250626154330_ReplaceKhoaWithKhoaId10.cs",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250626154330_ReplaceKhoaWithKhoaId10.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Migrations\\20250626154330_ReplaceKhoaWithKhoaId10.cs",
               "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Migrations\\20250626154330_ReplaceKhoaWithKhoaId10.cs",
               "RelativeToolTip": "QL_BangKiem_KhaoSat\\Migrations\\20250626154330_ReplaceKhoaWithKhoaId10.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T15:43:30.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "CustomAuthorizeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Middleware\\CustomAuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Middleware\\CustomAuthorizeAttribute.cs",
@@ -932,30 +1127,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T18:47:20.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "DangNhap.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Account\\DangNhap.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:23:56.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "DangKy.cshtml",
-              "DocumentMoniker": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
-              "RelativeDocumentMoniker": "QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
-              "ToolTip": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
-              "RelativeToolTip": "QL_BangKiem_KhaoSat\\Views\\Account\\DangKy.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:17:44.833Z"
             }
           ]
         }

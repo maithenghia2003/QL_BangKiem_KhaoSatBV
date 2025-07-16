@@ -4,8 +4,27 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     var steps = Model.KetQua?.ToList() ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemStepResult>();
     var khoaList = ViewBag.KhoaList as List<QL_BangKiem_KhaoSat.Models.KhoaEntity> ?? new List<QL_BangKiem_KhaoSat.Models.KhoaEntity>();
-    // NoteNVYT lấy từ step đầu (hoặc property khác nếu bạn tách riêng)
+    var thaoTacList = new List<string>();
+    if (!string.IsNullOrEmpty(Model.NhomThaoTacJson))
+    {
+        try
+        {
+            thaoTacList = System.Text.Json.JsonSerializer.Deserialize<List<string>>(Model.NhomThaoTacJson);
+        }
+        catch { thaoTacList = new List<string>(); }
+    }
+    // Danh sách tiêu chí cho Thời điểm đánh giá
+    var tatCaTieuChi = new List<string>
+    {
+        "1.1 Tiếp nhận NB đăng ký khám bệnh", "1.2 Tư vấn",
+        "2.1 Thanh toán viện phí", "2.2 Thu phí cận lâm sàng",
+        "3.1 Cấp phát thuốc", "3.2 Cấp phát toa thuốc", "3.3 Cấp phiếu hẹn",
+        "4.1 Thực hiện cận lâm sàng", "4.2 Cấp phát chỉ định cận lâm sàng", "4.3 Trả kết quả CLS",
+        "5.1 Thực hiện kỹ thuật", "5.2 Thực hiện thủ thuật", "5.3 Thực hiện phẫu thuật", "5.4 Thực hiện CLS",
+        "6.1 Nhập viện", "6.2 Chuyển khoa", "6.3 Chuyển viện", "6.4 Xuất viện"
+    };
     var ghiChu = Model.Note ?? Model.GhiChu ?? "";
+    bool isReuse = ViewBag.IsReuse == true;
 }
 <style>
     .a4-container {
@@ -151,54 +170,72 @@
         display: table-footer-group;
     }
 </style>
-<form asp-action="Edit" method="post">
-    @Html.HiddenFor(m => m.Id)
+<form asp-action="@(isReuse ? "Create" : "Edit")" method="post">
+    <input type="hidden" name="Id" value="@(isReuse ? 0 : Model.Id)" />
+    <input type="hidden" name="TenForm" value="@Model.TenForm" />
     <div class="a4-container">
         <div class="logo" style="margin-bottom: 10px;">
             <a href="https://benhvienungbuou.vn/" target="_blank">
                 <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
             </a>
         </div>
-        <div class="form-row">
-            <label>Khoa:</label>
-            <select name="Khoa" id="selectKhoa" class="form-control" style="max-width:240px">
-                <option value="">-- Chọn khoa --</option>
-                @foreach (var khoa in khoaList)
+        <div class="date">
+            Ngày giám sát:
+            <input type="date" name="NgayGiamSat" value="@Model.NgayGiamSat.ToString("yyyy-MM-dd")" />
+        </div>
+        <div class="clear-fix"></div>
+
+        <div class="department">
+    Khoa:
+    <select name="Khoa" id="selectKhoa">
+        <option value="">-- Chọn khoa --</option>
+        @if (khoaList != null)
+        {
+            @foreach (var k in khoaList)
 {
-    var selected = Model.Khoa == khoa.TenKhoa ? "selected=\"selected\"" : "";
-    @:<option value="@khoa.TenKhoa" @Html.Raw(selected)>@khoa.TenKhoa</option>
+    var isSelected = Model.Khoa == k.TenKhoa ? "selected" : "";
+    @:<option value="@k.TenKhoa" @isSelected>@k.TenKhoa</option>
 }
 
-            </select>
-        </div>
-        <div class="form-row">
-            <label>Ngày giám sát:</label>
-            <input type="date" name="NgayGiamSat" class="form-control" value="@(Model.NgayGiamSat.ToString("yyyy-MM-dd"))" style="max-width:170px;" />
-        </div>
-        <div class="form-row">
-            <label>Điều dưỡng thực hiện:</label>
-            <input type="text" name="DieuDuongThucHien" class="form-control" style="min-width:250px" value="@Model.DieuDuongThucHien" />
-        </div>
-        <div class="title">
-            <input type="text" name="Title" value="@Model.Title" placeholder="Nhập tên bảng kiểm..." style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
-        </div>
-        <!-- Group thao tác (nếu có) -->
-        @{
-            var thaoTacList = new List<string>();
-            if (!string.IsNullOrEmpty(Model.NhomThaoTacJson))
-            {
-                thaoTacList = System.Text.Json.JsonSerializer.Deserialize<List<string>>(Model.NhomThaoTacJson);
-            }
         }
+    </select>
+</div>
+
+
+        <div class="nurse">
+            Điều dưỡng thực hiện: <input name="DieuDuongThucHien" type="text" value="@Model.DieuDuongThucHien" />
+        </div>
+        <div class="clear-fix"></div>
+
+        <div class="title" style="text-align:center;">
+            <input name="Title" value="@Model.Title"
+                   style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
+        </div>
+        <div class="time-note">Thời điểm đánh giá:</div>
+        <!-- Nhóm checkbox tiêu chí -->
         <div>
-            <b>Thời điểm đánh giá:</b>
-            @foreach (var item in thaoTacList)
-            {
-                <label style="margin-right:10px">
-                    <input type="checkbox" name="NhomThaoTacJson" value="@item" checked disabled /> @item
-                </label>
+            @{
+                for (int i = 0; i < tatCaTieuChi.Count; i += 2)
+                {
+                    <div class="group-row">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="ThoiDiemDanhGia" value="@tatCaTieuChi[i]" @(thaoTacList.Contains(tatCaTieuChi[i]) ? "checked" : "") />
+                            @tatCaTieuChi[i]
+                        </label>
+                        @if (i+1 < tatCaTieuChi.Count)
+                        {
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="ThoiDiemDanhGia" value="@tatCaTieuChi[i+1]" @(thaoTacList.Contains(tatCaTieuChi[i+1]) ? "checked" : "") />
+                                @tatCaTieuChi[i+1]
+                            </label>
+                        }
+                    </div>
+                }
             }
         </div>
+        <!-- Nếu lưu lại danh sách checkbox, JS sẽ serialize lại thành JSON cho NhomThaoTacJson -->
+        <input type="hidden" name="NhomThaoTacJson" id="NhomThaoTacJson" value="@Model.NhomThaoTacJson" />
+
         <!-- Note NVYT -->
         <div style="margin: 8px 0;">
             <label>Ghi chú NVYT 1:</label>
@@ -265,3 +302,11 @@
         </div>
     </div>
 </form>
+<script>
+    // Serialize lại danh sách các checkbox đã chọn (Thời điểm đánh giá) thành JSON khi submit
+    document.querySelector("form").addEventListener("submit", function (e) {
+        var checked = [];
+        document.querySelectorAll('input[type="checkbox"][name="ThoiDiemDanhGia"]:checked').forEach(cb => checked.push(cb.value));
+        document.getElementById('NhomThaoTacJson').value = JSON.stringify(checked);
+    });
+</script>

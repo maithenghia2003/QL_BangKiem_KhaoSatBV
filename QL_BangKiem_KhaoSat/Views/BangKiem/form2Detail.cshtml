@@ -2,7 +2,10 @@
 @{
     ViewData["Title"] = "Chi tiết bảng kiểm Form 2";
     var steps = Model.KetQua?.ToList() ?? new List<QL_BangKiem_KhaoSat.Models.BangKiemStepResult>();
-
+    var currentUserName = User.Identity?.Name;
+    var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value ?? "";
+    bool coQuyenSua = userRole == "Admin" || userRole == "Giám sát viên" ||
+                      (userRole == "Điều dưỡng" && Model.NguoiTao == currentUserName);
 }
 <style>
     .a4-container {
@@ -136,6 +139,33 @@
     tfoot {
         display: table-footer-group;
     }
+
+    media print {
+        body
+
+    {
+        background: white !important;
+        color: black !important;
+    }
+
+    .header, .footer, .navbar, .sidebar {
+        display: none !important;
+    }
+
+    .a4-container {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 100% !important;
+        min-height: initial !important;
+        padding: 0 !important;
+    }
+
+    table, th, td {
+        border: 1px solid #333 !important;
+        color: #000 !important;
+    }
+    /* ... các style khác bạn muốn giữ lại hoặc thay đổi khi in ... */
+    }
 </style>
 <div class="a4-container" id="capture">
     <div class="logo">
@@ -148,12 +178,18 @@
         Ngày giám sát: <span>@Model.NgayGiamSat.ToString("yyyy-MM-dd")</span>
     </div>
     <div class="clear-fix"></div>
-    <div class="department">Khoa: <span>@Model.Khoa</span></div>
-    <div class="nurse">Điều dưỡng thực hiện: <span>@Model.DieuDuongThucHien</span></div>
+
+    <div class="department">
+        Khoa: <span>@Model.Khoa</span>
+    </div>
+
+    <div class="nurse">
+        Điều dưỡng thực hiện: <span>@Model.DieuDuongThucHien</span>
+    </div>
     <div class="clear-fix"></div>
 
-    <div class="title" style="margin-bottom:16px;">
-        <span style="width:100%;font-size:22px;font-weight:bold;text-align:center;">
+    <div class="title" style="text-align:center;">
+        <span style="font-size:22px;font-weight:bold;text-align:center;">
             @Model.Title
         </span>
     </div>
@@ -161,36 +197,34 @@
     <table>
         <thead>
             <tr>
-                <th style="width:8%;">STT</th>
+                <th style="width:7%;">STT</th>
                 <th style="width:60%;">Các bước tiến hành</th>
                 <th style="width:11%;">Đạt (1đ)</th>
                 <th style="width:12%;">Chưa đạt (0.5đ)</th>
                 <th style="width:12%;">Không đạt (0đ)</th>
             </tr>
         </thead>
-        <tbody>
-            @if (Model.KetQua != null)
+        <tbody id="table-body">
+            @for (int i = 0; i < steps.Count; i++)
             {
-                foreach (var step in Model.KetQua)
-                {
-                    <tr>
-                        <td>@step.StepIndex</td>
-                        <td>@step.StepName</td>
-                        <td>
-                            @(step.Diem == 1 ? "<i class='fa fa-check' style='color:green'></i>" : "")
-                        </td>
-                        <td>
-                            @(step.Diem == 0.5 ? "<i class='fa fa-check' style='color:orange'></i>" : "")
-                        </td>
-                        <td>
-                            @(step.Diem == 0 ? "<i class='fa fa-check' style='color:red'></i>" : "")
-                        </td>
-                    </tr>
-                }
+                var step = steps[i];
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@step.StepName</td>
+                    <td style="text-align: center;">
+                        @Html.Raw(step.Diem == 1 ? "<span style='font-size:18px;color:green;'>&#9679;</span>" : "<span style='font-size:18px;color:#bbb;'>&#9675;</span>")
+                    </td>
+                    <td style="text-align: center;">
+                        @Html.Raw(step.Diem == 0.5 ? "<span style='font-size:18px;color:orange;'>&#9679;</span>" : "<span style='font-size:18px;color:#bbb;'>&#9675;</span>")
+                    </td>
+                    <td style="text-align: center;">
+                        @Html.Raw(step.Diem == 0 ? "<span style='font-size:18px;color:red;'>&#9679;</span>" : "<span style='font-size:18px;color:#bbb;'>&#9675;</span>")
+                    </td>
+                </tr>
             }
+
         </tbody>
     </table>
-
     <div class="note-section">
         <label for="note">Ghi chú:</label><br />
         <div style="border:1px solid #ccc;padding:8px;min-height:48px;background:#fafafa">
@@ -200,3 +234,63 @@
 
     <div class="ddtk-label">ĐDTK/ Giám sát viên: <b>@Model.NguoiGiamSat</b></div>
 </div>
+<div style="text-align:center; margin-top: 20px;">
+    <a href="@Url.Action("Index", "BangKiem")" class="btn btn-secondary">Quay lại danh sách</a>
+    @if (coQuyenSua)
+    {
+        <a href="@Url.Action("Edit", "BangKiem", new { id = Model.Id })" class="btn btn-warning">Sửa bảng kiểm</a>
+    }
+    <a href="@Url.Action("ExportPdf", "BangKiem", new { id = Model.Id })" class="btn btn-danger" target="_blank">
+        <i class="fa fa-file-pdf"></i> Xuất PDF
+    </a>
+    <button onclick="window.print()" class="btn btn-primary">
+        <i class="fa fa-print"></i> In phiếu kiểm
+    </button>
+</div>
+<hr style="margin: 32px 0 14px 0;">
+<div class="card" style="box-shadow:0 1px 10px #e5e9f2;border-radius:16px;padding:20px 26px;margin-bottom:32px;max-width:700px;margin-left:auto;margin-right:auto;">
+    <h4 style="font-weight:bold;margin-bottom:12px;color:#3973e0;">Đánh giá / Nhận xét trực tuyến</h4>
+    <div id="danhGiaList">
+        @await Html.PartialAsync("DanhGiaList", ViewBag.DanhGiaList as List<QL_BangKiem_KhaoSat.Models.BangKiemDanhGia>)
+    </div>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div style="color: #ff3300; margin-top:8px">
+            Bạn cần đăng nhập để gửi nhận xét.
+        </div>
+    }
+    else
+    {
+        <input type="hidden" id="bangKiemId" value="@Model.Id" />
+
+        <form method="post" id="formComment">
+            <textarea id="noiDung" name="NoiDung" rows="3" required style="width:100%; border-radius:8px; padding:8px;" placeholder="Nhập nhận xét..."></textarea>
+            <button type="submit" class="btn btn-primary" style="margin-top:8px;">Gửi nhận xét</button>
+        </form>
+
+    }
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#formComment').submit(function (e) {
+            e.preventDefault();
+            addDanhGia();
+        });
+    });
+    function addDanhGia() {
+        var bangKiemId = $('#bangKiemId').val();
+        var noiDung = $('#noiDung').val();
+        if (!noiDung.trim() || noiDung.length < 3) {
+            alert("Nội dung phải nhập tối thiểu 3 ký tự!");
+            $('#noiDung').focus(); return false;
+        }
+        $.post('/BangKiem/AddDanhGia', { bangKiemId, noiDung }, function (html) {
+            $('#danhGiaList').html(html);
+            $('#noiDung').val('');
+        }).fail(function (xhr) {
+            alert(xhr.responseText);
+        });
+        return false;
+    }
+</script>

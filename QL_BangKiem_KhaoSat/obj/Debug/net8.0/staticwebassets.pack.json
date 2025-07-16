@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\QL_BangKiem_KhaoSat.z3qxz6xje0.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
       "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\avatar\\1.png",
+      "PackagePath": "staticwebassets\\img\\avatar\\1.png"
     },
     {
       "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\js\\site.js",

@@ -8,6 +8,10 @@
     {
         thaoTacList = System.Text.Json.JsonSerializer.Deserialize<List<string>>(Model.NhomThaoTacJson);
     }
+    var currentUserName = User.Identity?.Name;
+    var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value ?? "";
+    bool coQuyenSua = userRole == "Admin" || userRole == "Giám sát viên" ||
+                      (userRole == "Điều dưỡng" && Model.NguoiTao == currentUserName);
 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <style>
@@ -153,6 +157,33 @@
     tfoot {
         display: table-footer-group;
     }
+
+    media print {
+        body
+
+    {
+        background: white !important;
+        color: black !important;
+    }
+
+    .header, .footer, .navbar, .sidebar {
+        display: none !important;
+    }
+
+    .a4-container {
+        box-shadow: none !important;
+        margin: 0 !important;
+        width: 100% !important;
+        min-height: initial !important;
+        padding: 0 !important;
+    }
+
+    table, th, td {
+        border: 1px solid #333 !important;
+        color: #000 !important;
+    }
+    /* ... các style khác bạn muốn giữ lại hoặc thay đổi khi in ... */
+    }
 </style>
 <div class="a4-container">
     <div class="logo" style="margin-bottom: 10px;">
@@ -177,7 +208,8 @@
         }
     </div>
     <div style="margin: 8px 0;">
-        <span><b>Ghi chú NVYT 1:</b> @ghiChu</span>
+        <span><b>Ghi chú NVYT 1:</b> @Model.Note</span> &nbsp;&nbsp;
+        <span><b>Ghi chú NVYT 2:</b> @Model.GhiChu</span>
     </div>
     <table border="1" cellspacing="0" cellpadding="5" style="width:100%; border-collapse: collapse;">
         <thead>
@@ -197,6 +229,20 @@
             </tr>
         </thead>
         <tbody>
+            @functions {
+                // Render chấm tròn màu hoặc chấm tròn rỗng
+                string RenderCircle(double? val, double match)
+                {
+                    // Nếu đúng giá trị, vẽ chấm to màu xanh/cam/đỏ
+                    if (val == match)
+                    {
+                        var color = match == 1 ? "green" : (match == 0.5 ? "orange" : "red");
+                        return $"<span style='font-size:18px;color:{color}'>&#9679;</span>"; // ●
+                    }
+                    // Nếu không đúng, vẽ chấm rỗng màu xám
+                    return "<span style='font-size:18px;color:#bbb'>&#9675;</span>"; // ○
+                }
+            }
             @for (int i = 0; i < steps.Count; i++)
             {
                 var step = steps[i];
@@ -204,16 +250,77 @@
                     <td>@(i + 1)</td>
                     <td>@step.StepName</td>
                     <!-- NVYT 1 -->
-                    <td>@Html.Raw(step.KetQuaNhom1 != null && step.KetQuaNhom1.ToString() == "1" ? "<i class='fa fa-check' style='color:green'></i>" : "")</td>
-                    <td>@Html.Raw(step.KetQuaNhom1 != null && step.KetQuaNhom1.ToString() == "0.5" ? "<i class='fa fa-check' style='color:orange'></i>" : "")</td>
-                    <td>@Html.Raw(step.KetQuaNhom1 != null && step.KetQuaNhom1.ToString() == "0" ? "<i class='fa fa-check' style='color:red'></i>" : "")</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom1, 1))</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom1, 0.5))</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom1, 0))</td>
                     <!-- NVYT 2 -->
-                    <td>@Html.Raw(step.KetQuaNhom2 != null && step.KetQuaNhom2.ToString() == "1" ? "<i class='fa fa-check' style='color:green'></i>" : "")</td>
-                    <td>@Html.Raw(step.KetQuaNhom2 != null && step.KetQuaNhom2.ToString() == "0.5" ? "<i class='fa fa-check' style='color:orange'></i>" : "")</td>
-                    <td>@Html.Raw(step.KetQuaNhom2 != null && step.KetQuaNhom2.ToString() == "0" ? "<i class='fa fa-check' style='color:red'></i>" : "")</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom2, 1))</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom2, 0.5))</td>
+                    <td>@Html.Raw(RenderCircle(step.KetQuaNhom2, 0))</td>
                 </tr>
             }
+
         </tbody>
     </table>
     <div class="ddtk-label" style="margin-top:30px;">Giám sát viên: <b>@Model.NguoiGiamSat</b></div>
 </div>
+<div style="text-align:center; margin-top: 20px;">
+    <a href="@Url.Action("Index", "BangKiem")" class="btn btn-secondary">Quay lại danh sách</a>
+    @if (coQuyenSua)
+    {
+        <a href="@Url.Action("Edit", "BangKiem", new { id = Model.Id })" class="btn btn-warning">Sửa bảng kiểm</a>
+    }
+    <a href="@Url.Action("ExportPdf", "BangKiem", new { id = Model.Id })" class="btn btn-danger" target="_blank">
+        <i class="fa fa-file-pdf"></i> Xuất PDF
+    </a>
+    <button onclick="window.print()" class="btn btn-primary">
+        <i class="fa fa-print"></i> In phiếu kiểm
+    </button>
+</div>
+<hr style="margin: 32px 0 14px 0;">
+<div class="card" style="box-shadow:0 1px 10px #e5e9f2;border-radius:16px;padding:20px 26px;margin-bottom:32px;max-width:700px;margin-left:auto;margin-right:auto;">
+    <h4 style="font-weight:bold;margin-bottom:12px;color:#3973e0;">Đánh giá / Nhận xét trực tuyến</h4>
+    <div id="danhGiaList">
+        @await Html.PartialAsync("DanhGiaList", ViewBag.DanhGiaList as List<QL_BangKiem_KhaoSat.Models.BangKiemDanhGia>)
+    </div>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div style="color: #ff3300; margin-top:8px">
+            Bạn cần đăng nhập để gửi nhận xét.
+        </div>
+    }
+    else
+    {
+        <input type="hidden" id="bangKiemId" value="@Model.Id" />
+
+        <form method="post" id="formComment">
+            <textarea id="noiDung" name="NoiDung" rows="3" required style="width:100%; border-radius:8px; padding:8px;" placeholder="Nhập nhận xét..."></textarea>
+            <button type="submit" class="btn btn-primary" style="margin-top:8px;">Gửi nhận xét</button>
+        </form>
+
+    }
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#formComment').submit(function (e) {
+            e.preventDefault();
+            addDanhGia();
+        });
+    });
+    function addDanhGia() {
+        var bangKiemId = $('#bangKiemId').val();
+        var noiDung = $('#noiDung').val();
+        if (!noiDung.trim() || noiDung.length < 3) {
+            alert("Nội dung phải nhập tối thiểu 3 ký tự!");
+            $('#noiDung').focus(); return false;
+        }
+        $.post('/BangKiem/AddDanhGia', { bangKiemId, noiDung }, function (html) {
+            $('#danhGiaList').html(html);
+            $('#noiDung').val('');
+        }).fail(function (xhr) {
+            alert(xhr.responseText);
+        });
+        return false;
+    }
+</script>

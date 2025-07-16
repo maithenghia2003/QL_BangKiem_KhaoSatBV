@@ -5,80 +5,110 @@
 
 <style>
     body {
-        background: #f4f6f8;
+        background-color: #f9fafc;
     }
 
     h1 {
         text-align: center;
         margin-top: 30px;
         margin-bottom: 25px;
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: bold;
+        color: #2c3e50;
     }
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
-        max-width: 1000px;
-        margin: 0 auto 40px auto;
+        max-width: 1100px;
+        margin: 0 auto 50px auto;
         padding: 0 15px;
     }
 
     .card {
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
         cursor: pointer;
         overflow: hidden;
-        transition: transform 0.2s ease;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        padding: 20px;
-        min-height: 120px;
         text-align: center;
+        padding: 15px;
     }
 
         .card:hover {
-            transform: scale(1.03);
-            background-color: #f0f0f0;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+            background-color: #f2f7fc;
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
         }
 
     .card-title {
+        font-size: 17px;
         font-weight: bold;
-        font-size: 18px;
         color: #333;
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', sans-serif;
     }
 </style>
 
 <h1>Danh sách Bảng Kiểm</h1>
 
 <div class="grid-container" id="boardList">
-    <!-- Các card bảng kiểm sẽ được tạo động ở đây -->
+    <!-- Các card bảng kiểm được tạo bằng JS -->
 </div>
 
 @section Scripts {
     <script>
-             const boards = [
-            { id: 1, title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT ", url: "/BangKiem/Form1" },
-            { id: 2, title: "BẢNG KIỂM GIÁM SÁT NGƯỜI BỆNH ĐƯỢC THỰC HIỆN Y LỆNH THUỐC", url: "/BangKiem/Form2" },
-            { id: 3, title: "BẢNG KIỂM XÁC ĐỊNH ĐÚNG NGƯỜI BỆNH CUNG CẤP DỊCH VỤ", url: "/BangKiem/Form3" },
-            { id: 4, title: "BẢNG KIỂM ĐẢM BẢO AN TOÀN THỰC HIỆN", url: "/BangKiem/Form4" }
+        const boards = [
+            {
+                id: 1,
+                title: "BẢNG KIỂM THỰC HIỆN KỸ THUẬT",
+                url: "/BangKiem/Form1",
+                image: "https://img.freepik.com/free-photo/medical-banner-with-doctor-working-laptop-hospital_23-2150414274.jpg"
+            },
+            {
+                id: 2,
+                title: "BẢNG KIỂM GIÁM SÁT NGƯỜI BỆNH ĐƯỢC THỰC HIỆN Y LỆNH THUỐC",
+                url: "/BangKiem/Form2",
+                image: "https://img.freepik.com/free-photo/nurse-writing-medical-chart_1098-18424.jpg"
+            },
+            {
+                id: 3,
+                title: "BẢNG KIỂM XÁC ĐỊNH ĐÚNG NGƯỜI BỆNH CUNG CẤP DỊCH VỤ",
+                url: "/BangKiem/Form3",
+                image: "https://img.freepik.com/free-photo/patient-doctor-meeting_23-2148821972.jpg"
+            },
+            {
+                id: 4,
+                title: "BẢNG KIỂM ĐẢM BẢO AN TOÀN THỰC HIỆN",
+                url: "/BangKiem/Form4",
+                image: "https://img.freepik.com/free-photo/healthcare-workers-during-pandemic_23-2148893667.jpg"
+            }
         ];
 
-
-                const boardListEl = document.getElementById('boardList');
+        const boardListEl = document.getElementById('boardList');
         boards.forEach(board => {
             const card = document.createElement('div');
             card.className = 'card';
-            card.innerHTML = `<div class="card-title">${board.title}</div>`;
+            card.innerHTML = `
+                <img src="${board.image}" alt="Bảng kiểm">
+                <div class="card-title">${board.title}</div>
+            `;
             card.addEventListener('click', () => {
                 location.href = board.url;
             });
             boardListEl.appendChild(card);
         });
-
     </script>
 }

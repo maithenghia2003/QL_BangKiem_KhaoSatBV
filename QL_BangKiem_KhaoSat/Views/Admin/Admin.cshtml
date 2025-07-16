@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Trang Quản Trị Admin";
+}
+
+<div class="container">
+    <h1 class="mt-4">Chào mừng, Admin!</h1>
+    <p class="lead">Đây là bảng điều khiển quản trị của hệ thống khảo sát bệnh viện.</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Tài khoản chờ duyệt</h5>
+                    <p class="card-text">Xem và phê duyệt các tài khoản mới.</p>
+                    <a href="/Admin/ChoDuyet" class="btn btn-primary">Xem ngay</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Lịch sử xử lý</h5>
+                    <p class="card-text">Xem lịch sử xử lý bảng kiểm và tài khoản.</p>
+                    <a href="/Admin/LichSu" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Thống kê</h5>
+                    <p class="card-text">Xem báo cáo thống kê hệ thống.</p>
+                    <a href="/BangKiem/ThongKe" class="btn btn-primary">Xem báo cáo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
