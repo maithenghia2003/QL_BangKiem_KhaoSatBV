@@ -174,21 +174,23 @@
             <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
         </a>
     </div>
-    <div class="info-row">
-        <div class="department">
-            Khoa:
-            <select id="selectKhoa">
-                <option value="">-- Chọn khoa --</option>
-            </select>
-        </div>
-        <div class="date">Ngày giám sát: <input type="date" /></div>
+    <div class="date">Ngày giám sát: <input type="date" /></div>
+    <div class="clear-fix"></div>
+
+    <div class="department">
+        Khoa:
+        <select id="selectKhoa">
+            <option value="">-- Chọn khoa --</option>
+        </select>
     </div>
-    <div style="height: 40px;"></div>
+
+    <div class="nurse">Điều dưỡng thực hiện: <input type="text" /></div>
+    <div class="clear-fix"></div>
 
     <div class="title">
         <input id="inputTitle" type="text"
-               placeholder="Nhập tên bảng kiểm..."
-               style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
+               placeholder="📋 Nhập tên bảng kiểm..."
+               style="width:100%;font-size:24px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;color:#2c3e50;" />
     </div>
 
     <!-- Bảng kiểm -->
@@ -235,15 +237,16 @@
         Các nội dung còn lại đánh giá theo thang điểm có sẵn.
     </div>
 </div>
-<div style="text-align:center; margin-top: 20px;">
-    <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu kết quả dưới dạng ảnh
+<div style="display: flex; justify-content: center; gap: 15px; margin-top: 30px;">
+    <button onclick="saveFormBangKiem()" class="btn btn-primary">
+        <i class="fas fa-save"></i> Lưu phiếu kiểm
     </button>
-</div>
-<div style="text-align:center; margin-top: 10px;">
-    <button onclick="saveFormBangKiem()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu phiếu kiểm
+    <button onclick="saveAsImage()" class="btn btn-success">
+        <i class="fas fa-image"></i> Xuất ảnh
     </button>
+    <a href="/Step/Index?formKey=Form4" class="btn btn-info">
+        <i class="fas fa-plus"></i> Thêm bước
+    </a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>

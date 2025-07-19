@@ -159,8 +159,8 @@
 
     <div class="title">
         <input id="inputTitle" type="text"
-               placeholder="Nhập tên bảng kiểm..."
-               style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
+               placeholder="📋 Nhập tên bảng kiểm..."
+               style="width:100%;font-size:24px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;color:#2c3e50;" />
     </div>
 
     <table>
@@ -184,16 +184,16 @@
     <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
 </div>
 
-<!-- Nút lưu ảnh -->
-<div style="text-align:center; margin-top: 20px;">
-    <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu kết quả dưới dạng ảnh
+<div style="display: flex; justify-content: center; gap: 15px; margin-top: 30px;">
+    <button onclick="saveFormBangKiem()" class="btn btn-primary">
+        <i class="fas fa-save"></i> Lưu phiếu kiểm
     </button>
-</div>
-<div style="text-align:center; margin-top: 10px;">
-    <button onclick="saveFormBangKiem()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu phiếu kiểm
+    <button onclick="saveAsImage()" class="btn btn-success">
+        <i class="fas fa-image"></i> Xuất ảnh
     </button>
+    <a href="/Step/Index?formKey=Form2" class="btn btn-info">
+        <i class="fas fa-plus"></i> Thêm bước
+    </a>
 </div>
 
 
@@ -284,20 +284,25 @@
     function saveFormBangKiem() {
         var data = gatherFormBangKiemData();
         fetch('/api/BangKiem/SaveBangKiem', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(data)
-        })
-        .then(response => response.json())
-        .then(result => {
-            if (result.success) {
-                alert('Lưu phiếu kiểm thành công!');
-            } else {
-                alert('Có lỗi khi lưu phiếu kiểm!');
-            }
-        })
-        .catch(err => {
-            alert('Lỗi gửi dữ liệu: ' + err);
-        });
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+    })
+    .then(response => {
+        if (!response.ok) return response.text().then(text => { throw new Error(text); });
+        return response.json();
+    })
+    .then(result => {
+        if (result.success) {
+            alert('Lưu phiếu kiểm thành công!');
+        } else {
+            alert('Có lỗi khi lưu phiếu kiểm!');
+        }
+    })
+    .catch(err => {
+        alert('Lỗi gửi dữ liệu: ' + err);
+        console.error(err);
+    });
+
     }
 </script>

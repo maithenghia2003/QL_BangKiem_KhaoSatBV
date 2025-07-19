@@ -214,18 +214,20 @@
     </table>
 
     <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
-    <div id="diemTongKet" style="margin-top: 20px; text-align: right; font-weight: bold;"></div>
-
 </div>
 
-<div style="text-align:center; margin-top: 30px;">
-    <button onclick="saveFormBangKiem()" class="btn btn-primary me-2">
-        💾 Lưu phiếu kiểm
+<div style="display: flex; justify-content: center; gap: 15px; margin-top: 30px;">
+    <button onclick="saveFormBangKiem()" class="btn btn-primary">
+        <i class="fas fa-save"></i> Lưu phiếu kiểm
     </button>
     <button onclick="saveAsImage()" class="btn btn-success">
-        🖼️ Xuất ảnh
+        <i class="fas fa-image"></i> Xuất ảnh
     </button>
+    <a href="/Step/Index?formKey=Form1" class="btn btn-info">
+        <i class="fas fa-plus"></i> Thêm bước
+    </a>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
@@ -256,6 +258,7 @@
     });
     };
 
+
     // ---- HÀM LƯU ẢNH (giữ nguyên) ----
     function saveAsImage() {
         const element = document.getElementById("capture");
@@ -272,16 +275,11 @@
 
     // --- HÀM LẤY DỮ LIỆU & GỬI API ---
     function gatherFormBangKiemData() {
-            if (!data.Title || !data.Khoa || !data.NgayGiamSat) {
-        alert("Vui lòng nhập đầy đủ Tên bảng kiểm, Khoa, và Ngày giám sát.");
-        return;
-    }
-
         var data = {
             Title: document.getElementById('inputTitle').value || "",
             TenForm: '@ViewData["Title"]',
             NgayGiamSat: document.querySelector('input[type="date"]')?.value || "",
-            Khoa: document.getElementById('selectKhoa').value,   
+            Khoa: document.getElementById('selectKhoa').value,
             DieuDuongThucHien: document.querySelector('.nurse input')?.value || "",
             NguoiGiamSat: document.querySelector('.ddtk-label')?.innerText || "",
             GhiChu: document.getElementById('note')?.value || "",
@@ -317,7 +315,6 @@
     }
 
     function saveFormBangKiem() {
-        if (!confirm("Bạn có chắc muốn lưu phiếu kiểm này?")) return;
         var data = gatherFormBangKiemData();
         fetch('/api/BangKiem/SaveBangKiem', {
         method: 'POST',
@@ -341,16 +338,6 @@
     });
 
     }
-        function tinhTongKetQua() {
-        let total = 0;
-        document.querySelectorAll('#table-body input[type="radio"]:checked').forEach(r => {
-            total += parseFloat(r.value);
-        });
-        document.getElementById('diemTongKet').innerText = `Tổng điểm: ${total}`;
-    }
-    document.querySelectorAll('#table-body input[type="radio"]').forEach(radio => {
-        radio.addEventListener('change', tinhTongKetQua);
-    });
-    
+
 </script>
 

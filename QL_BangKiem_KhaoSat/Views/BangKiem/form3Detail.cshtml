@@ -191,12 +191,25 @@
             <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo" style="height: 52px; width: auto;">
         </a>
     </div>
-    <div style="margin-bottom:5px">
-        <b>Khoa:</b> @Model.Khoa &nbsp;&nbsp;&nbsp;
-        <b>Ngày giám sát:</b> @Model.NgayGiamSat.ToString("yyyy-MM-dd") &nbsp;&nbsp;&nbsp;
-        <b>Điều dưỡng thực hiện:</b> @Model.DieuDuongThucHien
+    <div class="date">
+        Ngày giám sát: <span>@Model.NgayGiamSat.ToString("yyyy-MM-dd")</span>
     </div>
-    <div class="title" style="margin-bottom:12px;font-size:22px;font-weight:bold;">@Model.Title</div>
+    <div class="clear-fix"></div>
+
+    <div class="department">
+        Khoa: <span>@Model.Khoa</span>
+    </div>
+
+    <div class="nurse">
+        Điều dưỡng thực hiện: <span>@Model.DieuDuongThucHien</span>
+    </div>
+    <div class="clear-fix"></div>
+
+    <div class="title" style="text-align:center;">
+        <span style="font-size:22px;font-weight:bold;text-align:center;">
+            @Model.Title
+        </span>
+    </div>
     <div>
         <b>Thời điểm đánh giá:</b>
         @if (thaoTacList.Any())
@@ -207,17 +220,22 @@
             }
         }
     </div>
-    <div style="margin: 8px 0;">
-        <span><b>Ghi chú NVYT 1:</b> @Model.Note</span> &nbsp;&nbsp;
-        <span><b>Ghi chú NVYT 2:</b> @Model.GhiChu</span>
-    </div>
+    
     <table border="1" cellspacing="0" cellpadding="5" style="width:100%; border-collapse: collapse;">
         <thead>
             <tr>
                 <th rowspan="2" style="width:6%;">STT</th>
                 <th rowspan="2" style="width:35%;">Các bước tiến hành</th>
-                <th colspan="3" style="width:29%;">NVYT Thực hiện 1</th>
-                <th colspan="3" style="width:29%;">NVYT Thực hiện 2</th>
+                <th colspan="3" style="width:29%; text-align:center;">
+                    NVYT Thực hiện
+                    <br>
+                    <input type="text" id="note-nvyt1" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                </th>
+                <th colspan="3" style="width:29%; text-align:center;">
+                    NVYT Thực hiện
+                    <br>
+                    <input type="text" id="note-nvyt2" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                </th>
             </tr>
             <tr>
                 <th>Thực hiện đầy đủ (1đ)</th>
@@ -263,6 +281,19 @@
         </tbody>
     </table>
     <div class="ddtk-label" style="margin-top:30px;">Giám sát viên: <b>@Model.NguoiGiamSat</b></div>
+    <div style="margin-top: 80px; font-size: 13px; line-height: 1.5;">
+        <strong>Lưu ý:</strong><br>
+        Một số ghi chú:<br>
+        + NVYT sử dụng câu hỏi mở (với thông tin: họ tên, năm sinh/ tuổi, địa chỉ) và kiểm tra lại sau khi NB/ thân nhân trả lời;<br>
+        + Yếu tố giới tính không áp dụng tại: Phòng khám tuyến vú, phụ khoa;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Khoa Ngoại tuyến vú, Ngoại phụ khoa, Xạ trị phụ khoa;<br>
+        + Yếu tố địa chỉ: Phải đầy đủ 3 cấp thông tin cư trú (xã/phường/thị trấn, quận/huyện/thành phố/tỉnh);<br>
+        Sau khi đánh giá chi tiết từng yếu tố đính kèm của mục 1 (đúng người bệnh) → tiến hành kết luận nội dung “đúng người bệnh” như sau:<br>
+        “Đạt”: khi ít nhất 3 yếu tố được đánh giá ở cột “thực hiện đầy đủ - 1đ”;<br>
+        “Chưa đạt”: khi đánh giá ít hơn 3 yếu tố; hoặc khi đánh giá từ 3 yếu tố trở lên nhưng chỉ có 2 yếu tố ở cột “thực hiện đầy đủ - 1đ”;<br>
+        “Không đạt”: khi tiếp xúc người bệnh mà không xác nhận lại thông tin của người bệnh;<br>
+        Các nội dung còn lại đánh giá theo thang điểm có sẵn.
+    </div>
 </div>
 <div style="text-align:center; margin-top: 20px;">
     <a href="@Url.Action("Index", "BangKiem")" class="btn btn-secondary">Quay lại danh sách</a>

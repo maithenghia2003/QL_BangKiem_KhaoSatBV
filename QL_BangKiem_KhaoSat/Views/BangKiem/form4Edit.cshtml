@@ -217,11 +217,19 @@
         <table border="1" cellspacing="0" cellpadding="5">
             <thead>
                 <tr>
-                    <th rowspan="2" style="width:6%;">STT</th>
-                    <th rowspan="2" style="width:35%;">Các bước tiến hành</th>
-                    <th colspan="3" style="width:29%; text-align:center;">NVYT Thực hiện<br /></th>
-                    <th colspan="3" style="width:29%; text-align:center;">NVYT Thực hiện<br /></th>
-                </tr>
+                <th rowspan="2" style="width:6%;">STT</th>
+                <th rowspan="2" style="width:35%;">Các bước tiến hành</th>
+                <th colspan="3" style="width:29%; text-align:center;">
+                    NVYT Thực hiện
+                    <br>
+                    <input type="text" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                </th>
+                <th colspan="3" style="width:29%; text-align:center;">
+                    NVYT Thực hiện
+                    <br>
+                    <input type="text" placeholder="Nhập ghi chú..." style="width:90%; margin-top:4px;">
+                </th>
+            </tr>
                 <tr style="text-align:center;">
                     <th>Đầy đủ (1đ)</th>
                     <th>Chưa đạt (0.5đ)</th>
@@ -305,12 +313,23 @@
         </div>
         <div style="margin-top: 80px; font-size: 13px; line-height: 1.5;">
             <strong>Lưu ý:</strong><br>
-            <!-- ... giữ nguyên phần ghi chú như của bạn ... -->
+        Một số ghi chú:<br>
+        + NVYT sử dụng câu hỏi mở (với thông tin: họ tên, năm sinh/ tuổi, địa chỉ) và kiểm tra lại sau khi NB/ thân nhân trả lời;<br>
+        + Yếu tố giới tính không áp dụng tại: Phòng khám tuyến vú, phụ khoa;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Khoa Ngoại tuyến vú, Ngoại phụ khoa, Xạ trị phụ khoa;<br>
+        + Yếu tố địa chỉ: Phải đầy đủ 3 cấp thông tin cư trú (xã/phường/thị trấn, quận/huyện/thành phố/tỉnh);<br>
+        Sau khi đánh giá chi tiết từng yếu tố đính kèm của mục 1 (đúng người bệnh) → tiến hành kết luận nội dung “đúng người bệnh” như sau:<br>
+        “Đạt”: khi ít nhất 3 yếu tố được đánh giá ở cột “thực hiện đầy đủ - 1đ”;<br>
+        “Chưa đạt”: khi đánh giá ít hơn 3 yếu tố; hoặc khi đánh giá từ 3 yếu tố trở lên nhưng chỉ có 2 yếu tố ở cột “thực hiện đầy đủ - 1đ”;<br>
+        “Không đạt”: khi tiếp xúc người bệnh mà không xác nhận lại thông tin của người bệnh;<br>
+        Các nội dung còn lại đánh giá theo thang điểm có sẵn.
         </div>
-        <div style="margin-top:24px;">
-            <button type="submit" class="btn btn-primary">Lưu bảng kiểm</button>
-            <a href="@Url.Action("Details", "BangKiem", new { id = Model.Id })" class="btn btn-secondary">Huỷ</a>
-        </div>
+    </div>
+    <div style="text-align:center; margin-top: 20px;">
+        <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px;">
+            Lưu thay đổi
+        </button>
+        <a href="@Url.Action("Details", "BangKiem", new { id = Model.Id })" class="btn btn-secondary">Quay lại</a>
     </div>
     
 </form>
