@@ -6,34 +6,181 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Đăng ký tài khoản</h2>
+<!-- CSS tùy chỉnh -->
+<style>
+    .register-container {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        font-family: 'Segoe UI', sans-serif;
+    }
 
-<form asp-action="DangKy" method="post">
-    <div class="form-group">
-        <label asp-for="HoTen"></label>
-        <input asp-for="HoTen" class="form-control" />
-        <span asp-validation-for="HoTen" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="MatKhau"></label>
-        <input asp-for="MatKhau" class="form-control" type="password" />
-        <span asp-validation-for="MatKhau" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="VaiTroId"></label>
-        <select asp-for="VaiTroId" asp-items="ViewBag.VaiTros" class="form-control">
-            <option value="">-- Chọn vai trò --</option>
-        </select>
-        <span asp-validation-for="VaiTroId" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Đăng ký</button>
-</form>
+    .register-header {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #2c5282;
+    }
 
+        .register-header img {
+            max-height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .register-header h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .register-header p {
+            color: #718096;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #63b3ed;
+            outline: none;
+            box-shadow: 0 0 5px rgba(99, 179, 237, 0.3);
+        }
+
+    .text-danger {
+        font-size: 12px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .btn-primary {
+        width: 100%;
+        padding: 12px;
+        background-color: #2c5282;
+        border: none;
+        border-radius: 6px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #2b6cb0;
+        }
+
+    .login-link {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+        .login-link a {
+            color: #2c5282;
+            text-decoration: none;
+        }
+
+            .login-link a:hover {
+                text-decoration: underline;
+            }
+
+    .alert-danger {
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 6px;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+
+    .alert-success {
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 6px;
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+</style>
+
+
+<div class="register-container">
+    <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" style="max-height: 50px; margin-bottom: 10px;">
+    <div class="register-header">
+        <h2>Đăng ký tài khoản</h2>
+        <p>Đăng ký để quản lý bảng kiểm bệnh viện hiệu quả nhé!</p>
+    </div>
+
+    <form asp-action="DangKy" method="post">
+        <div class="form-group">
+            <label asp-for="HoTen">Họ và tên</label>
+            <input asp-for="HoTen" class="form-control" />
+            <span asp-validation-for="HoTen" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MatKhau">Mật khẩu</label>
+            <input asp-for="MatKhau" class="form-control" type="password" />
+            <span asp-validation-for="MatKhau" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="VaiTroId">Vai trò</label>
+            <select asp-for="VaiTroId" asp-items="ViewBag.VaiTros" class="form-control">
+                <option value="">-- Chọn vai trò --</option>
+            </select>
+            <span asp-validation-for="VaiTroId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn-primary">Đăng ký</button>
+    </form>
+
+    <!-- Hiển thị thông báo lỗi từ ModelState hoặc TempData -->
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                @error.ErrorMessage
+
+                <br />
+            }
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+    <div class="login-link">
+        Đã có tài khoản? <a asp-action="DangNhap" asp-controller="Account">Đăng nhập</a>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
+        integrity="sha512-a...tvo" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

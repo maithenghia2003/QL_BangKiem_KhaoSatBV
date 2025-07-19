@@ -3,13 +3,85 @@
     ViewData["Title"] = "Trang Quản Trị Admin";
 }
 
-<div class="container">
-    <h1 class="mt-4">Chào mừng, Admin!</h1>
-    <p class="lead">Đây là bảng điều khiển quản trị của hệ thống khảo sát bệnh viện.</p>
+<!-- CSS tùy chỉnh -->
+<style>
+    .admin-container {
+        padding: 20px;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-    <div class="row mt-5">
-        <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
+    .admin-header {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #2c5282;
+    }
+
+        .admin-header h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .admin-header .lead {
+            color: #718096;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+
+    .card {
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c5282;
+            margin-bottom: 10px;
+        }
+
+        .card .card-text {
+            color: #718096;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+    .btn-primary {
+        background-color: #2c5282;
+        border: none;
+        padding: 8px 16px;
+        font-weight: 600;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #2b6cb0;
+        }
+</style>
+
+<div class="admin-container">
+    <div class="admin-header">
+        <h1>Chào mừng, Admin!</h1>
+        <p class="lead">Đây là bảng điều khiển quản trị của hệ thống khảo sát bệnh viện.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Tài khoản chờ duyệt</h5>
                     <p class="card-text">Xem và phê duyệt các tài khoản mới.</p>
@@ -17,8 +89,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
+        <div class="col-md-4 mb-4">
+            <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Lịch sử xử lý</h5>
                     <p class="card-text">Xem lịch sử xử lý bảng kiểm và tài khoản.</p>
@@ -26,8 +98,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
+        <div class="col-md-4 mb-4">
+            <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Thống kê</h5>
                     <p class="card-text">Xem báo cáo thống kê hệ thống.</p>
@@ -35,5 +107,19 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quản lý khoa</h5>
+                    <p class="card-text">Xem thông tin chi tiết khoa.</p>
+                    <a href="/Khoa/Index" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
 </div>

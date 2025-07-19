@@ -148,6 +148,30 @@
     tfoot {
         display: table-footer-group;
     }
+    media (max-width: 800px) {
+        .a4-container
+
+    {
+        width: 100%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .department, .nurse, .date {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    }
+
+    tbody tr:hover {
+        background-color: #eaf4ff;
+    }
+
+    
 </style>
 
 <div class="a4-container" id="capture">
@@ -172,8 +196,8 @@
 
     <div class="title">
         <input id="inputTitle" type="text"
-               placeholder="Nhập tên bảng kiểm..."
-               style="width:100%;font-size:22px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;" />
+               placeholder="📋 Nhập tên bảng kiểm..."
+               style="width:100%;font-size:24px;font-weight:bold;text-align:center;border:none;outline:none;background:transparent;color:#2c3e50;" />
     </div>
 
     <table>
@@ -190,23 +214,18 @@
     </table>
 
     <div class="ddtk-label">ĐDTK/ Giám sát viên</div>
+    <div id="diemTongKet" style="margin-top: 20px; text-align: right; font-weight: bold;"></div>
+
 </div>
 
-<div style="text-align:center; margin-top: 20px;">
-    <button onclick="saveAsImage()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu kết quả dưới dạng ảnh
+<div style="text-align:center; margin-top: 30px;">
+    <button onclick="saveFormBangKiem()" class="btn btn-primary me-2">
+        💾 Lưu phiếu kiểm
+    </button>
+    <button onclick="saveAsImage()" class="btn btn-success">
+        🖼️ Xuất ảnh
     </button>
 </div>
-<div style="text-align:center; margin-top: 10px;">
-    <button onclick="saveFormBangKiem()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-        Lưu phiếu kiểm
-    </button>
-</div>
-
-
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
@@ -253,6 +272,11 @@
 
     // --- HÀM LẤY DỮ LIỆU & GỬI API ---
     function gatherFormBangKiemData() {
+            if (!data.Title || !data.Khoa || !data.NgayGiamSat) {
+        alert("Vui lòng nhập đầy đủ Tên bảng kiểm, Khoa, và Ngày giám sát.");
+        return;
+    }
+
         var data = {
             Title: document.getElementById('inputTitle').value || "",
             TenForm: '@ViewData["Title"]',
@@ -293,6 +317,7 @@
     }
 
     function saveFormBangKiem() {
+        if (!confirm("Bạn có chắc muốn lưu phiếu kiểm này?")) return;
         var data = gatherFormBangKiemData();
         fetch('/api/BangKiem/SaveBangKiem', {
         method: 'POST',
@@ -316,6 +341,16 @@
     });
 
     }
+        function tinhTongKetQua() {
+        let total = 0;
+        document.querySelectorAll('#table-body input[type="radio"]:checked').forEach(r => {
+            total += parseFloat(r.value);
+        });
+        document.getElementById('diemTongKet').innerText = `Tổng điểm: ${total}`;
+    }
+    document.querySelectorAll('#table-body input[type="radio"]').forEach(radio => {
+        radio.addEventListener('change', tinhTongKetQua);
+    });
     
 </script>
 

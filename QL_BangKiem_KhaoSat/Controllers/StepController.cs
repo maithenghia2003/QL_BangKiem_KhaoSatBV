@@ -132,23 +132,55 @@ namespace QL_BangKiem_KhaoSat.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult BulkUpdateStatus(List<int> SelectedIds, string actionType)
+        public IActionResult BulkAction(List<int> selectedIds, string actionType)
         {
-            if (SelectedIds == null || !SelectedIds.Any())
+            if (selectedIds == null || !selectedIds.Any())
             {
                 TempData["Error"] = "Bạn chưa chọn bước nào.";
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index");
             }
 
-            var steps = _context.StepEntities.Where(s => SelectedIds.Contains(s.Id)).ToList();
-            foreach (var step in steps)
+            try
             {
-                step.IsActive = actionType == "activate";
+                var steps = _context.StepEntities.Where(s => selectedIds.Contains(s.Id)).ToList();
+
+                switch (actionType)
+                {
+                    case "activate":
+                        foreach (var step in steps)
+                        {
+                            step.IsActive = true;
+                        }
+                        _context.SaveChanges();
+                        TempData["Success"] = "Đã hiển thị các bước đã chọn.";
+                        break;
+
+                    case "deactivate":
+                        foreach (var step in steps)
+                        {
+                            step.IsActive = false;
+                        }
+                        _context.SaveChanges();
+                        TempData["Success"] = "Đã ẩn các bước đã chọn.";
+                        break;
+
+                    case "delete":
+                        _context.StepEntities.RemoveRange(steps);
+                        _context.SaveChanges();
+                        TempData["Success"] = "Đã xóa các bước đã chọn.";
+                        break;
+
+                    default:
+                        TempData["Error"] = "Hành động không hợp lệ.";
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Có lỗi xảy ra: " + ex.Message;
             }
 
-            _context.SaveChanges();
-            TempData["Success"] = "Cập nhật trạng thái thành công!";
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
 
     }

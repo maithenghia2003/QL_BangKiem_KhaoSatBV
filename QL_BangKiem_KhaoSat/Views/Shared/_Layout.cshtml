@@ -4,71 +4,142 @@
 @{
     var userName = HttpContextAccessor.HttpContext?.Session.GetString("UserName");
     var vaiTro = Context.Session.GetString("VaiTro");
-       
 }
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - QL_BangKiem_KhaoSat</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome (nếu cần dùng icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-0evHe/YmDrP6mF1k6dlzVSTQM3gRrW8Un+G3V0RDbL4xRIcdqo0L0uyXMX72wUjU1qY3FvDehNc6i9n9f2sCqw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Site CSS -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/QL_BangKiem_KhaoSat.styles.css" asp-append-version="true" />
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .topbar {
+            background-color: #0d6efd;
+        }
+
+            .topbar img {
+                height: 50px;
+            }
+
+            .topbar .info-block {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-right: 20px;
+            }
+
+                .topbar .info-block img {
+                    height: 24px;
+                }
+
+            .topbar .btn-app {
+                background-color: #212529;
+                color: #fff;
+                border-radius: 50px;
+                padding: 6px 14px;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+        .navbar-brand {
+            font-weight: 600;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            margin-right: 10px;
+        }
+
+        .navbar-text {
+            margin-right: 10px;
+        }
+
+        footer {
+            position: static;
+            padding: 20px 0;
+            text-align: center;
+            background-color: #f1f1f1;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <div class="topbar bg-primary text-white py-2">
+        <div class="topbar text-white py-2">
             <div class="container d-flex justify-content-between align-items-center flex-wrap">
-                <div class="d-flex align-items-center">
-                    <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" style="height: 50px;" />
-                </div>
+                <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/Mask-group-2022-12-27T141100.572.png" alt="Logo BVUB" />
+
                 <div class="d-flex align-items-center flex-wrap gap-4 text-white">
-                    <div class="d-flex align-items-center">
-                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/phone.png" alt="" style="height: 24px;" class="me-2" />
+                    <div class="info-block">
+                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/phone.png" alt="Phone" />
                         <div>
                             <strong>Hotline BV</strong><br />
                             (028) 3841 2637
                         </div>
                     </div>
-                    <div class="d-flex align-items-center">
-                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/calendar.png" alt="" style="height: 24px;" class="me-2" />
+
+                    <div class="info-block">
+                        <img src="https://benhvienungbuou.vn/wp-content/uploads/2022/12/calendar.png" alt="Calendar" />
                         <div>
                             <strong>Đặt hẹn khám</strong><br />
                             1900 636 223
                         </div>
                     </div>
-                    <div>
-                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://benhvienungbuou.vn/tai-ung-dung">Đặt khám qua app bệnh viện</a>
-                    </div>
-                    <div>
-                        <a class="btn btn-dark rounded-pill px-3 py-1 text-white" href="https://benhvienungbuou.vn/tai-ung-dung">Đặt khám qua app bệnh viện</a>
-                    </div>
+
+                    <a class="btn-app" href="https://benhvienungbuou.vn/tai-ung-dung">
+                        Đặt khám qua App
+                    </a>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">Trang chủ</a>
-                <div class="collapse navbar-collapse">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="/"><i class="fas fa-home me-1"></i>Trang chủ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         @if (!string.IsNullOrEmpty(vaiTro))
                         {
                             <li class="nav-item">
-                                <a class="nav-link" href="/BangKiem">Tạo Bảng Kiểm</a>
+                                <a class="nav-link" href="/BangKiem"><i class="fas fa-plus-square me-1"></i>Tạo Bảng Kiểm</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/BangKiem/List">Quản lý bảng kiểm</a>
+                                <a class="nav-link" href="/BangKiem/List"><i class="fas fa-list me-1"></i>QL Bảng Kiểm</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Step/Index">Quản lý bước bảng kiểm</a>
+                                <a class="nav-link" href="/Step/Index"><i class="fas fa-stream me-1"></i>QL Bước</a>
                             </li>
                             @if (vaiTro == "Admin")
-                            {                              
+                            {
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/Admin/Admin">AdminPage</a>
-                                </li>                             
+                                    <a class="nav-link" href="/Admin/Admin"><i class="fas fa-user-shield me-1"></i>Admin Page</a>
+                                </li>
                             }
                         }
                     </ul>
@@ -76,36 +147,39 @@
                     <ul class="navbar-nav ms-auto">
                         @if (!string.IsNullOrEmpty(userName))
                         {
-                            <li class="nav-item">
-                                <span class="navbar-text">Chào, @userName!</span>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Account/DangXuat">Đăng xuất</a>
+                            <li class="nav-item d-flex align-items-center gap-3">
+                                <span class="navbar-text mb-0">👋 Xin chào, <strong>@userName</strong></span>
+                                <a class="nav-link" href="/Account/DangXuat">
+                                    <i class="fas fa-sign-out-alt me-1"></i>Đăng xuất
+                                </a>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link" href="/Account/DangNhap">Đăng nhập</a>
+                                <a class="nav-link" href="/Account/DangNhap"><i class="fas fa-sign-in-alt me-1"></i>Đăng nhập</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/Account/DangKy">Đăng ký</a>
+                                <a class="nav-link" href="/Account/DangKy"><i class="fas fa-user-plus me-1"></i>Đăng ký</a>
                             </li>
                         }
                     </ul>
                 </div>
             </div>
         </nav>
-
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container mt-4">
+        <main role="main" class="pb-5" style="padding-bottom: 100px;">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted"></footer>
+    <footer class="footer mt-auto">
+        <div class="container">
+            <span class="text-muted">© 2025 Bệnh viện Ung Bướu | QL Bảng Kiểm Khảo Sát</span>
+        </div>
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

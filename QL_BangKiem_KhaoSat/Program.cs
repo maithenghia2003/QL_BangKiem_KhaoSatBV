@@ -11,6 +11,7 @@ builder.Services.AddAuthentication("MyCookieAuth")
     {
         options.LoginPath = "/Account/DangNhap";
         options.LogoutPath = "/Account/DangXuat";
+        options.AccessDeniedPath = "/Account/DangNhap";
     });
 
 builder.Services.AddControllersWithViews();

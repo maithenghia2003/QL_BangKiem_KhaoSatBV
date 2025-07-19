@@ -256,8 +256,19 @@ namespace QL_BangKiem_KhaoSat.Controllers
             entity.GhiChu = model.GhiChu ?? "";
             entity.Note = model.Note ?? "";
             entity.NhomThaoTacJson = model.NhomThaoTacJson ?? "";
-            entity.KetQua.Clear();
-            foreach (var step in model.KetQua)
+
+            // Xóa các phần tử cũ trong KetQua
+            if (entity.KetQua == null)
+            {
+                entity.KetQua = new List<BangKiemStepResult>();
+            }
+            else
+            {
+                entity.KetQua.Clear();
+            }
+
+            // Xử lý an toàn với model.KetQua
+            (model.KetQua ?? Enumerable.Empty<BangKiemStepResult>()).ToList().ForEach(step =>
             {
                 var newStep = new BangKiemStepResult
                 {
@@ -268,13 +279,12 @@ namespace QL_BangKiem_KhaoSat.Controllers
                     KetQuaNhom1 = step.KetQuaNhom1,
                     KetQuaNhom2 = step.KetQuaNhom2,
                     LoaiKetQua = step.LoaiKetQua ?? "",
-                    SubSteps = new List<BangKiemSubStepResult>(),
-
+                    SubSteps = new List<BangKiemSubStepResult>()
                 };
 
                 if (step.SubSteps != null)
                 {
-                    foreach (var sub in step.SubSteps)
+                    step.SubSteps.ToList().ForEach(sub =>
                     {
                         newStep.SubSteps.Add(new BangKiemSubStepResult
                         {
@@ -283,10 +293,10 @@ namespace QL_BangKiem_KhaoSat.Controllers
                             KetQuaNhom2 = sub.KetQuaNhom2,
                             Diem = sub.Diem
                         });
-                    }
+                    });
                 }
                 entity.KetQua.Add(newStep);
-            }
+            });
 
             await _context.SaveChangesAsync();
             return RedirectToAction("Details", new { id = entity.Id });

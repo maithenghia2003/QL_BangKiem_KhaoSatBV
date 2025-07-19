@@ -21,6 +21,22 @@
       "PackagePath": "staticwebassets\\img\\avatar\\1.png"
     },
     {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image1.jpg",
+      "PackagePath": "staticwebassets\\img\\card\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image2.jpg",
+      "PackagePath": "staticwebassets\\img\\card\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image3.jpg",
+      "PackagePath": "staticwebassets\\img\\card\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image4.jpg",
+      "PackagePath": "staticwebassets\\img\\card\\image4.jpg"
+    },
+    {
       "Id": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

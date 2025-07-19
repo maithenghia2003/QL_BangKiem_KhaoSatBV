@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EiVt35u01xtho5/LQFwDEQ5dE8FPUDEAX43RyVsL588=",
+  "Hash": "LbpQS27jsk4Eq3zirOj3NORC1XO3C36TQjxcQ5eQjOI=",
   "Source": "QL_BangKiem_KhaoSat",
   "BasePath": "_content/QL_BangKiem_KhaoSat",
   "Mode": "Default",
@@ -120,6 +120,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\avatar\\1.png"
+    },
+    {
+      "Identity": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image1.jpg",
+      "SourceId": "QL_BangKiem_KhaoSat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\",
+      "BasePath": "_content/QL_BangKiem_KhaoSat",
+      "RelativePath": "img/card/image1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8b1f8ldv7o",
+      "Integrity": "ZMBL9lClvo482n1m1Z5YnRPIPU6MID/H/SC2pSEGBWo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\card\\image1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image2.jpg",
+      "SourceId": "QL_BangKiem_KhaoSat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\",
+      "BasePath": "_content/QL_BangKiem_KhaoSat",
+      "RelativePath": "img/card/image2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0tjflbi294",
+      "Integrity": "/AyBHfwfeqPuezFMq/kZeT6rtauMAYgnLdlHlHH3sto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\card\\image2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image3.jpg",
+      "SourceId": "QL_BangKiem_KhaoSat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\",
+      "BasePath": "_content/QL_BangKiem_KhaoSat",
+      "RelativePath": "img/card/image3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t56iy96bli",
+      "Integrity": "sTVo8Qev4CFKEVPfU64QjtjslkpjpitRlcGg7FOX7wg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\card\\image3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image4.jpg",
+      "SourceId": "QL_BangKiem_KhaoSat",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\",
+      "BasePath": "_content/QL_BangKiem_KhaoSat",
+      "RelativePath": "img/card/image4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xdop7ydftv",
+      "Integrity": "S/m9/R2m2nrCTT7GwKscJ1bKRy4XDh6CNxnTXj6byBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\card\\image4.jpg"
     },
     {
       "Identity": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\js\\site.js",
@@ -1605,6 +1689,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-sfYgmuJiB+vhHCQ6ZZ8OXhWgpIIyJh7PPAUhGkCvIiU="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image1.8b1f8ldv7o.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZMBL9lClvo482n1m1Z5YnRPIPU6MID/H/SC2pSEGBWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:42:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8b1f8ldv7o"
+        },
+        {
+          "Name": "label",
+          "Value": "img/card/image1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZMBL9lClvo482n1m1Z5YnRPIPU6MID/H/SC2pSEGBWo="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image1.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZMBL9lClvo482n1m1Z5YnRPIPU6MID/H/SC2pSEGBWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:42:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZMBL9lClvo482n1m1Z5YnRPIPU6MID/H/SC2pSEGBWo="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image2.0tjflbi294.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/AyBHfwfeqPuezFMq/kZeT6rtauMAYgnLdlHlHH3sto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0tjflbi294"
+        },
+        {
+          "Name": "label",
+          "Value": "img/card/image2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/AyBHfwfeqPuezFMq/kZeT6rtauMAYgnLdlHlHH3sto="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image2.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/AyBHfwfeqPuezFMq/kZeT6rtauMAYgnLdlHlHH3sto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:43:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/AyBHfwfeqPuezFMq/kZeT6rtauMAYgnLdlHlHH3sto="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image3.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTVo8Qev4CFKEVPfU64QjtjslkpjpitRlcGg7FOX7wg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTVo8Qev4CFKEVPfU64QjtjslkpjpitRlcGg7FOX7wg="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image3.t56iy96bli.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTVo8Qev4CFKEVPfU64QjtjslkpjpitRlcGg7FOX7wg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:44:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t56iy96bli"
+        },
+        {
+          "Name": "label",
+          "Value": "img/card/image3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTVo8Qev4CFKEVPfU64QjtjslkpjpitRlcGg7FOX7wg="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image4.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/m9/R2m2nrCTT7GwKscJ1bKRy4XDh6CNxnTXj6byBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/m9/R2m2nrCTT7GwKscJ1bKRy4XDh6CNxnTXj6byBE="
+        }
+      ]
+    },
+    {
+      "Route": "img/card/image4.xdop7ydftv.jpg",
+      "AssetFile": "C:\\Users\\MaiTheNghia\\Downloads\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSatBV-main\\QL_BangKiem_KhaoSat\\wwwroot\\img\\card\\image4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/m9/R2m2nrCTT7GwKscJ1bKRy4XDh6CNxnTXj6byBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 15:44:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xdop7ydftv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/card/image4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/m9/R2m2nrCTT7GwKscJ1bKRy4XDh6CNxnTXj6byBE="
         }
       ]
     },
